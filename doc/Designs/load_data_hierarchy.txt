@@ -1,0 +1,30 @@
+
+doit
+	load_dimensions_create_fact_tables
+		create_and_load_dimension_table
+			load_date dimension
+			load_summary_dim dimension
+			generic_load_dimension dimension, sep, min_length
+		create_indexes index_group
+		create_fact_table fact
+		
+	build_before_facts_load_files start_date, end_date
+		build_fact_load_file fact_table_name, start_date, end_date
+			build_fct_sales pg_conn, conn, fact, start_date, end_date
+		
+	load_before_facts
+		load_fact_table fact
+			load_fct_sales pg_conn, conn, fact
+
+***************************************************************************	
+	build_after_facts_load_files start_date, end_date
+		build_fact_load_file fact_table_name, start_date, end_date
+			build_fct_payments pg_conn, conn, fact, start_date, end_date
+		
+	load_after_facts
+		load_fact_table fact
+			load_fct_payments pg_conn, conn, fact
+			load_fct_sales_sum pg_conn, conn, fact
+			
+	load_aggregates
+

@@ -1,0 +1,30 @@
+Huron - Coding Bug List
+
+DIM DATA
+* 1) If a change is made to an attributes selections and context is then switched to a different
+     dimension then the recent change is lost, unless the user clicks refresh before switching.
+     Issue with clicking checkbox not changing underlying html. Hmmm...
+     See function set_selections for details on how to set the underlying HTML.
+    
+FACT DATA FIELDS REPORT
+* 1) Shows Ascending/Descending choice for sort column. 
+     Should include None (No Sort.) Should default to None.
+* 2) Calculation button. Should prompt: Fact - Row <x> <table>.<field> calculation:
+* 3) Cancel Header Name prompt displays "null".
+  4) Calculation - don't allow entry of rows that don't exist (A, B, etc.)
+
+REPORT DISPLAY REQUEST
+* 1) When the dimension attributes are being combined to be sent to the server, only the currently selected
+     dimension (if any) can be formatted properly because it relies on the HTML being within the <DIV> id="RD_edit".
+     Create a temporary <DIV> id="RD_edit_tmp" and change the id's to use "SEL__tmpxxx" instead of "SEL_xxx" as
+     the id. Then use the temporary <DIV> to build the dimension request values.  
+* 2) If a dimension has been updated but hasn't been switched away from, the html is not saved and when you request
+     to display a report the fields and values you've selected won't be shown. Maybe we should save the HTML any
+     time we make a change to a dimension selection.
+*    a) Start with doing update whenever user clicks Refresh.
+*    b) Eventually, update the html anytime the user changes a select (but no ajax request involved.)
+* 3) When you have multiple attributes selected for a dimension, only the values for the first one is sent with the
+     report request. Changed function RRA_get_report() to do a global replace on the SEL_ id values. Before was
+     only replacing the first one.
+* 4) When formatting the in clause of a where clause it is adding an additional blank in field. Needed to do the
+     loop on 0..(n-1) rather than 0..n.

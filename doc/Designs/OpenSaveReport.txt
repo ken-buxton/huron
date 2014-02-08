@@ -1,0 +1,47 @@
+Design of Open, Save, Save as Report
+
+Open
+  1) Client: if a report is currently open or the user has entered some report definition information - 
+             confirm that they are OK to discard that information (if not - exit process)
+  2) Client: send request to server for list of reports to open (user)
+  3) Server: put together list of reports available to user and send to client
+  4) Client: receive and display returned list
+  5) User:   user selects report to open
+  6) Client: send request for desired report to server (user, group, report name)
+  7) Server: pulls the information for that report and returns to client 
+             (user, group, report name, [dimensions, row, columns, facts])
+  8) Client: a) clear out old report information
+             b) load opened report information into dimensions, rows, columns, and facts
+             c) Call routine that is called when the "All Report Fields" button is clicked.
+
+Save
+  Case A - there is currently a report open
+    1) Client: a) format information about the current report 
+                  (user, group, report name, [dimensions, row, columns, facts])
+               b) Send the formatted request to the server.
+    2) Server: a) save the formatted information about the current report in the Reports table
+               b) send confirmation to the client
+    3) Client: display confirmation message on screen.
+  
+  Case B - there is NOT currently a report open
+    1) Revert to "Save As" functionality
+  
+
+Save As
+  Case A - there is currently a report open
+  Case B - there is NOT currently a report open
+  In any case - it doesn't matter - we are saving a new report
+  
+  1) Client: prompt user for group name and report name (showing current group and report name if available)
+  2) Client: a) format information about the current report 
+                (user, group, report name, [dimensions, row, columns, facts])
+             b) Send the formatted request to the server.
+  3) Server: a) save the formatted information about the current report in the Reports table
+             b) send confirmation to the client
+  4) Client: display confirmation message on screen.
+
+
+General Tasks
+  1) add variables cur_user, cur_group, cur_report
+  2) for now default cur_user to "ken"
+  

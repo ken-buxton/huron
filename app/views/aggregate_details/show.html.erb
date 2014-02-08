@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Aggregate table name:</b>
+  <%= @aggregate_detail.aggregate_table_name %>
+</p>
+
+<p>
+  <b>Agg dim table:</b>
+  <%= @aggregate_detail.agg_dim_table %>
+</p>
+
+<p>
+  <b>Order:</b>
+  <%= @aggregate_detail.order %>
+</p>
+
+<p>
+  <b>Parent Definition:</b>
+  <%= @aggregate_detail.parent_def %>
+</p>
+
+
+<%= link_to 'Edit', edit_aggregate_detail_path(@aggregate_detail) %> |
+<%= link_to 'Back', aggregate_details_path %>

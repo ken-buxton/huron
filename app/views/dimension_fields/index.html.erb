@@ -1,0 +1,41 @@
+<h1>Listing dimension_fields</h1>
+
+<div class="scf">
+<table>
+  <tr>
+    <th>Table name</th>
+    <th>Field name</th>
+    <th>Field display name</th>
+    <th>Display order</th>
+    <th>Compare as</th>
+    <th>Is primary key</th>
+    <th>Data Type</th>
+    <th>Max Length</th>
+    <th>Special Sort</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @dimension_fields.each do |dimension_field| %>
+  <tr>
+    <td><%= dimension_field.table_name %></td>
+    <td><%= dimension_field.field_name %></td>
+    <td><%= dimension_field.field_display_name %></td>
+    <td><%= dimension_field.display_order %></td>
+    <td><%= dimension_field.compare_as %></td>
+    <td><%= dimension_field.is_primary_key %></td>
+    <td><%= dimension_field.data_type %></td>
+    <td><%= dimension_field.max_length %></td>
+    <td><%= dimension_field.special_sort %></td>
+    <td><%= link_to 'Show', dimension_field %></td>
+    <td><%= link_to 'Edit', edit_dimension_field_path(dimension_field) %></td>
+    <td><%= link_to 'Destroy', dimension_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />
+
+<%= link_to 'New Dimension field', new_dimension_field_path %>

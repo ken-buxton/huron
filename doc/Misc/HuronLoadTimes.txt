@@ -1,0 +1,206 @@
+********************************************************************************
+*** 20131205 (2010) ************************************************************
+********************************************************************************
+LoadData#doit
+
+Find me in app/views/load_data/doit.html.erb
+
+Loaded:
+dim_date (1,461 records) - 16.772 seconds
+dim_month (48 records) - 0.168 seconds
+dim_product (390 records) - 4.582 seconds
+dim_sub_category (39 records) - 0.179 seconds
+dim_store (7 records) - 0.278 seconds
+dim_district (6 records) - 0.156 seconds
+dim_promotion (1 records) - 0.188 seconds
+dim_cashier (4 records) - 0.245 seconds
+dim_payment_method (6 records) - 0.256 seconds
+dim_transaction (0 records) - 0.177 seconds
+dim indexing time: 0.013
+fct_sales (File create: 16,469.01 seconds, File load: 257.2 seconds
+fct_sales (6,198,773 records) - 16,726.562 seconds
+fct_sales indexing time: 46.211
+fct_payments (898,904 records) - 10,486.717 seconds
+fct_payments indexing time: 2.739
+fct_sales_sum (851,169 records) - 59.709 seconds
+fct_sales_sum indexing time: 4.48
+dim_tran indexing time: 130.762
+agg_sales_mn_pr_st (28,008 records) - 54.829 seconds
+agg_sales_dt_sc_st (83,210 records) - 48.257 seconds
+agg_sales_dt_pr_ds (709,421 records) - 62.948 seconds
+agg_sales_mn_sc_st (2,736 records) - 61.227 seconds
+agg_sales_dt_sc_ds (69,342 records) - 53.742 seconds
+agg_sales_mn_pr_ds (23,340 records) - 55.17 seconds
+agg_sales_mn_sc_ds (2,280 records) - 677.653 seconds
+agg indexing time: 3.043
+
+Total elapsed time: 28,497.408 seconds
+
+
+
+
+
+
+********************************************************************************
+*** 20131127 *******************************************************************
+********************************************************************************
+LoadData#doit
+
+Find me in app/views/load_data/doit.html.erb
+
+Loaded:
+dim_date (1461 records) - 0.955 seconds
+dim_month (49 records) - 0.605 seconds
+dim_product (390 records) - 0.636 seconds
+dim_sub_category (39 records) - 0.593 seconds
+dim_store (7 records) - 0.593 seconds
+dim_district (6 records) - 0.493 seconds
+dim_promotion (1 records) - 0.536 seconds
+dim_cashier (4 records) - 0.559 seconds
+dim_payment_method (7 records) - 0.505 seconds
+dim_transaction (0 records) - 3.127 seconds
+dim indexing time: 0.008
+
+fct_sales (44096260 records) - 3002.264 seconds
+fct_sales indexing time: 1599.711
+fct_payments (3613836 records) - 1091.495 seconds
+fct_payments indexing time: 47.115
+fct_sales_sum (3409957 records) - 1292.065 seconds
+fct_sales_sum indexing time: 84.121
+
+dim_tran indexing time: 414.574
+
+agg_sales_mn_pr_st (112032 records) - 1318.51 seconds
+agg_sales_dt_sc_st (333108 records) - 8530.085 seconds
+agg_sales_dt_pr_ds (2841630 records) - 1711.022 seconds
+agg_sales_mn_sc_st (10944 records) - 1343.317 seconds
+agg_sales_dt_sc_ds (277590 records) - 6788.816 seconds
+agg_sales_mn_pr_ds (93360 records) - 1250.54 seconds
+agg_sales_mn_sc_ds (9120 records) - 1381.359 seconds
+agg indexing time: 56.984
+
+Total elapsed time: 29925.648
+
+
+********************************************************************************
+*** 20131117b ******************************************************************
+********************************************************************************
+LoadData#doit
+
+Find me in app/views/load_data/doit.html.erb
+
+Loaded:
+dim_date (1461 records) - 1.933 seconds
+dim_month (49 records) - 0.581 seconds
+dim_product (390 records) - 1.114 seconds
+dim_sub_category (39 records) - 0.583 seconds
+dim_store (7 records) - 0.814 seconds
+dim_district (6 records) - 0.504 seconds
+dim_promotion (1 records) - 0.547 seconds
+dim_cashier (4 records) - 0.816 seconds
+dim_payment_method (7 records) - 0.592 seconds
+dim_transaction (0 records) - 17.933 seconds
+dim indexing time: 0.025
+
+fct_sales (9349265 records) - 734.463 seconds
+fct_sales indexing time: 234.887
+fct_payments (766103 records) - 145.318 seconds
+fct_payments indexing time: 7.355
+fct_sales_sum (3182872 records) - 191.237 seconds
+fct_sales_sum indexing time: 81.213
+
+dim_tran indexing time: 28.473
+
+agg_sales_mn_pr_st (112032 records) - 164.788 seconds
+agg_sales_dt_sc_st (329389 records) - 262.229 seconds
+agg_sales_dt_pr_ds (2688067 records) - 303.82 seconds
+agg_sales_mn_sc_st (10944 records) - 185.103 seconds
+agg_sales_dt_sc_ds (275058 records) - 266.815 seconds
+agg_sales_mn_pr_ds (93360 records) - 189.619 seconds
+agg_sales_mn_sc_ds (9120 records) - 187.402 seconds
+agg indexing time: 52.074
+
+Total elapsed time: 3060.302
+
+
+
+********************************************************************************
+*** 20131117a ******************************************************************
+********************************************************************************
+LoadData#doit
+
+Find me in app/views/load_data/doit.html.erb
+
+Loaded:
+dim_date (1461 records) - 1.92 seconds
+dim_month (49 records) - 0.615 seconds
+dim_product (390 records) - 1.594 seconds
+dim_sub_category (39 records) - 3.716 seconds
+dim_store (7 records) - 0.603 seconds
+dim_district (6 records) - 3.628 seconds
+dim_promotion (1 records) - 0.603 seconds
+dim_cashier (4 records) - 0.559 seconds
+dim_payment_method (7 records) - 0.606 seconds
+dim_transaction (0 records) - 16.308 seconds
+dim indexing time: 0.009
+
+fct_sales (4637177 records) - 384.606 seconds
+fct_sales indexing time: 123.159
+fct_payments (379622 records) - 71.372 seconds
+fct_payments indexing time: 3.742
+fct_sales_sum (2537077 records) - 110.829 seconds
+fct_sales_sum indexing time: 63.845
+
+dim_tran indexing time: 12.203
+
+agg_sales_mn_pr_st (112032 records) - 78.357 seconds
+agg_sales_dt_sc_st (316922 records) - 116.88 seconds
+agg_sales_dt_pr_ds (2221447 records) - 125.243 seconds
+agg_sales_mn_sc_st (10944 records) - 84.141 seconds
+agg_sales_dt_sc_ds (266168 records) - 121.512 seconds
+agg_sales_mn_pr_ds (93360 records) - 85.199 seconds
+agg_sales_mn_sc_ds (9120 records) - 91.218 seconds
+agg indexing time: 28.047
+
+Total elapsed time: 1530.569
+
+
+********************************************************************************
+*** 20131115 *******************************************************************
+********************************************************************************
+LoadData#doit
+
+Find me in app/views/load_data/doit.html.erb
+
+Loaded:
+dim_date (1461 records) - 1.675 seconds
+dim_month (48 records) - 0.57 seconds
+dim_product (390 records) - 1.194 seconds
+dim_sub_category (39 records) - 0.57 seconds
+dim_store (7 records) - 0.591 seconds
+dim_district (6 records) - 0.782 seconds
+dim_promotion (1 records) - 0.538 seconds
+dim_cashier (4 records) - 0.537 seconds
+dim_payment_method (7 records) - 0.537 seconds
+dim_transaction (0 records) - 1.526 seconds
+dim indexing time: 0.002
+
+fct_sales (4668977 records) - 314.381 seconds
+fct_sales_sum (2546096 records) - 21518.434 seconds
+fact indexing time: 331.427
+
+dim_tran indexing time: 36.888
+
+agg_sales_mn_pr_st (112032 records) - 127.09 seconds
+agg_sales_dt_sc_st (316997 records) - 168.5 seconds
+agg_sales_dt_pr_ds (2230807 records) - 226.031 seconds
+agg_sales_mn_sc_st (10944 records) - 157.975 seconds
+agg_sales_dt_sc_ds (266339 records) - 146.867 seconds
+agg_sales_mn_pr_ds (93360 records) - 137.489 seconds
+agg_sales_mn_sc_ds (9120 records) - 90.943 seconds
+agg indexing time: 28.507
+
+Total elapsed time: 23293.620352508
+
+
+

@@ -1,0 +1,43 @@
+<h1>Listing fact_fields</h1>
+
+<div class="scf">
+<table>
+  <tr>
+    <th>Table name</th>
+    <th>Field name</th>
+    <th>Field display name</th>
+    <th>Display order</th>
+    <th>Field type</th>
+    <th>Dimension</th>
+    <th>Fact type</th>
+    <th>Data Type</th>
+    <th>Max Length</th>
+    <th>Default Format</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @fact_fields.each do |fact_field| %>
+  <tr>
+    <td><%= fact_field.table_name %></td>
+    <td><%= fact_field.field_name %></td>
+    <td><%= fact_field.field_display_name %></td>
+    <td><%= fact_field.display_order %></td>
+    <td><%= fact_field.field_type %></td>
+    <td><%= fact_field.dimension %></td>
+    <td><%= fact_field.fact_type %></td>
+    <td><%= fact_field.data_type %></td>
+    <td><%= fact_field.max_length %></td>
+    <td><%= fact_field.default_format %></td>
+    <td><%= link_to 'Show', fact_field %></td>
+    <td><%= link_to 'Edit', edit_fact_field_path(fact_field) %></td>
+    <td><%= link_to 'Destroy', fact_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />
+
+<%= link_to 'New Fact field', new_fact_field_path %>

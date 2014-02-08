@@ -1,0 +1,2 @@
+module LoadFactsHelper
+end

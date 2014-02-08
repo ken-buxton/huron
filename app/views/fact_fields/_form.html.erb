@@ -1,0 +1,61 @@
+<%= form_for(@fact_field) do |f| %>
+  <% if @fact_field.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@fact_field.errors.count, "error") %> prohibited this fact_field from being saved:</h2>
+
+      <ul>
+      <% @fact_field.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :table_name %><br />
+    <%= f.text_field :table_name %>
+  </div>
+  <div class="field">
+    <%= f.label :field_name %><br />
+    <%= f.text_field :field_name %>
+  </div>
+  <div class="field">
+    <%= f.label :field_display_name %><br />
+    <%= f.text_field :field_display_name %>
+  </div>
+  <div class="field">
+    <%= f.label :display_order %><br />
+    <%= f.text_field :display_order %>
+  </div>
+  <div class="field">
+    <%= f.label :field_type %><br />
+    <%= f.text_field :field_type %>
+  </div>
+  <div class="field">
+    <%= f.label :dimension %><br />
+    <%= f.text_field :dimension %>
+  </div>
+  <div class="field">
+    <%= f.label :fact_type %><br />
+    <%= f.text_field :fact_type %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :data_type %><br />
+    <%= f.text_field :data_type %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :max_length %><br />
+    <%= f.text_field :max_length %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :default_format %><br />
+    <%= f.text_field :default_format %>
+  </div>
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

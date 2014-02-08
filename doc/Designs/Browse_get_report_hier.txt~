@@ -1,0 +1,40 @@
+Request From User
+-----------------
+get_report (who, req)
+	aggregate_navigator (dims, rows, columns, facts)
+	    get_used_dimensions(dims, rows, columns)
+	    agg_match_found(used_dims, agg_dims)
+	    
+	format_rows_only_report (dims, rows, show_sql)
+	    format_select_group_order_by_list(agg_fact_table, rows, facts, as_eq_field)
+	    format_from_list(agg_fact_table, dims, rows, facts)
+	    format_where_clause(agg_fact_table, dims, facts)
+	    format_the_SQL_for_display_and_execute(select_list, from_list, where_list, group_by_list, order_by_list)
+	    execute_and_display_results(display_type, execute_sql, format_list, control_breaks, rows, facts)
+	
+	format_columns_only_report (dims, columns, show_sql)
+	    format_select_group_order_by_list(agg_fact_table, rows, facts, as_eq_field)
+	    
+    format_rows_and_facts_only_report (agg_fact_table, dims, rows, facts, show_sql)
+        format_select_group_order_by_list(agg_fact_table, rows, facts, as_eq_field)
+        
+    format_columns_and_facts_only_report (agg_fact_table, dims, columns, facts, show_sql)
+        format_select_group_order_by_list(agg_fact_table, rows, facts, as_eq_field)
+        
+    format_rows_and_columns_and_facts_report agg_fact_table, dims, rows, columns, facts, show_sql
+        format_select_group_order_by_list(agg_fact_table, rows, facts, as_eq_field)
+        
+        
+Common Routines
+---------------
+format_select_group_order_by_list(agg_fact_table, rows, facts, as_eq_field)
+
+format_from_list(agg_fact_table, dims, rows, facts)
+
+format_where_clause(agg_fact_table, dims, facts)
+    
+format_the_SQL_for_display_and_execute(select_list, from_list, where_list, group_by_list, order_by_list)
+
+execute_and_display_results(display_type, execute_sql, format_list, control_breaks, rows, facts)
+
+

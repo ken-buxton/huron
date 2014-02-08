@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Aggregate table name:</b>
+  <%= @aggregate.aggregate_table_name %>
+</p>
+
+<p>
+  <b>Aggregate display name:</b>
+  <%= @aggregate.aggregate_display_name %>
+</p>
+
+<p>
+  <b>Fact table name:</b>
+  <%= @aggregate.fact_table_name %>
+</p>
+
+<p>
+  <b>Search order:</b>
+  <%= @aggregate.search_order %>
+</p>
+
+<p>
+  <b>Creation sql:</b>
+  <%= @aggregate.creation_sql %>
+</p>
+
+<p>
+  <b>Update sql:</b>
+  <%= @aggregate.update_sql %>
+</p>
+
+
+<%= link_to 'Edit', edit_aggregate_path(@aggregate) %> |
+<%= link_to 'Back', aggregates_path %>

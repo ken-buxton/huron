@@ -1,0 +1,36 @@
+
+****************************************************************
+*** Change arrays with non-heterogenous arrays into objects. ***
+****************************************************************
+Simple version done on 9/27/2013
+
+To Do
+   1) Create list of all objects (or sub-objects) that should be changed.
+   2) For now: index arrays by named constants. Same effect, easier to do.
+
+
+
+
+****************************************************************
+List of existing objects
+ 1) hidden_screen_segments (rep_def:, rep_result:)
+ 2) dim_tables_list (table_name:, table_display_name:, display_order:)
+ 3) dim_fields_list (table_name:, field_name:, field_display_name:, display_order:, compare_as:,
+                     is_primary_key:, data_type:, max_length:, special_sort:)
+ 4) fact_tables_list (table_name:, table_display_name:, display_order:)
+ 5) fact_fields_list (table_name:, field_name:, field_display_name:, display_order:, field_type:, 
+                     dimension:, fact_type:, data_type:, max_length:, default_format:)
+ 6) cur_edits_html (indexed by dimension/fact/report fields name. Contents is html)
+ 7) 
+
+****************************************************************
+List of all objects (or sub-objects) that should be changed  
+ 1) cur_edits_structure - outer structure is an object indexed by dimension table name. Inner structure
+    is a list of field constraints for the dimension, in order. Each field constraint consists of the
+    field name and an optional expression that provides the constraint.
+ 2) cur_row_header_fields - for each row header: table, field, sort, ctrl-break, header-name
+ 3) cur_column_header_fields - for each column header: table, field, sort, ctrl-break, header-name
+ 4) cur_fact_fields - for each fact field: row, table, field, sort, sum-type, header-name, calculation, format, display?
+ 
+ 
+

@@ -1,0 +1,34 @@
+body {background-color: lightblue;}
+
+.t1 td, .t1 th {
+	border: 1px solid black;
+	padding-right:3px;
+}
+#kenny {
+	width:250px;
+	padding:10px;
+	border:5px solid gray;
+	margin:5px; 
+}
+
+.t1 {
+	border: 1px solid #7a7;
+	font: 100% sans-serif;
+	background-color: #efe;
+	text-align: right;
+	border-collapse: collapse;
+}
+
+
+.t1 tfoot {
+	border: 1px solid black;
+	background-color: #89a;
+}
+
+
+.t1 thead {
+	border: 1px solid black;
+	background-color: #ec8;
+}
+
+

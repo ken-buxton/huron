@@ -1,0 +1,103 @@
+Huron - Coding To Do List
+
+************************************************************************************* 
+** HIGH PRIORITY ********************************************************************  
+*************************************************************************************   
+SAVING REPORTS
+   1) Save Report
+   2) Display current report name
+   3) Save as Report
+   4) Open Report
+
+PRETTYFICATION
+
+ETL
+   1) For testing, write a separate ETL "generator" program to generate test ETL files (daily.)
+   2) Date - this probably isn't needed. We'll start with n years and add a new year every year.
+   3) Product - need to figure out how to do the slowly changing dimension thing.
+   4) Store - this changes very infrequently. Don't keep history (like product) for now. Just overwrite/add.
+   5) Promotion - let me know when you figure this out.
+   6) Payment Method - this changes very infrequently. Don't keep history (like product) for now. Just overwrite/add.
+
+
+************************************************************************************* 
+** MEDIUM PRIORITY ******************************************************************  
+*************************************************************************************   
+BROWSE SCREEN (others?)
+*  1) Change arrays with non-heterogenous arrays into objects.
+      a) Advantages: can access elements by name rather than array position.
+      b) See todo_browse_arrays_to_objects.txt for details.
+
+DIMENSION CONSTRAINTS
+*  1) Expression display shows database field name - should be database field display name. Include 
+      table display name also?
+   2) Display "All Dimensions"
+   3) When click "Clear" on "Row header fields", "Column header fields", or "Fact data fields" - clear
+      out all of the given fields (rather than individually deleting.)
+*  4) After changing an attribute constraint expression, force a refresh.
+*  5) Add new dimension "Transactions" to allow the user to display specific transaction #'s - sorted.
+
+ROW/COLUMN/FACT REPORT FIELDS
+*  1) New method to download dimension/fact/other lists:
+      a) request data in json format using ajax. Just call and table is automatically downloaded.
+      b) Tables will consist of an associative (object) list of records that are themselves associative lists.
+      c) Therefore - table is accessed by a primary key - which returns a record that is accessed via dot notation.
+      Note: did above but used existing method to create an object table.
+*  2) Fix row/column/fact displays to use display (not name) values. i.e. table_display_name rather than table_name
+*  3) Make row/column/fact tables editable using drop down lists and such - see: http://jqueryui.com/dialog/#modal-form
+*  4) Assume first fact field requested (or all?) is a display field (default to display = yes)
+   5) Replace R/C/N buttons with R/C checkboxes for displayed attributes
+   6) Ability to add new blank (no table or field name) fact table row that will be used to show calculations.
+
+REPORT DISPLAY
+*  1) Add two flags on browse screen, "show request" and "show SQL" that are passed along to the server
+      and indicate whether these two things should be displayed with the report.
+*  2) Get row header sort to work (ascending/descending.)
+*  3) Select constraint keys into temp tables (date_key, product_key, etc.) and select from these
+      tables when doing join to fact tables. Much faster. No. See 5) below. Fixed the issue.
+   4) Start working on display of fact fields. Get control-breaks to work. Row - fact report. Add following features:
+*     a) Control breaks.
+      b) Sort
+      c) Calculation
+*     d) Format
+*     e) Display?
+*  5) Rewrite from and where clauses to put selection of dim keys in tight groups (much faster.)
+*  6) Columns only report.
+*  7) Column - fact report.
+*  8) Row - column - fact report.
+*  9) Combine execute_and_display_results_row and execute_and_display_results_column into a single routine
+      that varies only in the final display of row or column.
+
+*************************************************************************************   
+*************************************************************************************   
+** COMPLETE *************************************************************************
+*************************************************************************************   
+*************************************************************************************   
+AGGREGATIONS
+*  1) Create new aggregate dimensions
+*     a) Month: All Dates (all_dates-later), Year (year_no), Month (month_no) - (month_key)
+*     b) Sub Category: All Products (all_products-later), Department (department), Category (category), Sub Category (sub_category) - (sub_category_key)
+*     c) District: All Stores (all_stores-later), Region (region), District (district) - (district_key)
+*     d) Build the contents of Month/Sub Category/District dimensions as SQL from Date/Product/Store
+*     e) Add a new field to dimension table to indicate that it is a "summarized" dimension.
+*  2) Create new aggregate fact tables.
+*     a) Create a new table (agg_list) that for each fact table provides a list 
+  
+PERFORMANCE
+   1) a) mount -o size=256M -t tmpfs none /mnt/tmpfs
+      b) change owner to self: sudo chown ken /mnt/tmpfs
+      c) copy files here
+
+NEW DIMENSIONS/FACTS
+*  1) New fact table fct_payment
+*  2) Fields: date_key, store_key, payment_method_key, transaction_key, amount
+   
+LOAD TEST DATA
+*  1) Load Thom's Delallo product data.
+*  2) Load more stores (15-20)
+*  3) Load fact table. Random data. Don't try to make any special setup (like sell more on the weekend, etc.)
+*  4) Change qty and price fields to real numbers - not 1 and $0.01.
+
+
+   
+    

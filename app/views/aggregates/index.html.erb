@@ -1,0 +1,35 @@
+<h1>Listing aggregates</h1>
+
+<div class="scf">
+<table>
+  <tr>
+    <th>Aggregate table name</th>
+    <th>Aggregate display name</th>
+    <th>Fact table name</th>
+    <th>Search order</th>
+    <th>Creation sql</th>
+    <th>Update sql</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @aggregates.each do |aggregate| %>
+  <tr>
+    <td><%= aggregate.aggregate_table_name %></td>
+    <td><%= aggregate.aggregate_display_name %></td>
+    <td><%= aggregate.fact_table_name %></td>
+    <td><%= aggregate.search_order %></td>
+    <td><%= aggregate.creation_sql %></td>
+    <td><%= aggregate.update_sql %></td>
+    <td><%= link_to 'Show', aggregate %></td>
+    <td><%= link_to 'Edit', edit_aggregate_path(aggregate) %></td>
+    <td><%= link_to 'Destroy', aggregate, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />
+
+<%= link_to 'New Aggregate', new_aggregate_path %>

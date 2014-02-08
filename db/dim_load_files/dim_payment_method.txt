@@ -1,0 +1,10 @@
+#23456789012345678901234567890
+#payment_method_key, payment_method_desc, payment_method_group
+# Note: payment_method_key is created
+None|None
+Cash|Non-credit
+Check|Non-credit
+Visa|Credit
+MasterCard|Credit
+Discover|Credit
+AmericanExpress|Credit

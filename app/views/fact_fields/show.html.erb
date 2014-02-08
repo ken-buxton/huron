@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Table name:</b>
+  <%= @fact_field.table_name %>
+</p>
+
+<p>
+  <b>Field name:</b>
+  <%= @fact_field.field_name %>
+</p>
+
+<p>
+  <b>Field display name:</b>
+  <%= @fact_field.field_display_name %>
+</p>
+
+<p>
+  <b>Display order:</b>
+  <%= @fact_field.display_order %>
+</p>
+
+<p>
+  <b>Field type:</b>
+  <%= @fact_field.field_type %>
+</p>
+
+<p>
+  <b>Dimension:</b>
+  <%= @fact_field.dimension %>
+</p>
+
+<p>
+  <b>Fact type:</b>
+  <%= @fact_field.fact_type %>
+</p>
+
+<p>
+  <b>Data Type:</b>
+  <%= @fact_field.data_type %>
+</p>
+
+<p>
+  <b>Max Length:</b>
+  <%= @fact_field.max_length %>
+</p>
+
+<p>
+  <b>Default Format:</b>
+  <%= @fact_field.default_format %>
+</p>
+
+
+<%= link_to 'Edit', edit_fact_field_path(@fact_field) %> |
+<%= link_to 'Back', fact_fields_path %>

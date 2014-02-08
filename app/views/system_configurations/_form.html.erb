@@ -1,0 +1,33 @@
+<%= form_for(@system_configuration) do |f| %>
+  <% if @system_configuration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@system_configuration.errors.count, "error") %> prohibited this system_configuration from being saved:</h2>
+
+      <ul>
+      <% @system_configuration.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :page_title %><br />
+    <%= f.text_field :page_title %>
+  </div>
+  <div class="field">
+    <%= f.label :previous_load_status_msg %><br />
+    <%= f.text_field :previous_load_status_msg %>
+  </div>
+  <div class="field">
+    <%= f.label :welcome_msg %><br />
+    <%= f.text_field :welcome_msg %>
+  </div>
+  <div class="field">
+    <%= f.label :daily_messages %><br />
+    <%= f.text_field :daily_messages %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

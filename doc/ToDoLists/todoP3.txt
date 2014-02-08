@@ -1,0 +1,8 @@
+Erie - Coding To Do List
+
+SAVING CONSTRAINT GROUPS (this has been moved to phase 3)
+   1) Save Group
+   2) Display current Group name
+   3) Save as Group
+   4) Open Group
+

@@ -1,0 +1,29 @@
+<h1>Listing indices</h1>
+
+<div class="scf">
+<table>
+  <tr>
+    <th>Group name</th>
+    <th>Create order</th>
+    <th>Creation sql</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @indices.each do |index| %>
+  <tr>
+    <td><%= index.group_name %></td>
+    <td><%= index.create_order %></td>
+    <td><%= index.creation_sql %></td>
+    <td><%= link_to 'Show', index %></td>
+    <td><%= link_to 'Edit', edit_index_path(index) %></td>
+    <td><%= link_to 'Destroy', index, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />
+
+<%= link_to 'New Index', new_index_path %>

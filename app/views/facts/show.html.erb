@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Table name:</b>
+  <%= @fact.table_name %>
+</p>
+
+<p>
+  <b>Table display name:</b>
+  <%= @fact.table_display_name %>
+</p>
+
+<p>
+  <b>Display order:</b>
+  <%= @fact.display_order %>
+</p>
+
+
+<%= link_to 'Edit', edit_fact_path(@fact) %> |
+<%= link_to 'Back', facts_path %>

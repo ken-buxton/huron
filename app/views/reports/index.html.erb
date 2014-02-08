@@ -1,0 +1,39 @@
+<h1>Listing reports</h1>
+
+<div class="scf">
+<table>
+  <tr>
+    <th>Report name</th>
+    <th>User</th>
+    <th>Private</th>
+    <th>Report group</th>
+    <th>Dims</th>
+    <th>Rows</th>
+    <th>Columns</th>
+    <th>Facts</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @reports.each do |report| %>
+  <tr>
+    <td><%= report.report_name %></td>
+    <td><%= report.user_id %></td>
+    <td><%= report.private %></td>
+    <td><%= report.report_group %></td>
+    <td><%= report.dims %></td>
+    <td><%= report.rows %></td>
+    <td><%= report.columns %></td>
+    <td><%= report.facts %></td>
+    <td><%= link_to 'Show', report %></td>
+    <td><%= link_to 'Edit', edit_report_path(report) %></td>
+    <td><%= link_to 'Destroy', report, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />
+
+<%= link_to 'New Report', new_report_path %>

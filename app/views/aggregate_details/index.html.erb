@@ -1,0 +1,31 @@
+<h1>Listing aggregate_details</h1>
+
+<div class="scf">
+<table>
+  <tr>
+    <th>Aggregate table name</th>
+    <th>Agg dim table</th>
+    <th>Order</th>
+    <th>Parent Definition</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @aggregate_details.each do |aggregate_detail| %>
+  <tr>
+    <td><%= aggregate_detail.aggregate_table_name %></td>
+    <td><%= aggregate_detail.agg_dim_table %></td>
+    <td><%= aggregate_detail.order %></td>
+    <td><%= aggregate_detail.parent_def %></td>
+    <td><%= link_to 'Show', aggregate_detail %></td>
+    <td><%= link_to 'Edit', edit_aggregate_detail_path(aggregate_detail) %></td>
+    <td><%= link_to 'Destroy', aggregate_detail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />
+
+<%= link_to 'New Aggregate detail', new_aggregate_detail_path %>

@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  aggregate_table_name: MyString
+  aggregate_display_name: MyString
+  fact_table_name: MyString
+  search_order: MyString
+  dim_table_1: MyString
+  dim_table_2: MyString
+  dim_table_3: MyString
+  dim_table_4: MyString
+  dim_table_5: MyString
+  dim_table_6: MyString
+  dim_table_7: MyString
+  dim_table_8: MyString
+  creation_sql: MyString
+  update_sql: MyString
+
+two:
+  aggregate_table_name: MyString
+  aggregate_display_name: MyString
+  fact_table_name: MyString
+  search_order: MyString
+  dim_table_1: MyString
+  dim_table_2: MyString
+  dim_table_3: MyString
+  dim_table_4: MyString
+  dim_table_5: MyString
+  dim_table_6: MyString
+  dim_table_7: MyString
+  dim_table_8: MyString
+  creation_sql: MyString
+  update_sql: MyString

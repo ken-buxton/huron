@@ -1,0 +1,28 @@
+
+/*** CSS Tutorial: Color page ***/
+
+/* numbered paragraphs */
+
+div.numbered {counter-reset: mynum;}
+p.numbered:before {
+  content: counter(mynum) "# ";
+  counter-increment: mynum;
+  font-weight: bold;
+}
+
+div.h3numbered {counter-reset: h3mynum;}
+h3.h3numbered:before {
+  content: "(" counter(h3mynum) ") ";
+  counter-increment: h3mynum;
+  font-weight: bold;
+}
+
+ul.water {list-style: lower-roman;}
+
+h3 {border-top: 1px solid gray;}
+
+ul.water {
+  border: 1em solid #69b;
+  padding: 8px;
+  margin-left: 24px;
+  }

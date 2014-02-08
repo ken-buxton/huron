@@ -1,0 +1,67 @@
+﻿-- SET ENABLE_SEQSCAN TO OFF;
+-- SET ENABLE_SEQSCAN TO ON;
+-- SET join_collapse_limit to 1;
+-- SET join_collapse_limit to 8;
+-- show ENABLE_SEQSCAN;
+-- show join_collapse_limit
+
+-- create temp table date_keys (date_key integer);
+-- create temp table product_keys (product_key integer);
+-- create temp table store_keys (store_key integer);
+-- -- 
+-- drop table date_keys;
+-- drop table product_keys;
+-- drop table store_keys;
+select count(*) from date_keys;
+select count(*) from product_keys;
+select count(*) from store_keys;
+
+delete from date_keys;
+delete from product_keys;
+delete from store_keys;
+insert into date_keys (date_key)
+   select date_key from dim_date where 
+      dim_date.year_no in ('2010', '2011', '2012', '2013'
+      --
+      ) and 
+      dim_date.month_no in ( '1'
+      , '2'
+      );
+insert into product_keys (product_key)
+   select product_key from dim_product where dim_product.sub_category in ( 'Appetizers', 'Baking Goods', 'Biscotti', 'Brdcrumbs', 'Broth');
+insert into store_keys (store_key)
+   select store_key from dim_store where dim_store.district in ('IN01-1' 
+      ,'MI02-2', 'MI01-1', 'OH02-1'
+      --, 'OH01-1', 'MI01-2', 'IN01-2', 'OH01-2', 'MI02-1'
+   )
+
+select fct_sales.date_key, fct_sales.product_key, fct_sales.store_key, sales_qty
+from fct_sales
+--    inner join date_keys on fct_sales.date_key = date_keys.date_key
+--    inner join product_keys on fct_sales.product_key = product_keys.product_key
+--    inner join store_keys on fct_sales.store_key = store_keys.store_key
+where date_key in (select date_key from date_keys)
+   and product_key in (select product_key from product_keys)
+   and store_key in (select store_key from store_keys)
+
+-- select "Year", "Sub-category", "District", "Sales Qty"
+-- from (
+--    select dim_date.year_no "Year", dim_product.sub_category "Sub-category"
+--       , dim_store.district "District", Sum(fct_sales.sales_qty) "Sales Qty"
+--    from fct_sales 
+--    inner join dim_date on dim_date.date_key = fct_sales.date_key 
+--    inner join dim_product on dim_product.product_key = fct_sales.product_key 
+--    inner join dim_store on dim_store.store_key = fct_sales.store_key
+--    where fct_sales.date_key in ( 
+--       select date_key from dim_date where dim_date.year_no in ( '2013') 
+--       and dim_date.month_no in ( '1') 
+--    ) 
+--    and fct_sales.product_key in ( 
+--       select product_key from dim_product where dim_product.sub_category in ( 'Appetizers', 'Baking Goods', 'Biscotti', 'Brdcrumbs', 'Broth') 
+--    ) 
+--    and fct_sales.store_key in ( 
+--       select store_key from dim_store where dim_store.district in ( 'IN01-1') 
+--    )
+--    group by dim_date.year_no, dim_product.sub_category, dim_store.district
+-- ) T
+-- order by "Year", "Sub-category", "District";

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Huron</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<div id="nav">
+		<%	show_nav = "yes"
+			if @no_show_nav then
+				show_nav = "no"
+			end
+		%>
+		
+		<% if show_nav == "yes" then %>
+			<% if current_user then %>
+				<%= link_to "Main", '/main/index' %>
+				<%= link_to "Logout", :logout%>
+				<%= link_to "Edit Profile", edit_user_path(current_user.id)%>
+			<% else %>
+				<%= link_to "Register", new_user_path %>
+				<%= link_to "Login", :login %>
+			<% end %>
+		<% end %>
+	</div>
+	
+<%= yield %>
+
+</body>
+</html>

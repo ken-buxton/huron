@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  table_name: MyString
+  field_name: MyString
+  field_display_name: MyString
+  display_order: MyString
+  compare_as: MyString
+  is_primary_key: false
+
+two:
+  table_name: MyString
+  field_name: MyString
+  field_display_name: MyString
+  display_order: MyString
+  compare_as: MyString
+  is_primary_key: false

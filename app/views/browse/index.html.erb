@@ -1,0 +1,2173 @@
+
+<!-- <script src="http://code.jquery.com/jquery-1.10.2.js"></script> -->
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+<style type="text/css">
+/* *****************************************************
+ * kdb - no longer used as of 12/22/2013 
+ * ****************************************************/
+/*table.kdb td, th, tr { 
+	border:1px solid black;
+	border-collapse:collapse; 
+	overflow-x:scroll;
+}
+td.kdb { 
+	border:1px solid black; 
+	border-collapse:collapse; 
+	overflow-x:scroll;
+} */
+
+/* *****************************************************
+ * results - main report results css
+ * ****************************************************/
+.results table { 
+	border:1px;
+	border-style:solid;
+	border-collapse:collapse; 
+	background-color: #E0E090;
+	/*background-color: #FFFF66;*/
+	/*overflow-x:scroll;
+	overflow-y:scroll;*/
+}
+
+.results td { 
+	border:1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-collapse:collapse; 
+}
+
+tr.cb { 
+	background-color: #FFCC11;
+	border:1px solid black;
+	border-collapse:collapse; 
+}
+
+.results tr { 
+	border:1px solid black;
+	border-collapse:collapse; 
+}
+
+.results th {
+	background-color: #FFAA11; /* orange */
+	border:1px solid black;
+	border-collapse:collapse; 
+}
+
+/* *****************************************************
+ * all - css for definition - all constraints and all report fields
+ * ****************************************************/
+.all table { 
+	border:4px solid black;
+	border-style:groove;
+	border-collapse:collapse; 
+	border:1px solid #A0A050;
+	background-color: #E0E090;
+	/*background-color: #FFFF66;*/
+	/*overflow-x:scroll;
+	overflow-y:scroll;*/
+}
+
+.all td { 
+	border:1px solid #A0A050;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-collapse:collapse;
+}
+
+.all tr { 
+	background-color: #E0E090;
+	border:1px solid #A0A050;
+	border-collapse:collapse;
+}
+
+.all th {
+	/* background-color: #C8C870; */
+	background-color: #D0D080;
+	border:1px solid #A0A050;
+	border-collapse:collapse;
+}
+
+/* *****************************************************
+ * buttons
+ * ****************************************************/
+.btn1 {
+	font-size: 10pt;
+	font-weight: lighter; 
+	background-color: #E0E090;
+}
+.btn1_1 {
+	background-color: #E0E090;
+	color: black;
+}
+.btn2 {
+	font-size: 10pt;
+	font-weight: lighter; 
+	/*color: red;*/
+	background-color: #BDB76B;
+}
+.btn3 {
+	background-color: #E0E090;
+}
+.btn4 {
+	background-color: #E0E090;
+}
+
+.hdr_dfr {
+	font-size: 12pt;
+	font-weight: bold; 
+	color: orange; /* yellow, #CC0000 */
+	background-color: #808040; /* #A0A058 */
+	border: 1px solid #505028; 
+}
+
+body {
+	background: #D0D080;
+}
+.page_hdr {
+	font-size: 18pt; 
+	font-weight: normal;
+	background-color: #E0E090;
+	border: 1px solid #A0A050; 
+	padding: 5px;
+	/*width: 95%;*/
+}
+
+.ugr table {
+	border: 1px solid #505028; /* #505028 */
+	background-color: #E0E090; 
+	margin: 3px;
+	padding-left: 3px;
+	width: 26%;
+	border-collapse:collapse;
+}
+
+.ugr td { 
+	border:1px solid #A0A050; /* #505028 */
+	background-color: #E0E090; 
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-collapse:collapse;
+}
+
+.ugr tr { 
+	background-color: #E0E090;
+	border:1px solid #505028; /* #505028 */
+	border-collapse:collapse;
+}
+
+.ugr th {
+	/* background-color: #C8C870; */
+	background-color: #D0D080;
+	border:1px solid #A0A050; /* #505028 */
+	border-collapse:collapse;
+}
+
+/*	html.wait, html.wait * { cursor: wait !important; }*/
+/*	
+	BODY {background: #bdbdbd}
+	table { border-collapse:collapse; }
+	table, td, th { border:1px solid black; }
+	table#tresult thead { display:block; }
+	table#tresult tbody { height:290px; overflow-y:scroll; display:block; }
+*/
+</style>
+
+<table style="width: 75%" >
+	<tr>
+		<td class="page_hdr" style="width: 35%; text-align: left;"><%=@page_title.page_title %></td>
+		<td style="width: 30%;"></td>
+		<td class="page_hdr" style="width: 35%; text-align: right;"><b>%</b> Point<b>$</b></td>
+	</tr>
+</table>
+
+<div id="user_group_report" class="ugr"></div>
+
+<table id="rep_def" class="rep_def">
+	<tr>
+		<td><button class="btn2" onclick="RRA_get_report('RRA_get_report')"><b>Display Report</b></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_set_report_group')"><b>Set Report Group</b></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_open_report')"><b>Open Report</b></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_save_report')"><b>Save Report</b></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_save_report_as')"><b>Save Report as...</b></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_delete_report')"><b>Delete Report</b></td>
+	</tr>
+	<tr>
+		<table class="rep_def">
+			<tr>
+				<!-- *********=*********=*********=*********=*********=
+					 Summary/Dimension/Fact/Report Fields buttons
+					 *********=*********=*********=*********=*********=
+					-->
+				<td valign="top" style="border:1px solid #7D775B; background: #BDB76B;" width="200">
+					<table id="rep_def_left" class="rep_def">
+						<tr><td> 
+							<%= raw('<button id="HideShowDef" class="btn1" style="font-size: 9pt" onclick="rep_def_edit(\'RDHS_hide_show\')">') %>Hide Define</button>
+							<%= raw('<button id="HideShowRes" class="btn1" style="font-size: 9pt" onclick="rep_def_edit(\'RDHR_hide_show\')">') %>Hide Results</button>
+						</td></tr>
+						
+						<!-- **************************************************************************
+							Summary Reports
+						*************************************************************************** -->
+						<tr><td class="hdr_dfr">Summary</td></tr>
+						
+						<tr> <td> &nbsp;&nbsp;&nbsp;
+							<button class='btn1_1' style="font-size: 9pt;" onclick="rep_def_edit('RDDE_dim_fact_matrix')">Dimension/Fact Matrix</button>
+						</td> </tr> <tr> <td> &nbsp;&nbsp;&nbsp;
+							<button class='btn1_1' style="font-size: 9pt;" onclick="rep_def_edit('RDDE_all_dimensions')">All Constraints</button>
+						</td> </tr> <tr><td> &nbsp;&nbsp;&nbsp;
+							<button class="btn1_1" style="font-size: 9pt" onclick="rep_def_edit('RDRE_all_report_fields')">All Report Fields</button>
+						</td> </tr>
+						
+						
+						<!-- **************************************************************************
+							Dimension Tables
+						*************************************************************************** -->
+						<tr><td class="hdr_dfr">Dimensions</td></tr>
+						
+						<% @dimensions.each do |dimension| %>
+							<tr>
+								<td style="margin: 0px; border: 1px; padding: 1px;"> &nbsp;&nbsp;&nbsp;
+									<% dim_indent = if dimension.summary_dim then "&nbsp;&nbsp;&nbsp;&nbsp;" else "" end %>
+									<% dim_btn = if dimension.summary_dim then "btn2" else "btn1" end %>
+									<%= raw(dim_indent + '<button class="' + dim_btn + '" style="font-size: 9pt;" onclick="rep_def_edit(\'RDDE_'+dimension.table_name+'\')">') %> 
+										<%=dimension.table_display_name %>
+									</button>
+								</td>
+							</tr
+						<% end %>
+		
+		
+						<!-- **************************************************************************
+							Fact Tables
+						*************************************************************************** -->
+						<tr><td class="hdr_dfr">Facts</td></tr>
+						
+						<% @facts.each do |fact| %>
+							<tr>
+								<td> &nbsp;&nbsp;&nbsp;
+									<%= raw('<button class="btn1" style="font-size: 9pt" onclick="rep_def_edit(\'RDFE_'+fact.table_name+'\')">') %> 
+										<%=fact.table_display_name %>
+									</button>
+								</td>
+							</tr>
+						<% end %>
+		
+		
+						<!-- **************************************************************************
+							Report Fields
+						*************************************************************************** -->
+						<tr><td class="hdr_dfr">Report Fields</td></tr>
+						
+						</td></tr> <tr><td> &nbsp;&nbsp;&nbsp;
+							<button class="btn1" style="font-size: 9pt" onclick="rep_def_edit('RDRE_row_header_fields')">Row Header Fields</button>
+						</td></tr>	<tr><td> &nbsp;&nbsp;&nbsp;
+							<button class="btn1" style="font-size: 9pt" onclick="rep_def_edit('RDRE_column_header_fields')">Column Header Fields</button>
+						</td></tr>	<tr><td> &nbsp;&nbsp;&nbsp;
+							<button class="btn1" style="font-size: 9pt" onclick="rep_def_edit('RDRE_fact_data_fields')">Fact Data Fields</button>
+						</td></tr>	
+					</table>
+				</td>
+
+				<!-- *********=*********=*********=*********=*********=
+					 Dimension/Fact/Report Fields displays
+					 *********=*********=*********=*********=*********=
+					-->
+				<td id="RD_edit2" class="kdb2" valign="top" style="border:1px solid #7D775B; background: #BDB76B;">  <!-- BDB76B width="670" -->
+					<table id="rep_def_right_top" class='rep_def,kdb2'>
+						<tr>
+							<td><button class="btn1" style="font-size: 9pt" onclick="RDA2_refresh()"><b>Refresh</b></td>
+							<td><button class="btn1" style="font-size: 9pt" onclick="RDA2_clear()"><b>Clear</b></td>
+						</tr>
+					</table>
+					<table id="rep_def_right_below" class="rep_def">
+						<tr>
+							<!-- <td id="update">
+							</td> -->
+							<td class='kdb2';>
+								<div id="RD_edit">
+									<h3>Report Definition</h3>
+								</div>
+								<div id="RD_edit_tmp" style="display: none;">
+									<h3>Report Definition</h3>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+				
+				<!-- *********=*********=*********=*********=*********=
+					 Report Results
+					 *********=*********=*********=*********=*********=
+					-->
+				<td id="RR_result" valign="top" style="border:1px solid #7D775B; background: #BDB76B;">  <!-- width="670" -->
+					<table class="rep_result">
+						<div>
+							 <input id="ShowRequest" type="CheckBox"><b>Show Request</b>
+						     <input id="ShowSQL" type="CheckBox"><b>Show SQL</b>
+						     <input id="DontExecuteSQL" type="CheckBox"><b>Don't Execute SQL</b>
+						     <input id="NoTimeout" type="CheckBox"><b>No Timeout</b>
+						</div>
+						<div id="RR_results" class="results" style="margin: 5px;">
+							<h3>Report Results</h3>
+						</div>
+					</table>
+				</td>
+				
+			</tr>
+		</table> <!-- rep_def -->
+
+	</tr>
+</table> <!-- rep_def -->
+
+<br>
+<div id="dialog_or"  title="Dialog" hidden><div id="addHere_or"> </div></div>
+<div id="dialog_sr"  title="Dialog" hidden><div id="addHere_sr"> </div></div>
+<div id="dialog_sra" title="Dialog" hidden><div id="addHere_sra"></div></div>
+<div id="dialog_srg" title="Dialog" hidden><div id="addHere_srg"></div></div>
+
+<script>
+	/* ************************************************************
+	 * Script Index:
+	 * 0100) Array utilities: contains, unique, remove, and clone
+	 * 0200) Setup this browse page the first time it's loaded
+	 * 0400) Report definition edit request (dimensions, fact, report header)
+	 * 0450) Report definition ajax requests
+	 * 0475) Report definition ajax request support routines
+	 * 0500) Handle dimension action requests
+	 * 0600) Handle dimension attribute request
+	 * 0700) Expression validator
+	 */
+
+	// ************************************************************
+	// 0100) Array utilities: contains, unique, and remove
+	// 1) Determine if an array contains a given value
+	Array.prototype.contains = function(v) {
+	    for(var i = 0; i < this.length; i++) {
+	        if(this[i] === v) return true;
+	    }
+	    return false;
+	};	
+	// 2) Return only the unique elements in an array
+	Array.prototype.unique = function() {
+	    var arr = [];
+	    for(var i = 0; i < this.length; i++) {
+	        if(!arr.contains(this[i])) {
+	            arr.push(this[i]);
+	        }
+	    }
+	    return arr; 
+	}
+	// 3) Array Remove - By John Resig (MIT Licensed)
+	Array.prototype.remove = function(from, to) {
+	  var rest = this.slice((to || from) + 1 || this.length);
+	  this.length = from < 0 ? this.length + from : from;
+	  return this.push.apply(this, rest);
+	};	
+	// 4) Array Clone
+	Array.prototype.clone = function() {
+		//              deep
+		//                    target
+		//                        source
+		return $.extend(true, [], this);
+	};	
+
+
+	// ************************************************************
+	// 0150) String utilities: format
+	if (!String.format) {
+	  String.format = function(format) {
+	    var args = Array.prototype.slice.call(arguments, 1);
+	    return format.replace(/{(\d+)}/g, function(match, number) { 
+	  		return typeof args[number] != 'undefined' ? args[number] : match;
+	    });
+	  };
+	}
+
+	// ************************************************************
+	// 0200) Setup this browse page the first time it's loaded
+	// The prefix of the Ajax request - the dimension name is added as the suffix.
+	ajax_url = "get";
+	ajax_json_url = "get_json";
+	
+	hidden_screen_segments = { 
+		rep_def: 1,
+		rep_result: 1
+	};	
+	
+	var json_data, json_status, json_jqXHR;
+	var load_response, load_status, load_XHR;
+
+	// The dimension/fact/report header method currently being used
+	// cur_report_def_method_index = -1; // Appears to not be used
+	
+	// ************************************************************
+	// Current user, group, and report
+	cur_user = "ken";
+	cur_group = "";
+	cur_report = "";
+	cur_report_group = "";
+	
+	function show_user_group_report() {
+		var html = "";
+		
+		// Format user and current report selection group
+		var dsply_group = cur_group;
+		if (dsply_group == "") {
+			dsply_group = "&lt;None&gt;";
+		}
+		var dsply_report = cur_report;
+		if (dsply_report == "") {
+			dsply_report = "&lt;None&gt;";
+		}
+		var dsply_rep_grp = cur_report_group;
+		if (dsply_rep_grp == "") {
+			dsply_rep_grp = "&lt;None&gt;";
+		}
+		
+		html += "<table class='ugr'><tr class='ugr'><th class='ugr'>User</th>" +
+			"<th class='ugr'>Current Group</th>" +
+			"<th class='ugr'>Report</th>" +
+			"<th class='ugr'>Report Group</th></tr>" +
+			"<tr class='ugr'><td class='ugr'>" + cur_user + "</td>" +
+			"<td class='ugr'>" + dsply_group + "</td>" +
+			"<td class='ugr'>" + dsply_report + "</td>" +
+			"<td class='ugr'>" + dsply_rep_grp + "</td></tr>" +
+			"</table>";
+		
+		$("#user_group_report").each(function(index) {
+			this.innerHTML = html;
+		});
+	}
+	
+	show_user_group_report();
+	
+	
+	// ************************************************************
+	// Dimension table names and display names
+	dim_tables_list = <%=raw(@dim_tables_list) %>
+	dim_fields_list = <%=raw(@dim_fields_list) %>
+	
+	// ************************************************************
+	// Fact table names and display names
+	fact_tables_list = <%=raw(@fact_tables_list) %>
+	fact_fields_list = <%=raw(@fact_fields_list) %>
+	
+	// ************************************************************
+	// The list of dimensions, facts, and report fields that have a definition
+	cur_edit_group = "";		// The edit group that cur_edit_displayed belongs to (dimension, fact, report)
+	cur_edit_displayed = "";	// The current index into the two tables that follow (if any)
+	cur_edits_html = {};		// The current html for the cur_edit_displayed
+	
+	// One entry for each activated dimension table
+	// Each entry looks like this:
+	// [ [attribute_name_1, expression_1], [attribute_name_2, expression_2], ... [attribute_name_n, expression_n], ]
+	cur_edits_structure = {};
+
+	// ************************************************************
+	// The list of row and column headers that have a definition
+	// [ [table, field, sort, ctrl-break, header-name], ...]
+	hdr_table = 0, hdr_field = 1, hdr_sort = 2, hdr_ctrl_break = 3, hdr_header_name = 4
+	num_row_column_header_fields = 5
+	cur_row_header_fields = [];
+	cur_column_header_fields = [];
+
+	// ************************************************************
+	// The list of facts that have a definition
+	// [ [row, table, field, sort, sum-type, header-name, calculation, format, display?], ...]
+	ff_row = 0, ff_table = 1, ff_field = 2, ff_sort = 3, ff_sum_type = 4, ff_header_name = 5
+	ff_calculation = 6, ff_format = 7, ff_display = 8
+	num_fact_fields = 9
+	cur_fact_fields = [];
+	fact_row_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+
+	// ************************************************************
+	// 0350) Dimension/fact table extraction routines
+	function get_dim_table(table) {
+		return dim_tables_list[table];
+	}
+	function get_dim_field(table, field) {
+		return dim_fields_list[table + "." + field];
+	}
+	function get_fact_table(table) {
+		return fact_tables_list[table];
+	}
+	function get_fact_field(table, field) {
+		return fact_fields_list[table + "." + field];
+	}
+
+
+	// ************************************************************
+	// 0400) Report definition edit request (dimensions, facts, report header)
+	function rep_def_edit (edit_type) {
+		// Show the list of commands
+		$("#rep_def_right_top").show("fast");
+		
+		var prefix = edit_type.substr(0, 4);
+		var suffix = edit_type.substr(5, 100);
+		if (prefix == 'RDDE') {
+			dfrh_ajax_request('dimension', suffix, '')
+		} else if (prefix == 'RDFE') {
+			dfrh_ajax_request('fact', suffix, '')
+		} else if (prefix == 'RDRE') {
+			dfrh_ajax_request('report', suffix, '')
+		} else if (prefix == 'RDHS') {
+			var button_name = "";
+			$("#RD_edit2").each(function(index) {
+				var val = this.hidden;
+				if (this.hidden == true) {
+					this.hidden = false;
+					button_name = "Hide Define";
+				} else if (this.hidden == false) {
+					this.hidden = true;
+					button_name = "Show Define";
+				}
+			});
+			$("#HideShowDef").each(function(index) {
+				this.innerHTML = button_name;
+			});
+		} else if (prefix == 'RDHR') {
+			var button_name = "";
+			$("#RR_result").each(function(index) {
+				var val = this.hidden;
+				if (this.hidden == true) {
+					this.hidden = false;
+					button_name = "Hide Results";
+				} else if (this.hidden == false) {
+					this.hidden = true;
+					button_name = "Show Results";
+				}
+			});
+			$("#HideShowRes").each(function(index) {
+				this.innerHTML = button_name;
+			});
+		} else {
+			$("#RD_edit").each(function(index) {
+				this.innerHTML = edit_type;
+			});
+		}
+	}
+
+	// When a checkbox is clicked on, the underlying DOM value of checked is set to true. But, the
+	// HTML is NOT set to "checked='true'". So we must do that before saving the HTML so when it
+	// is brought back the checked boxes will show checked.
+	function set_selections(table, cur_fields) {
+		for (var i = 0; i < cur_fields.length; i++) {
+			var id = "#SEL_" + table + "\\." + cur_fields[i][0] + " input";
+			$(id).each(function(index) {
+				var h;
+				if (this.checked) {
+					h = this.outerHTML;
+					if (h.search("checked=\"true\"") < 0) {
+						h = h.replace("<input ", "<input checked=\"true\" ");
+						this.outerHTML = h;
+					}
+				} else {
+					h = this.outerHTML;
+					if (h.search("checked=\"true\"") >= 0) {
+						h = h.replace("checked=\"true\"", "");
+						this.outerHTML = h;
+					}
+				}
+			});
+		}
+	}
+	
+	// ************************************************************
+	// 0450) Report definition ajax requests
+	// Dimension/Fact/Report Header ajax Request
+	// element_group: dimension/fact/report
+	// data_element:
+	//   dimension: any of the dimension tables (including 'all_dimensions')
+	//   fact:      any of the fact tables
+	//   report:    any of row_header_fields, column_header_fields, fact_data_fields, all_report_fields		
+	function dfrh_ajax_request(element_group, data_element) {
+		// Save current contents of report definition edit area
+		var edit_contents;
+		var html;
+		if (cur_edit_displayed != "") {
+			var table = cur_edit_displayed;
+			// This step is required to lock in any recent changes... ?
+			if (cur_edit_displayed.substr(0,4) == 'dim_') {
+				var cur_fields = cur_edits_structure[table];
+				set_selections(table, cur_fields);
+			}
+			
+			$("#RD_edit").each(function(index) {
+				edit_contents = this.innerHTML;
+			});
+			cur_edits_html[cur_edit_displayed] = edit_contents;
+		}
+
+		
+		if (element_group == 'dimension' || element_group == 'fact') {
+			if (data_element == 'all_dimensions') {
+				html = format_all_dimensions();
+				$("#RD_edit").each(function(index) {
+					this.innerHTML = html;
+				});
+				
+			} else {
+				// If this is a fact request, verify that this fact field is consistent (same fact table) as the existing ones
+				var matches = true;
+				if (element_group == 'fact') {
+					var used_fact_table = "";
+					for (var ff_i = 0; ff_i < cur_fact_fields.length; ff_i += 1) {
+						if (cur_fact_fields[ff_i][ff_table] != data_element) {
+							used_fact_table = cur_fact_fields[ff_i][ff_table];
+							matches = false;
+						}
+					}
+				}
+				
+				if (matches) {
+					// Check to see if the requested edit already exists
+					edit_contents = cur_edits_html[data_element];
+					if (edit_contents == null) {		
+						// It doesn't exist - load it from the server
+						base_ajax_def_request(element_group, data_element, []);
+						cur_edits_structure[data_element] = [];
+						
+					} else {
+						// It exists - load it from the save area
+						$("#RD_edit").each(function(index) {
+							this.innerHTML = edit_contents;
+						});
+					}
+				} else {
+					alert("You are attempting to add facts from " + get_fact_table(data_element).table_display_name.toUpperCase() + ", but facts from " + 
+					   get_fact_table(used_fact_table).table_display_name.toUpperCase() + " have already been selected. This is not allowed.");
+				}
+			}
+			
+		} else if (element_group == 'report') {
+			html = "";
+			if (data_element == 'row_header_fields') {
+				html = format_row_headers(true);
+			} else if (data_element == 'column_header_fields') {
+				html = format_column_headers(true);
+			} else if (data_element == 'fact_data_fields') {
+				html = format_fact_fields(true);
+			} else if (data_element == 'all_report_fields') {
+				html = format_row_col_fact_fields(false);
+			}
+			$("#RD_edit").each(function(index) {
+				this.innerHTML = html;
+			});
+		}
+
+		// Show that we are now displaying different information in the report definition edit area
+		cur_edit_group = element_group;
+		cur_edit_displayed = data_element;
+	}
+	
+	function format_dim_fact_matrix() {
+		return "Dimension/Fact Matrix";
+	}
+
+	function format_all_dimensions() {
+		var dim_list = {};
+		var html = "";
+		var hr = "";
+		dim_list = get_dim_list(dim_list);
+		var keys = Object.keys(dim_list)
+		if (keys.length == 0) {
+			html = dimension_header_format("No constraints");
+		} else {
+			for (var item in dim_list) {
+				var item2 = dim_list[item];
+				html += hr + format_one_dimension(item, item2);
+				hr = "<hr>";
+			}
+		}
+		return html;
+	}
+	
+	function format_one_dimension(header, detail) {
+		// [ [table, field, sort, control_break, header-name], ...]
+		var display_header = dim_tables_list[header].table_display_name + " Constraints";
+		var html = dimension_header_format(display_header) + 
+			"<table class='all' style='border-collapse:collapse;'>" +
+			"<tr><th>Field</th><th>Expression</th><th>Values</th></tr>";
+		for (var i = 0; i < detail.length; i++) {
+			var display_field = dim_fields_list[header + "." + detail[i][0]].field_display_name;
+			html += "<tr><td><b>" + display_field + "</b></td><td>" + detail[i][1].toString() + "</td><td>";
+			var sep = "";
+			for (var j = 2; j < detail[i].length; j++) {
+				html += sep + detail[i][j].toString();
+				sep = ", ";
+			}
+			html += "</td></tr>";
+		}
+		html += "</table>";
+		
+		return html;
+	}
+	
+	function dimension_header_format(header) {
+		return "<b style='font-size: 10pt; color: blue'>" + header + "</b>";
+	}	
+	
+	function array_delete(array, row_no) {
+		var new_array = [];
+		//var new_array = new Array(array.length - 1);
+		if (row_no < array.length) {
+			for (var i = 0; i < array.length-1; i++) {
+				if (i < row_no) {
+					new_array[i] = array[i];
+				} else {
+					new_array[i] = array[i+1];
+				}
+			}
+			return new_array;
+		}
+		return array;
+	}
+	
+	function handle_rcf_redisplay(format_function) {
+		var html = format_function(true);
+		$("#RD_edit").each(function(index) {
+			this.innerHTML = html;
+		});
+		return;
+	}
+	
+	function exchange_rows(fields, row_no1, row_no2) {
+		var exchange;
+		exchange = fields[row_no1];
+		fields[row_no1] = fields[row_no2];
+		fields[row_no2] = exchange;
+	}
+	
+	function delete_row_letter(row_no) {
+		var letter_to_remove = fact_row_letters[row_no];
+		var i, j;
+		for (i = row_no; i < cur_fact_fields.length; i++) {
+			cur_fact_fields[i][6] = cur_fact_fields[i][6].replace(letter_to_remove, "?");
+			cur_fact_fields[i][0] = fact_row_letters[i];
+			for (j = row_no; j < fact_row_letters.length - 1; j++) {
+				cur_fact_fields[i][6] = cur_fact_fields[i][6].replace(fact_row_letters[j+1], fact_row_letters[j]);
+			}
+		}
+	}
+	
+	function switch_row_letters(row_no1, row_no2) {
+		var letter1 = fact_row_letters[row_no1];
+		var letter2 = fact_row_letters[row_no2];
+		
+		var temp_str;
+		for (var i = 0; i < cur_fact_fields.length; i++) {
+			cur_fact_fields[i][0] = fact_row_letters[i];
+			temp_str = cur_fact_fields[i][6];
+			temp_str = temp_str.replace(letter1, "#");
+			temp_str = temp_str.replace(letter2, letter1);
+			temp_str = temp_str.replace("#", letter2);
+			
+			cur_fact_fields[i][6] = temp_str;
+		}
+	}
+	
+	function rcf_edit_handler(row_no, onc_function, button) {
+		var html;
+		if (onc_function == 'Row') {
+			if (button == 'delete') {
+				cur_row_header_fields = array_delete(cur_row_header_fields, row_no);
+				handle_rcf_redisplay(function (x) { return format_row_headers(x); })
+			} else if (button == 'up') {
+				exchange_rows(cur_row_header_fields, row_no, row_no-1);
+				handle_rcf_redisplay(function (x) { return format_row_headers(x); })
+			} else if (button == 'down') {
+				exchange_rows(cur_row_header_fields, row_no, row_no+1);
+				handle_rcf_redisplay(function (x) { return format_row_headers(x); })
+			}
+		} else if (onc_function == 'Column') {
+			if (button == 'delete') {
+				cur_column_header_fields = array_delete(cur_column_header_fields, row_no);
+				handle_rcf_redisplay(function (x) { return format_column_headers(x); })
+			} else if (button == 'up') {
+				exchange_rows(cur_column_header_fields, row_no, row_no-1);
+				handle_rcf_redisplay(function (x) { return format_column_headers(x); })
+			} else if (button == 'down') {
+				exchange_rows(cur_column_header_fields, row_no, row_no+1);
+				handle_rcf_redisplay(function (x) { return format_column_headers(x); })
+			}
+		} else if (onc_function == 'Fact') {
+			if (button == 'delete') {
+				cur_fact_fields = array_delete(cur_fact_fields, row_no);
+				delete_row_letter(row_no);
+				handle_rcf_redisplay(function (x) { return format_fact_fields(x); })
+			} else if (button == 'up') {
+				exchange_rows(cur_fact_fields, row_no, row_no-1);
+				switch_row_letters(row_no, row_no-1);
+				handle_rcf_redisplay(function (x) { return format_fact_fields(x); })
+			} else if (button == 'down') {
+				exchange_rows(cur_fact_fields, row_no, row_no+1);
+				switch_row_letters(row_no, row_no+1);
+				handle_rcf_redisplay(function (x) { return format_fact_fields(x); })
+			}
+		}
+		//alert("rcf_edit_handler: row=" + row_no + ", onc_function=" + onc_function + ", button=" + button);
+	}
+	
+	function create_buttons(row_no, up, down, onclick_function) {
+    	var regular_button_style = "style=\"font-size: 8pt\"; ";
+		var onclick = "onclick=\"rcf_edit_handler(row#, 'onclickfunction', 'button')\"";
+		onclick = onclick.replace("row#", row_no.toString());
+		//var onc_edit = onclick.replace("onclickfunction", onclick_function).replace("button", "edit");
+		var onc_delete = onclick.replace("onclickfunction", onclick_function).replace("button", "delete");
+		var onc_up = onclick.replace("onclickfunction", onclick_function).replace("button", "up");
+		var onc_down = onclick.replace("onclickfunction", onclick_function).replace("button", "down");
+		//var html = "<td><button " + regular_button_style + onc_edit + ">Edit</button></td>";
+		var html = "<td><button class='btn3' " + regular_button_style + onc_delete + ">Delete</button></td>";
+		
+		if (up) {
+			html += "<td><button class='btn3' " + regular_button_style + onc_up + ">\u1403</button></td>"; 
+		} else {
+			html += "<td></td>"; 
+		}
+		
+		if (down) {
+			html += "<td><button class='btn3' " + regular_button_style + onc_down + ">\u1401</button></td>"; 
+		} else {
+			html += "<td></td>"; 
+		}
+		return html;
+	}	
+
+	function create_select_control(row_no, list_indicator, field, field_no, cur_value, fields, values) {
+    	var regular_button_style = " style=\"font-size: 8pt\";";
+    	var id = " id='" + list_indicator + "_" + row_no + "_" + field_no + "';";
+    	var onchange = " onchange=\"rcf_select_changed(row#, 'list', 'field', field_no, 'cur_value')\";";
+    	onchange = onchange.replace('row#', row_no);
+    	onchange = onchange.replace('list', list_indicator);
+    	onchange = onchange.replace('field', field);
+    	onchange = onchange.replace('field_no', field_no);
+    	onchange = onchange.replace('cur_value', cur_value);
+		var html = "<select class='btn3' " + id + regular_button_style + onchange + ">";
+		for (var i = 0; i < fields.length; i++) {
+			var selected = "";
+			if (cur_value == fields[i]) selected = "selected";
+			html += "<option value = '" + fields[i] + "' " + (selected) + ">" + values[i] + "</option>";
+		}
+		html += "</select>";	
+		return html;
+	}	
+
+	function rcf_select_changed(row_no, list_indicator, field, field_no, cur_value) {
+		var id = "#" + list_indicator + "_" + row_no + "_" + field_no;
+		var new_value = "?";
+		$(id).each(function(index) {
+			new_value = this.value;
+		});
+				
+		var html;
+		if (list_indicator == "Row") {
+			cur_row_header_fields[row_no][field_no] = new_value;
+			html = format_row_headers(true);
+		} else if (list_indicator == "Column") {
+			cur_column_header_fields[row_no][field_no] = new_value;
+			html = format_column_headers(true);
+		} else if (list_indicator == "Fact") {
+			cur_fact_fields[row_no][field_no] = new_value;
+			html = format_fact_fields(true);
+		}
+		if (html) {
+			$("#RD_edit").each(function(index) {
+				this.innerHTML = html;
+			});
+		}
+	}
+	
+	function create_button_control(row_no, list_indicator, field, field_no, cur_value) {
+    	var regular_button_style = "style=\"font-size: 8pt\"; ";
+    	var onclick = " onclick=\"rcf_button_clicked(row#, 'list', 'field', field_no, 'cur_value')\"; ";
+    	onclick = onclick.replace('row#', row_no);
+    	onclick = onclick.replace('list', list_indicator);
+    	onclick = onclick.replace('field', field);
+    	onclick = onclick.replace('field_no', field_no);
+    	onclick = onclick.replace('cur_value', cur_value);
+    	
+		var html = "<button class='btn3' " + regular_button_style + onclick + ">";
+		html += cur_value;
+		html += "</button>";	
+		return html;	
+	}	
+	
+	function check_calculation_syntax(expr) {
+		var pos = 0;
+		function get_calc_char() {
+			var ch;
+			while (expr[pos] == ' ') { pos += 1; }
+			if (expr[pos] == '(') { pos += 1; return '('; }
+			if (expr[pos] == ')') { pos += 1; return ')'; }
+			if (expr[pos] == '+') { pos += 1; return '+'; }
+			if (expr[pos] == '-') { pos += 1; return '-'; }
+			if (expr[pos] == '*') { pos += 1; return '*'; }
+			if (expr[pos] == '/') { pos += 1; return '/'; }
+			if ( (expr[pos] >= 'a' && expr[pos] <= 'z') || 
+				 (expr[pos] >= 'A' && expr[pos] <= 'Z') ) { pos += 1; return '#'; }
+			if (expr[pos] >= '0' && expr[pos] <= '9') {
+				while (expr[pos] >= '0' && expr[pos] <= '9') { pos += 1; }
+				if (expr[pos] == '.') {
+					while (expr[pos] >= '0' && expr[pos] <= '9') { pos += 1; }
+					return '#';
+				} else {
+					return '#';
+				}
+			}
+			if (expr[pos] == '') {
+				return '';
+			}
+			return '';
+		}
+		
+		var ch;
+		function get_op_list() {
+			if (ch == '-') {
+				ch = get_calc_char();
+			}
+			if (ch == '#') {
+				ch = get_calc_char();
+				while (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
+					ch = get_calc_char();
+					if (ch == '(') {
+						ch = get_expr();
+					} else if (ch == '#') {
+						ch = get_calc_char();
+					} else {
+						ch = 'E';
+					}
+				}
+			} else if (ch == '(') {
+				ch = get_expr();
+			}
+			return ch;
+		}
+		
+		function get_expr() {
+			if (ch == '(') {
+				ch = get_calc_char();
+				ch = get_op_list();
+			}
+			if (ch != ')') {
+				ch = 'E';
+			} else {
+				ch = get_calc_char();
+			}
+			return ch;
+		}
+		
+		ch = get_calc_char();
+		if (ch == '-' || ch == '#') {
+			ch = get_op_list()
+		} else if (ch == '(') {
+			ch = get_expr();
+		}
+		if (ch == '' && expr.substr(pos) == '') {
+			return expr;
+		} else {
+			return 'E';
+		}
+	}
+
+	function rcf_button_clicked(row_no, list_indicator, field, field_no, cur_value) {
+		var new_value = cur_value;
+		if (field == "Calculation") {
+			new_value = prompt(field + ":", cur_value);
+			new_value = new_value.toUpperCase();
+			new_value = check_calculation_syntax(new_value);
+		} else {
+			new_value = prompt(field + ":", cur_value);
+			if (new_value == undefined) {
+				new_value = cur_value;
+			}
+		}
+		var html;
+		if (list_indicator == "Row") {
+			cur_row_header_fields[row_no][field_no] = new_value;
+			html = format_row_headers(true);
+		} else if (list_indicator == "Column") {
+			cur_column_header_fields[row_no][field_no] = new_value;
+			html = format_column_headers(true);
+		} else if (list_indicator == "Fact") {
+			cur_fact_fields[row_no][field_no] = new_value;
+			html = format_fact_fields(true);
+		}
+		if (html) {
+			$("#RD_edit").each(function(index) {
+				this.innerHTML = html;
+			});
+		}
+	}
+	
+	// Format the tables for row headers, and column headers
+	// data = [dim_table_name, dim_table_field, sort, control_break, header_name]
+	// hdr_table = 0, hdr_field = 1, hdr_sort = 2, hdr_ctrl_break = 3, hdr_header_name = 4, num_row_column_header_fields = 5
+	function format_row_column_row(row_no, data, cnt, row_column, editable, up, down) {
+		var row = "<tr>";
+		for (var i = 0; i < cnt; i++) {
+			row += "<td>";
+			if (i == hdr_table) {			// Dimension table
+				row += get_dim_table(data[hdr_table]).table_display_name;
+			} else if (i == hdr_field) {	// Dimension field
+				row += get_dim_field(data[hdr_table], data[hdr_field]).field_display_name;
+			} else if (i == hdr_sort) {	// Sort - Ascending/Desc
+				if (editable) {
+					row += create_select_control(row_no, row_column, "Sort", hdr_sort, data[hdr_sort], ['None', 'Ascending', 'Descending'], ['None', 'Ascending', 'Descending']);
+				} else {
+					row += data[hdr_sort];
+				}
+			} else if (i == hdr_ctrl_break) {	// Control break - yes/no
+				if (editable) {
+					row += create_select_control(row_no, row_column, "Control Break?", hdr_ctrl_break, data[hdr_ctrl_break], ['Yes', 'No'], ['Yes', 'No']);
+				} else {
+					row += data[hdr_ctrl_break];
+				}
+			} else if (i == hdr_header_name) {	// Header name
+				if (editable) {
+					row += create_button_control(row_no, row_column, get_dim_field(data[hdr_table], data[hdr_field]).field_display_name, hdr_header_name, data[hdr_header_name]);
+				} else {
+					row += data[hdr_header_name];
+				}
+			} else {
+				row += data[i];
+			}
+			row += "</td>";
+		}
+		if (editable) {
+			row += create_buttons(row_no, up, down, row_column);
+		}
+		return row += "</tr>";
+	}
+
+	function format_row_headers(editable) {
+		// [ [table, field, sort, control_break, header-name], ...]
+		var html = row_col_fact_header_format("Row Headers") + "<table class='all' style='border-collapse:collapse;'>" +
+			"<tr><th>Dimension</th><th>Field</th><th>Sort</th><th>Control Break?</th><th>Header Name</th></tr>";
+		var i;
+		for (i = 0; i < cur_row_header_fields.length; i++) {
+			var up = (i > 0);
+			var down = (i < (cur_row_header_fields.length - 1));
+			var header = cur_row_header_fields[i];
+			html += format_row_column_row(i, header, num_row_column_header_fields, "Row", editable, up, down);
+		}
+		html += "</table>";
+		
+		return html;
+	}
+	
+	function format_column_headers(editable) {
+		// [ [table, field, sort, control_break, header-name], ...]
+		var html = row_col_fact_header_format("Column Headers") + "<table class='all' style='border-collapse:collapse;'>" +
+			"<tr><th>Dimension</th><th>Field</th><th>Sort</th><th>Control Break?</th><th>Header Name</th></tr>";
+		var i;
+		for (i = 0; i < cur_column_header_fields.length; i++) {			
+			var up = (i > 0);
+			var down = (i < (cur_column_header_fields.length - 1));
+			var header = cur_column_header_fields[i];
+			html += format_row_column_row(i, header, num_row_column_header_fields, "Column", editable, up, down);
+		}
+		html += "</table>";
+		
+		return html;
+	}
+	
+	// data = [row_letter, fact_table_name, fact_table_field, sort, sum_type, header_name, calc, format, display?]
+	// ff_row = 0, ff_table = 1, ff_field = 2, ff_sort = 3, ff_sum_type = 4, ff_header_name = 5, ff_calculation = 6, ff_format = 7, ff_display = 8, num_fact_fields = 9
+	function format_fact_row(row_no, data, cnt, editable, up, down) {
+		var row = "<tr>";
+		for (var i = 0; i < cnt; i++) {
+			row += "<td>";
+			if (i == ff_table) {			// Fact table
+				row += get_fact_table(data[ff_table]).table_display_name;
+			} else if (i == ff_field) {	// Fact field
+				row += get_fact_field(data[ff_table], data[ff_field]).field_display_name;
+			} else if (i == ff_sort) {	// Sort
+				if (editable) {
+					row += create_select_control(row_no, "Fact", "Sort", ff_sort, data[ff_sort], ['None', 'Ascending', 'Descending'], ['None', 'Ascending', 'Descending']);
+				} else {
+					row += data[ff_sort];
+				}
+			} else if (i == ff_sum_type) {	// Sum type
+				if (editable) {
+					row += create_select_control(row_no, "Fact", "Sum Type", ff_sum_type, data[ff_sum_type], ['Sum', 'Cnt', 'Avg', 'Min', 'Max'], ['Sum', 'Cnt', 'Avg', 'Min', 'Max']);
+				} else {
+					row += data[ff_sum_type];
+				}
+			} else if (i == ff_header_name) {	// Header name
+				if (editable) {
+					row += create_button_control(row_no, "Fact", "Header Name", ff_header_name, data[ff_header_name]);
+				} else {
+					row += data[ff_header_name];
+				}
+			} else if (i == ff_calculation) {	// Calculation
+				if (editable) {
+					row += create_button_control(row_no, "Fact", "Calculation", ff_calculation, data[ff_calculation]);
+				} else {
+					row += data[ff_calculation];
+				}
+			} else if (i == ff_format) {	// Format
+				if (editable) {
+					row += create_select_control(row_no, "Fact", "Format", ff_format, data[ff_format], ['0#', '0#,###', '0#,###.##', '$0#,###.##'], ['0#', '0#,###', '0#,###.##', '$0#,###.##']);
+				} else {
+					row += data[ff_format];
+				}
+			} else if (i == ff_display) {	// Display?
+				if (editable) {
+					row += create_select_control(row_no, "Fact", "Display?", ff_display, data[ff_display], ['Yes', 'No'], ['Yes', 'No']);
+				} else {
+					row += data[ff_display];
+				}
+			} else {
+				row += data[i];
+			}
+			row += "</td>";
+		}
+		if (editable) {
+			row += create_buttons(row_no, up, down, "Fact");
+		}
+		return row += "</tr>";
+	}
+	
+	function format_fact_fields(editable) {
+		// [ [row, table, field, sort, sum-type, header-name, calculation, format, display?], ...]
+		var html = row_col_fact_header_format("Fact Fields") + "<table class='all' style='border-collapse:collapse;'><tr>" +
+			"<th>Row</th><th>Fact</th><th>Field</th><th>Sort</th><th>Sum Type</th>" + 
+			"<th>Header Name</th><th>Calculation</th><th>Format</th><th>Display?</th></tr>";
+		var i;
+		for (i = 0; i < cur_fact_fields.length; i++) {
+			var up = (i > 0);
+			var down = (i < (cur_fact_fields.length - 1));
+			var header = cur_fact_fields[i];
+			html += format_fact_row(i, header, num_fact_fields, editable, up, down);			
+		}
+		html += "</table>";
+		
+		return html;
+	}
+	
+	function row_col_fact_header_format(header) {
+		return "<b style='font-size: 10pt; color: blue'>" + header + "</b>";
+	}
+	
+	function format_row_col_fact_fields(editable) {
+		var html = "";
+		html += format_row_headers(editable);
+		html += "<hr>";
+		html += format_column_headers(editable);
+		html += "<hr>";
+		html += format_fact_fields(editable);
+		return html;
+	}
+
+	function base_ajax_def_request(req_type_, who_, req_) {
+		$("#RD_edit").load(ajax_url, { req_type: req_type_, who: who_, req: req_ }, function (response, status, xhr) {
+			load_response = response;
+			load_status = status;
+			load_XHR = xhr;
+		} );
+	}	
+	
+	function dim_ajax_request(table, field) {
+		// Determine if this attribute has already been requested
+		var cur_fields = cur_edits_structure[table];
+		var field_pos = get_dim_table_field_index(cur_fields, field);
+		
+		// If hasn't been requested. Request now.
+		if (field_pos < 0) {
+			cur_fields[cur_fields.length] = [field, ""];	// Make room for an expression value as 2nd entry in this field item
+			cur_edits_structure[table] = cur_fields;	
+					
+			// Clone the array so we don't mess up the attribute list			
+			var cur_fields_new = cur_fields.clone();	
+			cur_fields_new = get_dim_selections("", table, cur_fields_new);
+			base_ajax_def_request('dimension', table, cur_fields_new);
+		}
+	}
+	
+	function dim_del_ajax_request(table, field) {
+		// Determine if this attribute has already been requested
+		var cur_fields = cur_edits_structure[table];
+		var field_pos = get_dim_table_field_index(cur_fields, field);
+
+		if (field_pos >= 0) {
+			cur_fields.remove(field_pos);			
+			cur_edits_structure[table] = cur_fields;
+			
+			// Clone the array so we don't mess up the attribute list			
+			var cur_fields_new = cur_fields.clone();	
+			cur_fields_new = get_dim_selections("", table, cur_fields_new);
+			base_ajax_def_request('dimension', table, cur_fields_new);
+		}
+	}
+	
+	function dim_LT_GT_ajax_request(lt_gt, table, field) {
+		// Determine if this attribute has already been requested
+		var cur_fields = cur_edits_structure[table];
+		var field_pos = get_dim_table_field_index(cur_fields, field);
+
+		if (field_pos >= 0) {
+			var save_field = 0;
+			if (lt_gt == "LT") {
+				save_field = cur_fields[field_pos];
+				cur_fields[field_pos] = cur_fields[field_pos-1];
+				cur_fields[field_pos-1] = save_field;
+			} else {
+				save_field = cur_fields[field_pos];
+				cur_fields[field_pos] = cur_fields[field_pos+1];
+				cur_fields[field_pos+1] = save_field;
+			}
+			cur_edits_structure[table] = cur_fields;
+			
+			// Clone the array so we don't mess up the attribute list			
+			var cur_fields_new = cur_fields.clone();	
+			cur_fields_new = get_dim_selections("", table, cur_fields_new);
+			base_ajax_def_request('dimension', table, cur_fields_new);
+		}
+	}
+	
+	function dim_refresh_ajax_request() {
+		var table = cur_edit_displayed;
+		if (table != "") {
+			// Update any selections we've made that haven't been turned into "checked=true" html
+			var cur_fields = cur_edits_structure[table];
+			set_selections(table, cur_fields);
+
+			// Clone the array so we don't mess up the attribute list			
+			var cur_fields_cloned = cur_fields.clone();	
+			cur_fields_cloned = get_dim_selections("", table, cur_fields_cloned);
+			base_ajax_def_request('dimension', table, cur_fields_cloned);
+
+			// Update the current html contents of this edit before sending request
+			var edit_contents;
+			$("#RD_edit").each(function(index) {
+				edit_contents = this.innerHTML;
+			});
+			cur_edits_html[cur_edit_displayed] = edit_contents;
+		}
+	}
+	
+	function dim_clear_ajax_request() {
+		var table = cur_edit_displayed;
+		if (table != "") {
+			cur_edits_structure[table] = [];
+					
+			// Clone the array so we don't mess up the attribute list			
+			var cur_fields_new = [];	
+			cur_fields_new = get_dim_selections("", table, cur_fields_new);
+			base_ajax_def_request('dimension', table, cur_fields_new);
+		}
+	}
+	
+
+	// ************************************************************
+	// 0475) Report definition ajax request support routines
+	function get_dim_table_field_index(cur_fields, field) {
+		var field_pos = -1;
+		for (var idx = 0; idx < cur_fields.length; idx++) {
+			var val = cur_fields[idx];
+			if (val[0] == field) {
+				field_pos = idx;
+			}
+		}
+		return field_pos;
+	}
+	
+	// Return all selections for the given dimension table
+	// The first entry for a field is the field name.
+	// The second entry is the optional expression (default empty string)
+	// The rest of the entries are the selected fields.
+	function get_dim_selections(suffix, table, cur_fields) {
+		for (var i = 0; i < cur_fields.length; i++) {
+			var id = "#RD_edit" + suffix + " #SEL_" + suffix + table + "\\." + cur_fields[i][0] + " input";
+			// Note: we start by clearing out all the current selections so we don't get duplicates
+			cur_fields[i] = cur_fields[i].slice(0,2);
+			$(id).each(function(index) {
+				if (this.checked) {
+					cur_fields[i].push(this.value);
+				}
+			});
+		}
+		return cur_fields;
+	}
+	
+	function chk_box_click(table, field) {
+		//alert("check box click: " + table + ", " + field);
+			// Update any selections we've made that haven't been turned into "checked=true" html
+		var cur_fields = cur_edits_structure[table];
+		set_selections(table, cur_fields);
+
+		// Update the current html contents of this edit before sending request
+		var edit_contents;
+		$("#RD_edit").each(function(index) {
+			edit_contents = this.innerHTML;
+		});
+		cur_edits_html[cur_edit_displayed] = edit_contents;
+	}
+	
+	// ************************************************************
+	// 0500) Handle dimension action requests
+	function dim_add_rc_if_doesnt_exist(header, table, field) {
+		var i;
+		var header_pair;
+		if (header.length > 0) {
+			for (i = 0; i < header.length; i++) {
+				header_pair = header[i];
+				if (header_pair[0] == table && header_pair[1] == field) {
+					return 0;
+				}
+			}
+		}
+		var default_field_value = get_dim_field(table, field).field_display_name;
+		header[header.length] = [table, field, "Ascending", "No", default_field_value];
+	}
+	
+	function dim_remove_rc_if_does_exist(header, table, field) {
+		var i;
+		var header_pair;
+		if (header.length > 0) {
+			for (i = 0; i < header.length; i++) {
+				header_pair = header[i];
+				if (header_pair[0] == table && header_pair[1] == field) {
+					header.remove(i,i);
+				}
+			}
+		}
+	}
+	
+	function dim_rcn_handler(rcn, table, field) {
+		if (rcn == 'Row') {
+			dim_add_rc_if_doesnt_exist(cur_row_header_fields, table, field)
+		} else if (rcn == 'Column') {
+			dim_add_rc_if_doesnt_exist(cur_column_header_fields, table, field)
+		} else if (rcn == 'None') {
+			// Check for and remove existing row headers
+			dim_remove_rc_if_does_exist(cur_row_header_fields, table, field)
+			// Check for and remove existing column headers
+			dim_remove_rc_if_does_exist(cur_column_header_fields, table, field)
+		}
+	}
+	
+	function RDA2_refresh() {
+		if (cur_edit_group == "dimension") {
+			dim_refresh_ajax_request();
+		}
+	}
+	
+	function RDA2_clear() {
+		if (cur_edit_group == "dimension") {
+			dim_clear_ajax_request();
+		}
+	}
+	
+	// ************************************************************
+	// 0550) Handle fact action requests
+	function fct_add_value_if_doesnt_exist(header, table, field, fact_type) {
+		// [ [row, table, field, sort, sum-type, header-name, calculation, format, display?], ...]
+		var i;
+		var header_pair;
+		if (header.length > 0) {
+			for (i = 0; i < header.length; i++) {
+				header_pair = header[i];
+				if (header_pair[1] == table && header_pair[2] == field) {
+					return 0;
+				}
+			}
+		}
+		if (header.length < fact_row_letters.length) {
+			var row_letter = fact_row_letters.substr(header.length, 1);
+			var default_header = get_fact_field(table, field).field_display_name;
+			var default_format = get_fact_field(table, field).default_format;
+			sum_type = "Sum";
+			if (fact_type != "Additive") {
+				sum_type = "Min";
+			}
+			header[header.length] = [row_letter, table, field, "None", sum_type, default_header, row_letter, default_format, "Yes"];
+		}
+	}
+	
+	function fct_remove_value_if_does_exist(header, table, field) {
+		var i;
+		var header_pair;
+		if (header.length > 0) {
+			for (i = 0; i < header.length; i++) {
+				header_pair = header[i];
+				if (header_pair[1] == table && header_pair[2] == field) {
+					header.remove(i,i);
+				}
+			}
+		}
+	}
+
+	function fact_attrib_handler(table, field, fact_type) {
+		//alert("fact_attrib_handler: " + table + ", " + field);
+		// [ [row, table, field, sort, sum-type, header-name, calculation, format, display?], ...]
+		fct_add_value_if_doesnt_exist(cur_fact_fields, table, field, fact_type);
+	}
+	
+	
+	// ************************************************************
+	// 0600) Handle dimension attribute request
+	function dim_field_handler(table, field) {
+		dim_ajax_request(table, field);
+	}
+	
+	function dim_attrib_handler(button, table, field) {
+		if (button == "LT") {
+			dim_LT_GT_ajax_request(button, table, field);
+		} else if (button == "Del") {
+			dim_del_ajax_request(table, field);
+		} else if (button == "Sel") {
+			dim_change_all_selects(table, field, true);
+		} else if (button == "Clr") {
+			dim_change_all_selects(table, field, false);
+		} else if (button == "GT") {
+			dim_LT_GT_ajax_request(button, table, field);
+		} else if (button == "Exp") {
+			dim_exp_handler(table, field);
+		} else {
+			alert("attrib_handler: " + button + "." + table + "." + field);
+		}
+	}
+
+	function dim_change_all_selects(table, field, new_setting) {
+		var id = "#SEL_" + table + "\\." + field + " input";
+		$(id).each(function(index) {
+			this.checked = new_setting;
+		});
+		
+		if (table != "") {
+			// Update any selections we've made that haven't been turned into "checked=true" html
+			// var cur_fields = cur_edits_structure[table];
+			// set_selections(table, cur_fields);
+			chk_box_click(table, "");			
+		}
+	}
+	
+	function dim_exp_handler(table, field) {
+		// Get the edit structure for the requested table
+		var cur_fields = cur_edits_structure[table];
+		// Get the fields position
+		var pos = get_dim_table_field_index(cur_fields, field);
+		// If we got the information about this field/attribute
+		if (pos >= 0) {
+			// The current expression is saved next to the attribute/field name (which is cur_fields[pos][0])
+			var response = cur_fields[pos][1];
+			// Prompt the user to enter/change the expression
+			var display_field = get_dim_field(table, field).field_display_name
+			var exp = prompt("Expression on " + display_field + ":", response);
+			// If the user didn't cancel and changed the expression
+			if (exp != null && exp != response) {
+				// Validate and parse the expression
+				var res = expression_validator(exp);
+				// res: [valid?, translated_expression, original_expression]
+				// If expression valid
+				if (res[0]) {
+					// Trim spaces off of the new expression
+					exp = trim_spaces(res[1]);
+					// And save away
+					cur_fields[pos][1] = exp;
+					// If an attribute has an expression, display: 'E', else 'e'
+					var exp_char = "e";
+					if (exp != null && exp.length > 0) {
+						exp_char = "E";
+					}
+					// Find and search for the correct expression button
+					var id = "#Exp\\." + table + "\\." + field;
+					$(id).each(function(index) {
+						// Save the button character
+						this.innerHTML = exp_char;
+						// And modify the tooltip text appropriately
+						if (exp_char == "e") {
+							this.title = "Build Expression";
+						} else {
+							this.title = "Expression: " + exp;
+						}
+					});
+				} else {
+					// Oops - bad expression - show message.
+					alert(res[1]);
+				}
+			}
+		}
+	}
+	
+	// ************************************************************
+	// 0700) Expression validator
+	//       Returns: [valid?, translated_expression, original_expression]
+	function expression_validator (expr) {
+		// The various patterns describing valid expressions
+		var blank_comp_pat       = /^\s*$/;
+		
+		var num_comp_pat         = /^\s*(<=|<>|>=|<|>|=)\s*(\d*)\s*$/;
+		var num_between_comp_pat = /^\s*between\s*(\d*)\s*and\s*(\d*)\s*$/;
+		var num_dot_comp_pat     = /^\s*(\d*)\.\.(\d*)\s*$/;
+		var num_in_comp_pat      = /^\s*in\s*\((\s*\d*(\s*,\s*\d*)*\s*)\)\s*$/;
+		
+		var str_comp_pat         = /^\s*(<=|<>|>=|<|>|=)\s*(\'[^\']*\')\s*$/;
+		var str_between_comp_pat = /^\s*between\s*(\'[^\']*\')\s*and\s*(\'[^\']*\')\s*$/;
+		var str_dot_comp_pat     = /^\s*(\'[^\']*\')..(\'[^\']*\')\s*$/;
+		var str_in_comp_pat      = /^\s*in\s*\((\s*\'[^\']*\'(\s*,\s*\'[^\']*\')*\s*)\)\s*$/;
+		
+		var like_comp_pat        = /^\s*like\s*(\'[^\']*\')\s*$/;	
+		var like_current_pat     = /^\s*cur(rent)?(\s+\d+)?\s+(year|month|week|day|quarter|trimester)s?\s*$/
+		var like_previuos_pat    = /^\s*prev(ious)?(\s+\d+)?\s+(year|month|week|day|quarter|trimester)s?\s*$/
+		
+		// Check for blank
+		var res = blank_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, "", ""];
+			}
+		}
+		
+		// Try number
+		var res = num_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, res[0], res[0]];
+			}
+		}
+		
+		// Try number between
+		var res = num_between_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, "between " + res[1] + " and " + res[2], res[0]];
+			}
+		}
+		
+		// Try number dot range
+		var res = num_dot_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, "between " + res[1] + " and " + res[2], res[0]];
+			}
+		}
+		
+		// Try number in list
+		var res = num_in_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, res[0], res[0]];
+			}
+		}
+		
+		// Try string
+		res = str_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, res[0], res[0]];
+			}
+		}
+		
+		// Try string between
+		res = str_between_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, "between " + res[1] + " and " + res[2], res[0]];
+			}
+		}
+		
+		// Try string dot
+		res = str_dot_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, "between " + res[1] + " and " + res[2], res[0]];
+			}
+		}
+		
+		// Try number in list
+		var res = str_in_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, res[0], res[0]];
+			}
+		}
+		
+		// Try like
+		res = like_comp_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, res[0], res[0]];
+			}
+		}
+		
+		
+		// Try current year/month/...
+		res = like_current_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, res[0], res[0]];
+			}
+		}
+		
+		
+		// Try previous year/month/...
+		res = like_previuos_pat.exec(expr);
+		if (res != null) {
+			if (res[0] == expr) {
+				return [true, res[0], res[0]];
+			}
+		}
+		
+		return [false, "Error in expression: " + expr];
+	}
+	
+	function trim_spaces(str) {
+		return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+	}
+
+
+	// ************************************************************
+	// ************************************************************
+	// 0800) Open, Save, Save as Report
+	// ************************************************************
+	
+	function RDA_report(request_type) {
+		if (request_type == "RDA_open_report") { 
+			open_report();
+		} else if (request_type == "RDA_save_report") {
+			save_report();
+		} else if (request_type == "RDA_save_report_as") {
+			save_report_as();
+		} else if (request_type == "RDA_delete_report") {
+			delete_report();
+		} else if (request_type == "RDA_set_report_group") {
+			set_report_group();
+		}
+	}
+	
+	// ************************************************************
+	/*
+	Open
+	  1) Client: if a report is currently open or the user has entered some report definition information - 
+	             confirm that they are OK to discard that information (if not - exit process)
+	  2) Client: send request to server for list of reports to open (user)
+	  3) Server: put together list of reports available to user and send to client
+	  4) Client: receive and display returned list
+	  5) User:   user selects report to open
+	  6) Client: send request for desired report to server (user, group, report name)
+	  7) Server: pulls the information for that report and returns to client 
+	             (user, group, report name, [dimensions, row, columns, facts])
+	  8) Client: a) clear out old report information
+	             b) load opened report information into dimensions, rows, columns, and facts
+	             c) Call routine that is called when the "All Report Fields" button is clicked.
+	*/
+	
+	
+	function open_report() {
+		if (cur_group == "") {
+			alert("You must select a report group before selecting a report.");
+		} else {			
+			// 1) Client: if a report is currently open or the user has entered some report definition information - 
+			//            confirm that they are OK to discard that information (if not - exit process)
+			
+			// 2) Client: send request to server for list of reports to open (user)
+			$("#dialog_or").dialog({ 
+				autoOpen: false, 
+				modal: true, 
+				width: 400,
+				title: "Open Report",
+				buttons: {
+					Cancel: function() {
+						$( this ).dialog( "close" );
+					}
+				},
+				open: function() {
+					var req_ = {"user": cur_user, "group": cur_group};
+					$.post(ajax_json_url, { req_type: "open_save", who: "open1", req: req_ }, function(data, status, jqXHR) {
+						json_data = data;
+						json_status = status;
+						json_jqXHR = jqXHR;
+						// 2) Format list of returned reports into an array of string items
+						var items = [];
+						$.each(data, function(key, val) { items.push(val); });
+						
+						// 3) Call a function to format the groups into an HTML table
+						var html = get_report_list(items);
+	
+						// 4) Format the HTML into a pre-allocated DIV made for this function
+						$("#addHere_or").each(function(index) { this.innerHTML = ""; });
+						$("#addHere_or").append(html);
+					});
+				},
+				close: function() {
+					show_user_group_report();
+				}
+			});
+			$("#dialog_or").dialog("open");
+		}
+
+	}
+	
+	// Function to convert a list of groups into an HTML table with header and the groups represented as buttons.
+	// When the dialog is displayed the user selectes one of the buttons (groups) which calls the function "select_report_group" below
+	function get_report_list(report_list) {
+		var html = "<table><thead><tr><th>Report</th></tr></thead><tbody>";
+		for (var idx = 0; idx < report_list.length; idx ++) {
+			var onclick = '<tr><td><button class="btn3" onclick="select_report(%1)">' + 
+				report_list[idx] + '</td></tr>' ;
+			onclick = onclick.replace('%1', "'" + report_list[idx] + "'");
+			html += onclick;
+			}
+		html += "</tbody></table>";
+		return html;
+	}
+	
+	// Select the picked group below and save the new current group
+	function select_report(pick) {
+		cur_report = pick;
+		cur_report_group = cur_group;
+		
+		cur_edit_group = "";		// The edit group that cur_edit_displayed belongs to (dimension, fact, report)
+		cur_edit_displayed = "";	// The current index into the two tables that follow (if any)
+		cur_edits_html = {};	
+		cur_edits_structure = {};		
+		cur_row_header_fields = [];
+		cur_column_header_fields = [];
+		cur_fact_fields = [];
+		
+		var req_ = {"user": cur_user, "group": cur_group, "report": pick};
+		$.post(ajax_json_url, { req_type: "open_save", who: "open2", req: req_ }, function(data, status, jqXHR) {
+			json_data = data;
+			json_status = status;
+			json_jqXHR = jqXHR;
+			
+			cur_report_group = cur_group;
+			
+			var prop, prop_value;
+			var rep = JSON.parse(json_data);
+			
+			var dims = JSON.parse(rep.dims);
+			cur_edits_structure = {};
+			for (prop in dims) {
+				if (!dims.hasOwnProperty(prop)) continue;
+				var prop_value = dims[prop];
+				cur_edits_structure[prop] = prop_value;
+				cur_edit_displayed = prop;
+				open_report_dim_ajax_request('dimension', prop, prop_value);
+				//alert(String.format("dims[{0}] = {1}", prop, JSON.stringify(prop_value) ) );
+			}
+			
+			var rows = JSON.parse(rep.rows);
+			cur_row_header_fields = [];
+			for (prop in rows) {
+				if (!rows.hasOwnProperty(prop)) continue;
+				var prop_value = rows[prop];
+				cur_row_header_fields[prop] = prop_value;
+				//alert(String.format("rows[{0}] = {1}", prop, JSON.stringify(prop_value) ) );
+			}
+			
+			var columns = JSON.parse(rep.columns);
+			cur_column_header_fields = [];
+			for (prop in columns) {
+				if (!columns.hasOwnProperty(prop)) continue;
+				var prop_value = columns[prop];
+				cur_column_header_fields[prop] = prop_value;
+				//alert(String.format("columns[{0}] = {1}", prop, JSON.stringify(prop_value) ) );
+			}
+			
+			var facts = JSON.parse(rep.facts);
+			cur_fact_fields = [];
+			for (prop in facts) {
+				if (!facts.hasOwnProperty(prop)) continue;
+				var prop_value = facts[prop];
+				cur_fact_fields[prop] = prop_value;
+				//alert(String.format("facts[{0}] = {1}", prop, JSON.stringify(prop_value) ) );
+			}
+			cur_edit_group = 'report';
+			cur_edit_displayed = 'all_report_fields';
+			//cur_edit_displayed = 'all_dimensions';
+			dfrh_ajax_request(cur_edit_group, cur_edit_displayed);
+			
+			// Clear out results of previous report (if any)
+			$("#RR_results").each(function(index) {
+				this.innerHTML = "";
+			});			
+			
+		});
+		
+		show_user_group_report();
+		$("#dialog_or").dialog("close");
+	}
+
+	function open_report_dim_ajax_request(element_group, data_element, prop_value) {
+		// Check to see if the requested edit already exists
+		if (element_group == 'dimension') {
+			base_ajax_def_request_sync(element_group, data_element, prop_value);
+		}
+		
+		var edit_contents = "";
+		$("#RD_edit").each(function(index) {
+			edit_contents = this.innerHTML;
+		});
+		cur_edits_html[cur_edit_displayed] = edit_contents;
+
+		// Show that we are now displaying different information in the report definition edit area
+		cur_edit_group = element_group;
+		cur_edit_displayed = data_element;
+	}
+	
+	function base_ajax_def_request_sync(req_type_, who_, req_) {
+		$.ajax({
+			type: "POST",
+			url: ajax_url,
+			data: {req_type: req_type_, who: who_, req: req_},
+			dataType: "html",
+			async: false,
+			success: function(data) {
+				$("#RD_edit").html(data);
+			}
+		});		
+	}	
+	
+	
+	
+	// ************************************************************
+	/* 
+	Save
+	  Case A - there is currently a report open
+	    1) Client: a) format information about the current report 
+	                  (user, group, report name, [dimensions, row, columns, facts])
+	               b) Send the formatted request to the server.
+	    2) Server: a) save the formatted information about the current report in the Reports table
+	               b) send confirmation to the client
+	    3) Client: display confirmation message on screen.
+
+	  Case B - there is NOT currently a report open
+	    1) Revert to "Save As" functionality
+	*/
+	function save_report() {
+		// 1) Client: a) format information about the current report 
+        //				 (user, group, report name, [dimensions, row, columns, facts])
+     	// 			  b) Send the formatted request to the server.
+		save_def = format_save_as_report_request(cur_report_group, cur_report);
+		
+		$.post(ajax_json_url, { req_type: "open_save", who: "save", req: save_def }, function(data, status, jqXHR) {
+			json_data = data;
+			json_status = status;
+			json_jqXHR = jqXHR;
+
+			// 2) Format list of returned groups into an array of string items
+			var items = [];
+			$.each(data, function(key, val) { items.push(val); });
+			
+			if (items[0] == "Success") {
+				alert("Report saved successfully.");
+			} else {
+				alert("Report save failed.");
+			}
+		});					
+	}
+	
+	// ************************************************************
+	/* 
+	Save As
+	  Case A - there is currently a report open
+	  Case B - there is NOT currently a report open
+	  In any case - it doesn't matter - we are saving a new report
+	  
+	  1) Client: prompt user for group name and report name (showing current group and report name if available)
+	  2) Client: a) format information about the current report 
+	                (user, group, report name, [dimensions, row, columns, facts])
+	             b) Send the formatted request to the server.
+	  3) Server: a) save the formatted information about the current report in the Reports table
+	             b) send confirmation to the client
+	  4) Client: display confirmation message on screen.
+	*/
+	function save_report_as() {
+	  	// 1) Client: prompt user for group name and report name (showing current group and report name if available)
+		$("#dialog_sra").dialog({ 
+			autoOpen: false, 
+			modal: true, 
+			title: "Save Report As...",
+			width: 400,
+			buttons: {
+				Save: function() {
+					cur_report_group = $("#report_group_sra").val();
+					cur_report = $("#report_name_sra").val();
+
+					// 2) Client: a) format information about the current report 
+	                //				 (user, group, report name, [dimensions, row, columns, facts])
+	             	// 			  b) Send the formatted request to the server.
+					save_def = format_save_as_report_request(cur_report_group, cur_report);
+					
+					$.post(ajax_json_url, { req_type: "open_save", who: "save_as", req: save_def }, function(data, status, jqXHR) {
+						json_data = data;
+						json_status = status;
+						json_jqXHR = jqXHR;
+
+						// 2) Format list of returned groups into an array of string items
+						var items = [];
+						$.each(data, function(key, val) { items.push(val); });
+						
+						if (items[0] == "Success") {
+							alert("Report saved successfully.");
+						} else {
+							alert("Report save failed.");
+						}
+					});					
+					$(this).dialog( "close" );
+				},
+				Cancel: function() {
+					$(this).dialog( "close" );
+				}
+			},
+			open: function() {
+				// 4) Format the HTML to display current report and group into a pre-allocated DIV made for this function
+				// var html = "";
+				var html = create_text_fields([
+					["Report Group: ", "report_group_sra", cur_group], 
+					["Report Name: ", "report_name_sra", cur_report]
+				]);
+
+				$("#addHere_sra").each(function(index) { this.innerHTML = ""; });
+				$("#addHere_sra").append(html);
+			},
+			close: function() {
+				show_user_group_report();
+			}
+		});
+		$("#dialog_sra").dialog("open");
+	}
+	
+	function create_text_fields(text_field_list) {
+		var html = "<form><fieldset>";
+		for (var idx = 0; idx < text_field_list.length; idx++) {
+			var label = text_field_list[idx][0];
+			var id = text_field_list[idx][1];
+			var value = text_field_list[idx][2];
+			html += label + '<input ' + 'id="' + id + '" type="text" value="' + value + '"><br>'
+		}
+		return html += "</fieldset></form>";
+	}
+	
+	function format_save_as_report_request(report_group, report) {
+		var dim_list = {};  
+		dim_list = get_dim_list(dim_list);
+		
+		var save_def = {
+			user: cur_user,
+			group: report_group,
+			report: report,
+			dims: JSON.stringify(dim_list),
+			rows: JSON.stringify(cur_row_header_fields),
+			columns: JSON.stringify(cur_column_header_fields),
+			facts: JSON.stringify(cur_fact_fields)
+		};
+		return save_def;
+	}
+	
+	// ************************************************************
+	/* 
+	Delete Report
+
+	*/
+	function delete_report() {
+		// 1) Client: a) format information about the current report 
+        //				 (user, group, report name, [dimensions, row, columns, facts])
+     	// 			  b) Send the formatted request to the server.
+		save_def = format_save_as_report_request(cur_report_group, cur_report);
+
+		cur_edit_group = "";		// The edit group that cur_edit_displayed belongs to (dimension, fact, report)
+		cur_edit_displayed = "";	// The current index into the two tables that follow (if any)
+		cur_edits_html = {};	
+		cur_edits_structure = {};		
+		cur_row_header_fields = [];
+		cur_column_header_fields = [];
+		cur_fact_fields = [];
+		cur_report = "";
+		cur_report_group = "";
+		
+		show_user_group_report();
+		
+		var html = "";
+		html = format_row_col_fact_fields(false);
+		$("#RD_edit").each(function(index) {
+			this.innerHTML = html;
+		});
+		
+		// Clear out results of previous report (if any)
+		$("#RR_results").each(function(index) {
+			this.innerHTML = "";
+		});
+
+		$.post(ajax_json_url, { req_type: "open_save", who: "delete_report", req: save_def }, function(data, status, jqXHR) {
+			json_data = data;
+			json_status = status;
+			json_jqXHR = jqXHR;
+
+			// 2) Format list of returned groups into an array of string items
+			var items = [];
+			$.each(data, function(key, val) { items.push(val); });
+			
+			if (items[0] == "Success") {
+				alert("Report deleted successfully.");
+			} else {
+				alert("Report delete failed.");
+			}
+		});					
+	}
+	
+	
+	// ************************************************************
+	/* 
+	Set Report Group
+	  1) Client: send request to server for a list of valid groups
+	  2) Format list of returned groups into an array of string items
+	  3) Call a function to format the groups into an HTML table
+	  4) Format the HTML into a pre-allocated DIV made for this function
+	*/
+	function set_report_group() {
+	  	// 1) Client: send request to server for a list of valid groups
+		$("#dialog_srg").dialog({ 
+			autoOpen: false, 
+			modal: true, 
+			title: "Set Report Group",
+			buttons: {
+				Cancel: function() {
+					$(this).dialog( "close" );
+				}
+			},
+			open: function() {
+				//$.getJSON(ajax_json_url, { req_type: "open_save", who: "report_group", req: "1" }, function(data, status, jqXHR) {
+				$.post(ajax_json_url, { req_type: "open_save", who: "report_group", req: "1" }, function(data, status, jqXHR) {
+					json_data = data;
+					json_status = status;
+					json_jqXHR = jqXHR;
+					// 2) Format list of returned groups into an array of string items
+					var items = [];
+					$.each(data, function(key, val) { items.push(val); });
+					
+					// 3) Call a function to format the groups into an HTML table
+					var html = get_report_groups(items);
+
+					// 4) Format the HTML into a pre-allocated DIV made for this function
+					$("#addHere_srg").each(function(index) { this.innerHTML = ""; });
+					$("#addHere_srg").append(html);
+				});
+			},
+			close: function() {
+				show_user_group_report();
+			}
+		});
+		// Open the dialog created above
+		$("#dialog_srg").dialog("open");
+	}
+	
+	// Function to convert a list of groups into an HTML table with header and the groups represented as buttons.
+	// When the dialog is displayed the user selectes one of the buttons (groups) which calls the function "select_report_group" below
+	function get_report_groups(report_groups) {
+		var html = "<table><thead><tr><th>Group</th></tr></thead><tbody>";
+		for (var idx = 0; idx < report_groups.length; idx ++) {
+			var onclick = '<tr><td><button class="btn3" onclick="select_report_group(%1)">' + 
+				report_groups[idx] + '</td></tr>' ;
+			onclick = onclick.replace('%1', "'" + report_groups[idx] + "'");
+			html += onclick;
+			}
+		html += "</tbody></table>";
+		return html;
+	}
+	
+	// Select the picked group below and save the new current group
+	function select_report_group(pick) {
+		cur_group = pick;
+		show_user_group_report();
+		$("#dialog_srg").dialog("close");
+	}
+	
+
+	// ************************************************************
+	// 1000) Report Generation
+	//       Returns: [valid?, translated_expression, original_expression]
+	function RRA_get_report(msg) {
+		var dim_list = {};  
+		dim_list = get_dim_list(dim_list);
+		
+		$("#RR_results").each(function(index) {
+			this.innerHTML = "Processing your request...";
+		});
+		
+		var show_request_checked = false;
+		$("#ShowRequest").each(function(index) {
+			show_request_checked = this.checked;
+		});
+		
+		var show_sql_checked = false;
+		$("#ShowSQL").each(function(index) {
+			show_sql_checked = this.checked;
+		});
+		
+		var dont_execute_sql_checked = false;
+		$("#DontExecuteSQL").each(function(index) {
+			dont_execute_sql_checked = this.checked;
+		});
+
+		var no_timeout_checked = false;
+		$("#NoTimeout").each(function(index) {
+			no_timeout_checked = this.checked;
+		});
+
+		var report_def = {
+			dims: dim_list,
+			rows: cur_row_header_fields,
+			columns: cur_column_header_fields,
+			facts: cur_fact_fields,
+			report_name: cur_report,
+			report_group: cur_report_group,
+			show_request: show_request_checked,
+			show_sql: show_sql_checked,
+			dont_execute_sql: dont_execute_sql_checked,
+			no_timeout: no_timeout_checked
+		};
+		
+		base_ajax_rep_request('report', 'main', report_def);
+	}
+	
+	function get_dim_list(dim_list) {
+		var empty_list = false;
+		//var it = Iterator(cur_edits_structure, true);	
+		var it = Object.keys(cur_edits_structure);	
+		for (var i = 0; i < it.length; i++) {
+			var table = it[i];
+			if (table != "") {
+				var cur_fields = cur_edits_structure[table];
+				if (cur_fields.length > 0)	{
+					var html = cur_edits_html[table];
+					if (html != undefined) {
+						html = html.replace(/SEL_/g, "SEL__tmp");
+						// Put in the temporary html in #RD_edit_tmp
+						$("#RD_edit_tmp").each(function(index) {
+							this.innerHTML = html;
+						});
+						
+						var cur_fields_new = cur_fields.clone();
+						cur_fields_new = get_dim_selections("_tmp", table, cur_fields_new);
+						dim_list[table] = cur_fields_new;
+						empty_list = false;
+					}
+				}
+			}
+		}
+		return dim_list;
+	}
+
+	function base_ajax_rep_request(req_type_, who_, req_) {
+		$("#RR_results").load(ajax_url, { req_type: req_type_, who: who_, req: req_ }, function (response, status, xhr) {
+			load_response = response;
+			load_status = status;
+			load_XHR = xhr;
+		} );
+	}	
+
+</script>
+

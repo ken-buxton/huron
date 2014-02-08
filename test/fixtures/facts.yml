@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  table_name: MyString
+  table_display_name: MyString
+  display_order: 1
+
+two:
+  table_name: MyString
+  table_display_name: MyString
+  display_order: 1

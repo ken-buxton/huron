@@ -1,0 +1,54 @@
+<%= form_for(@dimension_field) do |f| %>
+  <% if @dimension_field.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@dimension_field.errors.count, "error") %> prohibited this dimension_field from being saved:</h2>
+
+      <ul>
+      <% @dimension_field.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :table_name %><br />
+    <%= f.text_field :table_name %>
+  </div>
+  <div class="field">
+    <%= f.label :field_name %><br />
+    <%= f.text_field :field_name %>
+  </div>
+  <div class="field">
+    <%= f.label :field_display_name %><br />
+    <%= f.text_field :field_display_name %>
+  </div>
+  <div class="field">
+    <%= f.label :display_order %><br />
+    <%= f.text_field :display_order %>
+  </div>
+  <div class="field">
+    <%= f.label :compare_as %><br />
+    <%= f.text_field :compare_as %>
+  </div>
+  <div class="field">
+    <%= f.label :is_primary_key %><br />
+    <%= f.check_box :is_primary_key %>
+  </div>
+  <div class="field">
+    <%= f.label :data_type %><br />
+    <%= f.text_field :data_type %>
+  </div>
+  <div class="field">
+    <%= f.label :max_length %><br />
+    <%= f.text_field :max_length %>
+  </div>
+  <div class="field">
+    <%= f.label :special_sort %><br />
+    <%= f.text_field :special_sort %>
+  </div>
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

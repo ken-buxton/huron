@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  aggregate_table_name: MyString
+  agg_dim_table: MyString
+  order: MyString
+
+two:
+  aggregate_table_name: MyString
+  agg_dim_table: MyString
+  order: MyString

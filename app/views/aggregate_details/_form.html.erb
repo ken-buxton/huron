@@ -1,0 +1,33 @@
+<%= form_for(@aggregate_detail) do |f| %>
+  <% if @aggregate_detail.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@aggregate_detail.errors.count, "error") %> prohibited this aggregate_detail from being saved:</h2>
+
+      <ul>
+      <% @aggregate_detail.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :aggregate_table_name %><br />
+    <%= f.text_field :aggregate_table_name %>
+  </div>
+  <div class="field">
+    <%= f.label :agg_dim_table %><br />
+    <%= f.text_field :agg_dim_table %>
+  </div>
+  <div class="field">
+    <%= f.label :order %><br />
+    <%= f.text_field :order %>
+  </div>
+  <div class="field">
+    <%= f.label :parent_def %><br />
+    <%= f.text_field :parent_def %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

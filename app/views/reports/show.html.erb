@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Report name:</b>
+  <%= @report.report_name %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @report.user_id %>
+</p>
+
+<p>
+  <b>Private:</b>
+  <%= @report.private %>
+</p>
+
+<p>
+  <b>Report group:</b>
+  <%= @report.report_group %>
+</p>
+
+<p>
+  <b>Dims:</b>
+  <%= @report.dims %>
+</p>
+
+<p>
+  <b>Rows:</b>
+  <%= @report.rows %>
+</p>
+
+<p>
+  <b>Columns:</b>
+  <%= @report.columns %>
+</p>
+
+<p>
+  <b>Facts:</b>
+  <%= @report.facts %>
+</p>
+
+
+<%= link_to 'Edit', edit_report_path(@report) %> |
+<%= link_to 'Back', reports_path %>

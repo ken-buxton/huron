@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Page title:</b>
+  <%= @system_configuration.page_title %>
+</p>
+
+<p>
+  <b>Previous load status msg:</b>
+  <%= @system_configuration.previous_load_status_msg %>
+</p>
+
+<p>
+  <b>Welcome msg:</b>
+  <%= @system_configuration.welcome_msg %>
+</p>
+
+<p>
+  <b>Daily messages:</b>
+  <%= @system_configuration.daily_messages %>
+</p>
+
+
+<%= link_to 'Edit', edit_system_configuration_path(@system_configuration) %> |
+<%= link_to 'Back', system_configurations_path %>

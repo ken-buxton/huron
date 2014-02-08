@@ -1,0 +1,2 @@
+module AggregateDetailsHelper
+end

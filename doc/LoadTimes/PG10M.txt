@@ -1,0 +1,51 @@
+LoadData#doit
+
+Find me in app/views/load_data/doit.html.erb
+
+Loaded:
+
+Processing: load_dimensions_create_fact_tables, year index: 0
+dim_date (1,461 records) - 17.501 seconds
+dim_month (48 records) - 0.211 seconds
+dim_product (390 records) - 4.638 seconds
+dim_sub_category (39 records) - 0.201 seconds
+dim_store (7 records) - 0.267 seconds
+dim_district (6 records) - 0.167 seconds
+dim_promotion (1 records) - 0.167 seconds
+dim_cashier (4 records) - 0.223 seconds
+dim_payment_method (6 records) - 0.234 seconds
+dim_transaction (0 records) - 0.202 seconds
+Create: fct_sales 0.36 seconds
+Create: fct_payments 0.089 seconds
+Create: fct_sales_sum 0.123 seconds
+dim indexing time: 0.022
+
+Processing: load_before_facts, year index: 0
+fct_sales processing time: 1,005.482
+
+Processing: index_before_facts, year index: 0
+fct_sales indexing time: 95.566
+
+Processing: load_after_facts, year index: 0
+fct_payments and fct_sales_sum processing time: 204.88
+
+Processing: index_after_facts, year index: 0
+fct_payments indexing time: 2.49
+fct_sales_sum indexing time: 20.368
+
+Processing: load_aggregates, year index: 0
+dim_tran indexing time: 102.47
+agg_sales_mn_pr_st (112,032 records) - 171.657 seconds
+agg_sales_dt_sc_st (330,440 records) - 125.985 seconds
+agg_sales_dt_pr_ds (2,728,979 records) - 150.993 seconds
+agg_sales_mn_sc_st (10,944 records) - 168.179 seconds
+agg_sales_dt_sc_ds (275,804 records) - 113.649 seconds
+agg_sales_mn_pr_ds (93,360 records) - 183.942 seconds
+agg_sales_mn_sc_ds (9,120 records) - 1,390.88 seconds
+aggregates processing time: 2,305.603
+
+Processing: index_aggregates, year index: 0
+agg indexing time: 12.848
+dim_tran indexing time: 100.208
+
+Total elapsed time: 3,874.693 seconds

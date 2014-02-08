@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  report_name: MyString
+  user_id: MyString
+  private: MyString
+  report_group: MyString
+  dims: MyText
+  rows: MyText
+  columns: MyText
+  facts: MyText
+
+two:
+  report_name: MyString
+  user_id: MyString
+  private: MyString
+  report_group: MyString
+  dims: MyText
+  rows: MyText
+  columns: MyText
+  facts: MyText

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Table name:</b>
+  <%= @dimension.table_name %>
+</p>
+
+<p>
+  <b>Table display name:</b>
+  <%= @dimension.table_display_name %>
+</p>
+
+<p>
+  <b>Display order:</b>
+  <%= @dimension.display_order %>
+</p>
+
+<p>
+  <b>Summary Dimension?:</b>
+  <%= @dimension.summary_dim %>
+</p>
+
+<p>
+  <b>Summary SQL</b>
+  <%= @dimension.summary_sql %>
+</p>
+
+
+<%= link_to 'Edit', edit_dimension_path(@dimension) %> |
+<%= link_to 'Back', dimensions_path %>

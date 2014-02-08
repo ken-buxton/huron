@@ -1,0 +1,7 @@
+#23456789012345678901234567890
+#cashier_key, employee_no, emp_first_name, emp_last_name
+# Note: cashier_key is created
+None|None|None
+10020|Ken|Buxton
+10037|Fred|Flintstone
+10201|George|Williams

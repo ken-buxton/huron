@@ -1,0 +1,61 @@
+#                                                 50                                                100                                               150                                               200                                               250                                               300                                               350                                               400                                               450
+#1234567890123456789012345678901234567890123456789#1234567890123456789012345678901234567890123456789#1234567890123456789012345678901234567890123456789#1234567890123456789012345678901234567890123456789#1234567890123456789012345678901234567890123456789#1234567890123456789012345678901234567890123456789#1234567890123456789012345678901234567890123456789#1234567890123456789012345678901234567890123456789#1234567890123456789012345678901234567890123456789#12
+#product_key,sku_________,sku_and_version__,base_sku____,upc_________,department_______,category_________,sub_category,description___________________,brand__________,price__,cost___,coupon,promotion_level,UofM,weight,upc_price?,unit_pack,case_pack,layer_count,layers_per_pallet,pallet_height,pallet_width,pallet_depth,pallet_stack_count,pallet_package_type,gluten_free,fat_content,organic,sugar_content,cholesterol_content,natural,kosher,halal,country_origin,region_origin
+           1|129353938493|129353938493_0001|129353938493|930482385430|Grocery          |Cleaning Supplies|Mops        |Super cleaning floor mop      |True Grit      |price__|cost___|coupon|promotion_level|UofM|weight|upc_price?|unit_pack|case_pack|layer_count|layers_per_pallet|pallet_height|pallet_width|pallet_depth|pallet_stack_count|pallet_package_type|gluten_free|fat_content|organic|sugar_content|cholesterol_content|natural|kosher|halal|country_origin|region_origin
+           2|sku_________|sku_and_version__|base_sku____|upc_________|department_______|category_________|sub_category|description___________________|brand__________|price__|cost___|coupon|promotion_level|UofM|weight|upc_price?|unit_pack|case_pack|layer_count|layers_per_pallet|pallet_height|pallet_width|pallet_depth|pallet_stack_count|pallet_package_type|gluten_free|fat_content|organic|sugar_content|cholesterol_content|natural|kosher|halal|country_origin|region_origin
+           3|sku_________|sku_and_version__|base_sku____|upc_________|department_______|category_________|sub_category|description___________________|brand__________|price__|cost___|coupon|promotion_level|UofM|weight|upc_price?|unit_pack|case_pack|layer_count|layers_per_pallet|pallet_height|pallet_width|pallet_depth|pallet_stack_count|pallet_package_type|gluten_free|fat_content|organic|sugar_content|cholesterol_content|natural|kosher|halal|country_origin|region_origin
+           4|sku_________|sku_and_version__|base_sku____|upc_________|department_______|category_________|sub_category|description___________________|brand__________|price__|cost___|coupon|promotion_level|UofM|weight|upc_price?|unit_pack|case_pack|layer_count|layers_per_pallet|pallet_height|pallet_width|pallet_depth|pallet_stack_count|pallet_package_type|gluten_free|fat_content|organic|sugar_content|cholesterol_content|natural|kosher|halal|country_origin|region_origin
+#department_______,
+#Bakery           ,
+#Deli             ,
+#Grocery          ,
+#Meat             ,
+#Seafood          ,
+#Produce          ,
+#Floral           ,
+#HBC              , Health and Beauty Care, HBA - Health and Beauty Aids
+#Dairy            ,
+#Frozen           ,
+#Beverage         ,
+#Pharmacy         ,
+#
+#
+#category____,
+###Bakery           ,
+
+###Deli             ,
+###Grocery          ,
+###Meat             ,
+###Seafood          ,
+###Produce          ,
+###Floral           ,
+###HBC              , Health and Beauty Care, HBA - Health and Beauty Aids
+###Dairy            ,
+###Frozen           ,
+###Beverage         ,
+###Pharmacy         ,
+
+
+#Canned Vegetables,
+#Canned and Dry Beans,
+#Baking Items     ,
+#Paper Goods      ,
+#Cleaning Supplies,
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#sub_category,
+#
+#
+#
+#
+#
+#
+#
+#

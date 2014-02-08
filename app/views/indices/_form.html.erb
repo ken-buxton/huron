@@ -1,0 +1,29 @@
+<%= form_for(@index) do |f| %>
+  <% if @index.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@index.errors.count, "error") %> prohibited this index from being saved:</h2>
+
+      <ul>
+      <% @index.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :group_name %><br />
+    <%= f.text_field :group_name %>
+  </div>
+  <div class="field">
+    <%= f.label :create_order %><br />
+    <%= f.text_field :create_order %>
+  </div>
+  <div class="field">
+    <%= f.label :creation_sql %><br />
+    <%= f.text_field :creation_sql %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

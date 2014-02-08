@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Table name:</b>
+  <%= @dimension_field.table_name %>
+</p>
+
+<p>
+  <b>Field name:</b>
+  <%= @dimension_field.field_name %>
+</p>
+
+<p>
+  <b>Field display name:</b>
+  <%= @dimension_field.field_display_name %>
+</p>
+
+<p>
+  <b>Display order:</b>
+  <%= @dimension_field.display_order %>
+</p>
+
+<p>
+  <b>Compare as:</b>
+  <%= @dimension_field.compare_as %>
+</p>
+
+<p>
+  <b>Is primary key:</b>
+  <%= @dimension_field.is_primary_key %>
+</p>
+
+<p>
+  <b>Data Type:</b>
+  <%= @dimension_field.data_type %>
+</p>
+
+<p>
+  <b>Max Length:</b>
+  <%= @dimension_field.max_length %>
+</p>
+
+<p>
+  <b>Special Sort:</b>
+  <%= @dimension_field.special_sort %>
+</p>
+
+
+<%= link_to 'Edit', edit_dimension_field_path(@dimension_field) %> |
+<%= link_to 'Back', dimension_fields_path %>

@@ -1,0 +1,33 @@
+<h1>Listing dimensions</h1>
+
+<div class="scf">
+<table>
+  <tr>
+    <th>Table name</th>
+    <th>Table display name</th>
+    <th>Summary Dim?</th>
+    <th>Display order</th>
+    <th>Summary SQL</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @dimensions.each do |dimension| %>
+  <tr>
+    <td><%= dimension.table_name %></td>
+    <td><%= dimension.table_display_name %></td>
+    <td><%= dimension.summary_dim %></td>
+    <td><%= dimension.display_order %></td>
+    <td><%= dimension.summary_sql %></td>
+    <td><%= link_to 'Show', dimension %></td>
+    <td><%= link_to 'Edit', edit_dimension_path(dimension) %></td>
+    <td><%= link_to 'Destroy', dimension, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+</div>
+
+<br />
+
+<%= link_to 'New Dimension', new_dimension_path %>
