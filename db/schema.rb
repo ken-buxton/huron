@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140106151919) do
+ActiveRecord::Schema.define(:version => 20140208170611) do
 
   create_table "agg_sales_dt_pr_ds", :primary_key => "agg_sales_dt_pr_ds_key", :force => true do |t|
     t.integer "date_key",              :limit => 2, :null => false
@@ -187,10 +187,6 @@ ActiveRecord::Schema.define(:version => 20140106151919) do
     t.text "is_holiday"
     t.text "holiday"
   end
-
-  add_index "dim_date", ["year_no", "month_no", "day_no"], :name => "idx_dim_date_ymd"
-  add_index "dim_date", ["year_no", "month_no"], :name => "idx_dim_date_ym"
-  add_index "dim_date", ["year_no"], :name => "idx_dim_date_y"
 
   create_table "dim_district", :primary_key => "district_key", :force => true do |t|
     t.text "region"
@@ -407,8 +403,8 @@ ActiveRecord::Schema.define(:version => 20140106151919) do
     t.integer "ext_gross_profit_amnt",              :null => false
   end
 
-  add_index "fct_sales", ["date_key", "product_key", "store_key"], :name => "idx_fct_sales_dt_pr_st"
-  add_index "fct_sales", ["date_key", "store_key", "product_key"], :name => "idx_fct_sales_dt_st_pr"
+  add_index "fct_sales", ["date_key", "product_key"], :name => "idx_fct_sales_dt_pr"
+  add_index "fct_sales", ["date_key", "store_key"], :name => "idx_fct_sales_dt_st"
 
   create_table "fct_sales_sum", :primary_key => "sales_sum_fact_key", :force => true do |t|
     t.integer "date_key",       :limit => 2, :null => false

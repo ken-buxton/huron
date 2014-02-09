@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
 
+gem 'pg', '0.17.1'
+
 gem 'rails', '3.2.16'
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 gem 'authlogic'
-
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -24,4 +26,3 @@ group :assets do
   gem 'uglifier', '>= 1.2.3'
 end
 
-gem 'pg', '0.12.2'

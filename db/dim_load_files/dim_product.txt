@@ -1,392 +1,392 @@
 #product_key		sku		sku_and_version		base_sku		upc		department		category		sub_category		description		brand		price		cost		coupon		promotion_level		UofM		weight		upc_price?		unit_pack		case_pack		layer_count		layers_per_pallet		pallet_height		pallet_width		pallet_depth		pallet_stack_count		pallet_package_type		gluten_free		fat_content		organic		sugar_content		cholesterol_content		natural		kosher		halal		country_origin		region_origin
 # product_key is created
 0-0000000000-0~0-0000000000-0~0-0000000000-0~0-0000000000-0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-0-7236842321-0~~~0-7236842321-0~Center Store~Grocery~Canned Tomatoes~DeLallo Imported Italian Crushed Tomatoes~DeLallo~2.50~1.64~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842322-7~~~0-7236842322-7~Center Store~Grocery~Canned Tomatoes~DeLallo Imported Italian Diced Tomatoes~DeLallo~2.50~1.64~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842305-0~~~0-7236842305-0~Center Store~Grocery~Canned Tomatoes~DeLallo Imported Italian Whole Peeled Tomatoes~DeLallo~2.50~1.64~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842518-4~~~0-7236842518-4~Center Store~Grocery~Canned Tomatoes~DeLallo Imported San Marzano Tomatoes~DeLallo~4.99~3.57~~~oz~28~No~~6~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842406-4~~~0-7236842406-4~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Paste~DeLallo~0.74~0.52~~~oz~6~No~~24~16~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842525-2~~~0-7236842525-2~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Paste Tube~DeLallo~2.29~1.61~~~oz~4.6~No~~12~40~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842526-9~~~0-7236842526-9~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Paste w/Basil Tube~DeLallo~2.29~1.61~~~oz~4.6~No~~12~40~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842527-6~~~0-7236842527-6~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Paste w/Chiles Tube~DeLallo~2.29~1.61~~~oz~4.6~No~~12~40~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842432-3~~~0-7236842432-3~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Sauce~DeLallo~0.69~0.48~~~oz~8~No~~48~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842407-1~~~0-7236842407-1~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Paste~DeLallo~1.29~0.99~~~oz~12~No~~24~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842413-2~~~0-7236842413-2~Center Store~Grocery~Canned Tomatoes~DeLallo Italian Stewed Tomatoes~DeLallo~1.19~0.83~~~oz~14.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842431-6~~~0-7236842431-6~Center Store~Grocery~Canned Tomatoes~DeLallo Diced Tomatoes in Juice~DeLallo~1.19~0.83~~~oz~14.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802738-8~~~0-7236802738-8~Center Store~Grocery~Canned Tomatoes~DeLallo Fire Roasted Diced Tomatoes~DeLallo~1.50~1.05~~~oz~14.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842452-1~~~0-7236842452-1~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Sauce~DeLallo~0.89~0.62~~~oz~15~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842437-8~~~0-7236842437-8~Center Store~Grocery~Canned Tomatoes~DeLallo Whole Tomatoes in Juice~DeLallo~1.99~1.39~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842495-8~~~0-7236842495-8~Center Store~Grocery~Canned Tomatoes~DeLallo Chunky Style Crushed Tomatoes~DeLallo~1.99~1.39~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842428-6~~~0-7236842428-6~Center Store~Grocery~Canned Tomatoes~DeLallo Crushed Tomatoes in LP~DeLallo~1.99~1.39~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842417-0~~~0-7236842417-0~Center Store~Grocery~Canned Tomatoes~DeLallo Diced Tomatoes in Juice~DeLallo~1.99~1.39~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842434-7~~~0-7236842434-7~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Sauce~DeLallo~1.99~1.39~~~oz~29~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842438-5~~~0-7236842438-5~Center Store~Grocery~Canned Tomatoes~DeLallo Tomato Puree~DeLallo~1.99~1.39~~~oz~29~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870210-0~~~0-7236870210-0~Center Store~Grocery~Pasta Sauce~DeLallo Pesto Hot & Spicy Tomato ~DeLallo~5.99~4.19~~~oz~6.35~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236844020-0~~~0-7236844020-0~Center Store~Grocery~Pasta Sauce~DeLallo Pesto Sun Dried Tomato & Olive ~DeLallo~5.99~4.19~~~oz~6.35~No~~6~42~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842693-8~~~0-7236842693-8~Center Store~Grocery~Pasta Sauce~DeLallo Pesto Sun - Dried Tomato Basil & Cheese~DeLallo~5.99~4.19~~~oz~6.35~No~~6~35~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842694-5~~~0-7236842694-5~Center Store~Grocery~Pasta Sauce~DeLallo Sweet & Tangy Sun-Dried Peppers~DeLallo~5.99~4.19~~~oz~6.7~No~~6~35~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842696-9~~~0-7236842696-9~Center Store~Grocery~Pasta Sauce~DeLallo Cherry Tomatoes Ssoned and Semi Dried ~DeLallo~5.99~4.19~~~oz~6.7~No~~6~35~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842697-6~~~0-7236842697-6~Center Store~Grocery~Pasta Sauce~DeLallo Sun Dried Tomatoes in Olive Oil ~DeLallo~5.99~4.19~~~oz~6.7~No~~6~35~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842467-5~~~0-7236842467-5~Center Store~Grocery~Pasta Sauce~DeLallo Pesto Sauce in Olive Oil~DeLallo~5.99~4.19~~~oz~6.35~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842455-2~~~0-7236842455-2~Center Store~Grocery~Pizza Sauce~DeLallo Fancy Pizza Sauce~DeLallo~1.99~1.39~~~oz~14~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842460-6~~~0-7236842460-6~Center Store~Grocery~Pizza Sauce~DeLallo Italian Style Pizza Sauce~DeLallo~5.99~4.14~~~oz~45~No~~6~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842049-3~~~0-7236842049-3~Center Store~Grocery~Pasta Sauce~DeLallo Premium Vodka Sauce~DeLallo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842030-1~~~0-7236842030-1~Center Store~Grocery~Pasta Sauce~DeLallo Premium Traditional Spaghetti Sauce~DeLallo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842038-7~~~0-7236842038-7~Center Store~Grocery~Pasta Sauce~DeLallo Premium Fat Free Marinara Sauce~DeLallo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842041-7~~~0-7236842041-7~Center Store~Grocery~Pasta Sauce~DeLallo Premium Roasted Garlic Marinara Sauce~DeLallo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842042-4~~~0-7236842042-4~Center Store~Grocery~Pasta Sauce~DeLallo Premium Tomato Basil Sauce~DeLallo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842045-5~~~0-7236842045-5~Center Store~Grocery~Pasta Sauce~DeLallo Premium Spaghetti Sauce w/Mt~DeLallo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842046-2~~~0-7236842046-2~Center Store~Grocery~Pasta Sauce~DeLallo Premium Spaghetti Sauce w/Mushrooms~DeLallo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842040-0~~~0-7236842040-0~Center Store~Grocery~Pasta Sauce~DeLallo Premium Arrabiatta Sauce ~DeLallo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842498-9~~~0-7236842498-9~Center Store~Grocery~Pasta Sauce~DeLallo Red Clam Sauce~DeLallo~3.49~2.34~~~oz~10.5~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842499-6~~~0-7236842499-6~Center Store~Grocery~Pasta Sauce~DeLallo White Clam Sauce~DeLallo~3.49~2.34~~~oz~10.5~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236812437-7~~~0-7236812437-7~Center Store~Grocery~Pasta Sauce~DeLallo Pomodoro Fresco Crmy Vodka Sauce~DeLallo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842436-1~~~0-7236842436-1~Center Store~Grocery~Pasta Sauce~DeLallo Pomodoro Fresco Tomato Basil Sauce ~DeLallo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842435-4~~~0-7236842435-4~Center Store~Grocery~Pasta Sauce~DeLallo Pomodoro Fresco Roasted Garlic Sauce~DeLallo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802434-9~~~0-7236802434-9~Center Store~Grocery~Pasta Sauce~DeLallo Pomodoro Fresco Marinara Sauce ~DeLallo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236822438-1~~~0-7236822438-1~Center Store~Grocery~Pasta Sauce~DeLallo Pomodoro Fresco Spicy Arrabbiata Sauce~DeLallo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842101-8~~~0-7236842101-8~Center Store~Grocery~Pasta Sauce~DeLallo Imported Garlic, Oil, & Hot Pepper Sauce~DeLallo~5.99~4.19~~~oz~12.3~No~~6~30~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842074-5~~~0-7236842074-5~Center Store~Grocery~Pasta Sauce~DeLallo Imported Carbonara Sauce~DeLallo~5.99~4.19~~~oz~15~No~~6~25~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842073-8~~~0-7236842073-8~Center Store~Grocery~Pasta Sauce~DeLallo Imported Bolognese Sauce ~DeLallo~5.99~4.19~~~oz~19.4~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842454-5~~~0-7236842454-5~Center Store~Grocery~Pizza Sauce~DeLallo Imported Italian Pizza Sauce ~DeLallo~3.99~2.79~~~oz~12.3~No~~6~30~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851081-1~~~0-7236851081-1~Center Store~Grocery~Pasta~DeLallo Egg Fettuccine Pasta~DeLallo~3.99~2.80~~~oz~8.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851082-8~~~0-7236851082-8~Center Store~Grocery~Pasta~DeLallo Egg Pappardelle Pasta~DeLallo~3.99~2.80~~~oz~8.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851007-1~~~0-7236851007-1~Center Store~Grocery~Pasta~DeLallo Perciatelli -bag #12~DeLallo~2.49~1.74~~~lb~1~No~~16~24~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851014-9~~~0-7236851014-9~Center Store~Grocery~Pasta~DeLallo Tortiglioni-bag #20~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851015-6~~~0-7236851015-6~Center Store~Grocery~Pasta~DeLallo Elbows-bag #52~DeLallo~2.49~1.74~~~lb~1~No~~16~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851016-3~~~0-7236851016-3~Center Store~Grocery~Pasta~DeLallo Ditali-bag #55~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851017-0~~~0-7236851017-0~Center Store~Grocery~Pasta~DeLallo Ditalini Rigati-bag #57~DeLallo~2.49~1.74~~~lb~1~No~~16~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851018-7~~~0-7236851018-7~Center Store~Grocery~Pasta~DeLallo Orzo-bag #65~DeLallo~2.49~1.74~~~lb~1~No~~16~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851020-0~~~0-7236851020-0~Center Store~Grocery~Pasta~DeLallo Stelline-bag #67~DeLallo~2.49~1.74~~~lb~1~No~~16~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851022-4~~~0-7236851022-4~Center Store~Grocery~Pasta~DeLallo Acini di Pepe-bag #70 ~DeLallo~2.49~1.74~~~lb~1~No~~16~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851028-6~~~0-7236851028-6~Center Store~Grocery~Pasta~DeLallo Orecchiette-bag #92~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851031-6~~~0-7236851031-6~Center Store~Grocery~Pasta~DeLallo Capellini-bag #1~DeLallo~2.49~1.74~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851033-0~~~0-7236851033-0~Center Store~Grocery~Pasta~DeLallo Thin Spaghetti -bag #3~DeLallo~2.49~1.74~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851034-7~~~0-7236851034-7~Center Store~Grocery~Pasta~DeLallo Spaghetti-bag #4~DeLallo~2.49~1.74~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851038-5~~~0-7236851038-5~Center Store~Grocery~Pasta~DeLallo Linguine-bag #6~DeLallo~2.49~1.74~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851039-2~~~0-7236851039-2~Center Store~Grocery~Pasta~DeLallo Fettuccine-bag #9~DeLallo~2.49~1.74~~~lb~1~No~~16~28~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851048-4~~~0-7236851048-4~Center Store~Grocery~Pasta~DeLallo Rigatoni-bag #21~DeLallo~2.49~1.74~~~lb~1~No~~16~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851050-7~~~0-7236851050-7~Center Store~Grocery~Pasta~DeLallo Mezzi Rigatoni-bag #23~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851055-2~~~0-7236851055-2~Center Store~Grocery~Pasta~DeLallo Fusilli-bag #27~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851051-4~~~0-7236851051-4~Center Store~Grocery~Pasta~DeLallo Penne Ziti-bag #32 (mostaccio)~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851052-1~~~0-7236851052-1~Center Store~Grocery~Pasta~DeLallo Penne Rigate Regine-bag #35~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851053-8~~~0-7236851053-8~Center Store~Grocery~Pasta~DeLallo Penne Rigate-bag #36~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851056-9~~~0-7236851056-9~Center Store~Grocery~Pasta~DeLallo Farfalle-bag #87~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851054-5~~~0-7236851054-5~Center Store~Grocery~Pasta~DeLallo Shells-bag #91~DeLallo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851026-2~~~0-7236851026-2~Center Store~Grocery~Pasta~DeLallo Mafalda-bag #80~DeLallo~3.99~2.39~~~lb~1~No~~16~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851030-9~~~0-7236851030-9~Center Store~Grocery~Pasta~DeLallo Fusilli Col Buco-bag #101~DeLallo~3.99~2.39~~~lb~1~No~~16~6~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850870-2~~~0-7236850870-2~Center Store~Grocery~Organic Pasta~DeLallo Organic Capellini #1~DeLallo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850871-9~~~0-7236850871-9~Center Store~Grocery~Organic Pasta~DeLallo Organic Spaghetti #4~DeLallo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850873-3~~~0-7236850873-3~Center Store~Grocery~Organic Pasta~DeLallo Organic Rigatoni #21~DeLallo~2.99~2.09~~~lb~1~No~~16~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850874-0~~~0-7236850874-0~Center Store~Grocery~Organic Pasta~DeLallo Organic Gemelli #28~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850877-1~~~0-7236850877-1~Center Store~Grocery~Organic Pasta~DeLallo Organic Penne Rigate #36~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850878-8~~~0-7236850878-8~Center Store~Grocery~Organic Pasta~DeLallo Organic Ditalini Rigati #57~DeLallo~2.99~2.09~~~lb~1~No~~16~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850880-1~~~0-7236850880-1~Center Store~Grocery~Organic Pasta~DeLallo Organic Farfalloni #88~DeLallo~2.99~2.09~~~lb~1~No~~16~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850851-1~~~0-7236850851-1~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Capellini #1~DeLallo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850852-8~~~0-7236850852-8~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Spaghetti #4~DeLallo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850853-5~~~0-7236850853-5~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Linguine # 6~DeLallo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850854-2~~~0-7236850854-2~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Rigatoni #21~DeLallo~2.99~2.09~~~lb~1~No~~16~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850855-9~~~0-7236850855-9~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Penne Rigate #36~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850856-6~~~0-7236850856-6~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Elbows #52~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850857-3~~~0-7236850857-3~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Acini di Pepe #70~DeLallo~2.99~2.09~~~lb~1~No~~16~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850859-7~~~0-7236850859-7~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Farfalle #87~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850860-3~~~0-7236850860-3~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Shells #91~DeLallo~2.99~2.09~~~lb~1~No~~16~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850861-0~~~0-7236850861-0~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Fusilli #27~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850862-7~~~0-7236850862-7~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Fusilli Bucati #76~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850863-4~~~0-7236850863-4~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Gemelli #28~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850865-8~~~0-7236850865-8~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Orecchiette # 92~DeLallo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850891-7~~~0-7236850891-7~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Fettuccine # 9~DeLallo~2.99~2.09~~~lb~1~No~~16~28~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236850892-4~~~0-7236850892-4~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Orzo~DeLallo~2.99~2.09~~~lb~1~No~~16~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851097-2~~~0-7236851097-2~Center Store~Grocery~Pasta~DeLallo Potato Gnocchi~DeLallo~3.49~2.45~~~oz~16~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851063-7~~~0-7236851063-7~Center Store~Grocery~Pasta~DeLallo Tri-Color Gnocchi~DeLallo~3.99~2.84~~~oz~16~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851062-0~~~0-7236851062-0~Center Store~Grocery~Pasta~DeLallo Whole Wht Potato Gnocchi~DeLallo~3.99~2.84~~~oz~16~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851099-6~~~0-7236851099-6~Center Store~Grocery~Rice~DeLallo Risotto Aborio Rice~DeLallo~3.59~2.50~~~oz~17.6~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236888250-5~~~0-7236888250-5~Center Store~Grocery~Baking Goods~DeLallo Instant Polenta~DeLallo~3.29~2.29~~~oz~9.2~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851092-7~~~0-7236851092-7~Center Store~Grocery~Pasta~DeLallo Jumbo Shells~DeLallo~3.19~2.19~~~oz~12~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236875017-0~~~0-7236875017-0~Center Store~Grocery~Pasta~DeLallo Manicotti~DeLallo~3.19~2.19~~~oz~8~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851093-4~~~0-7236851093-4~Center Store~Grocery~Pasta~DeLallo Lasagna~DeLallo~2.99~2.09~~~oz~16~No~~12~12~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851095-8~~~0-7236851095-8~Center Store~Grocery~Pasta~DeLallo No Boil Lasagna~DeLallo~2.99~2.09~~~oz~13.2~No~~12~12~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851060-6~~~0-7236851060-6~Center Store~Grocery~Pasta~DeLallo Semolina Lasagna No Boil~DeLallo~3.49~2.32~~~oz~9~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851058-3~~~0-7236851058-3~Center Store~Grocery~Organic Pasta~DeLallo Organic Whole Wht Lasagna NB ~DeLallo~3.49~2.44~~~oz~9~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890380-4~~~0-7236890380-4~Center Store~Grocery~Baking Goods~DeLallo Semolina~DeLallo~3.29~2.29~~~oz~17.6~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851200-6~~~0-7236851200-6~Center Store~Grocery~Pasta~DeLallo Capellini~DeLallo~2.99~2.09~~~lb~2~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851202-0~~~0-7236851202-0~Center Store~Grocery~Pasta~DeLallo Spaghetti~DeLallo~2.99~2.09~~~lb~2~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851203-7~~~0-7236851203-7~Center Store~Grocery~Pasta~DeLallo Linguine~DeLallo~2.99~2.09~~~lb~2~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851204-4~~~0-7236851204-4~Center Store~Grocery~Pasta~DeLallo Rigatoni~DeLallo~2.99~2.09~~~lb~2~No~~12~5~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851205-1~~~0-7236851205-1~Center Store~Grocery~Pasta~DeLallo Mezzi Rigatoni~DeLallo~2.99~2.09~~~lb~2~No~~12~5~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851207-5~~~0-7236851207-5~Center Store~Grocery~Pasta~DeLallo Fusilli~DeLallo~2.99~2.09~~~lb~2~No~~12~5~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851209-9~~~0-7236851209-9~Center Store~Grocery~Pasta~DeLallo Penne Rigate~DeLallo~2.99~2.09~~~lb~2~No~~12~6~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851215-0~~~0-7236851215-0~Center Store~Grocery~Pasta~DeLallo Shells~DeLallo~2.99~2.09~~~lb~2~No~~12~6~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851218-1~~~0-7236851218-1~Center Store~Grocery~Pasta~DeLallo Elbows~DeLallo~2.99~2.09~~~lb~2~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851199-3~~~0-7236851199-3~Center Store~Grocery~Pasta~DeLallo Fettuccine ~DeLallo~2.99~2.09~~~lb~2~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236851217-4~~~0-7236851217-4~Center Store~Grocery~Pasta~DeLallo Farfalle ( Bow Ties ) ~DeLallo~2.99~2.09~~~lb~2~No~~12~5~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855171-5~~~0-7236855171-5~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Gnocchi~DeLallo~5.99~4.19~~~oz~12~No~~6~25~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855191-3~~~0-7236855191-3~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Pasta Corn & Rice Elbows~DeLallo~3.99~2.79~~~oz~12~No~~12~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855192-0~~~0-7236855192-0~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Pasta Corn & Rice Penne Rigate~DeLallo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855193-7~~~0-7236855193-7~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Pasta Corn & Rice Fusilli~DeLallo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855194-4~~~0-7236855194-4~Center Store~Grocery~Gluten-Free Pasta~ DeLallo Gluten Free Pasta Corn & Rice Spaghetti~DeLallo~3.99~2.79~~~oz~12~No~~12~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855199-9~~~0-7236855199-9~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Pasta Corn & Rice Orzo~DeLallo~3.99~2.79~~~oz~12~No~~12~32~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855195-1~~~0-7236855195-1~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Pasta Whole Grain Rice Fusilli~DeLallo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855196-8~~~0-7236855196-8~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Pasta Whole Grain Rice Penne Rigate~DeLallo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855197-5~~~0-7236855197-5~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Pasta Whole Grain Rice Spaghetti~DeLallo~3.99~2.79~~~oz~12~No~~12~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236855198-2~~~0-7236855198-2~Center Store~Grocery~Gluten-Free Pasta~DeLallo Gluten Free Pasta Whole Grain Rice Shells~DeLallo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236845850-2~~~0-7236845850-2~Center Store~Grocery~Organic Pasta~DeLallo Organic Couscous~DeLallo~3.99~2.90~~~oz~17.6~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236814399-6~~~0-7236814399-6~Center Store~Grocery~Olives~DeLallo Medium Ripe Green Pitted Olives ~DeLallo~2.99~2.09~~~oz~6~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810440-9~~~0-7236810440-9~Center Store~Grocery~Olives~DeLallo Small Pitted Olives~DeLallo~1.99~1.39~~~oz~6~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810442-3~~~0-7236810442-3~Center Store~Grocery~Olives~DeLallo Medium Pitted Olives~DeLallo~1.99~1.39~~~oz~6~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810439-3~~~0-7236810439-3~Center Store~Grocery~Olives~DeLallo Large Pitted Olives~DeLallo~1.99~1.39~~~oz~6~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810450-8~~~0-7236810450-8~Center Store~Grocery~Olives~DeLallo Extra Large Pitted Olives~DeLallo~1.99~1.39~~~oz~6~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810444-7~~~0-7236810444-7~Center Store~Grocery~Olives~DeLallo Jumbo Pitted Olives ~DeLallo~1.99~1.39~~~oz~5.75~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810446-1~~~0-7236810446-1~Center Store~Grocery~Olives~DeLallo Colossal Pitted Olives~DeLallo~1.99~1.39~~~oz~5.75~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810448-5~~~0-7236810448-5~Center Store~Grocery~Olives~DeLallo Super Colossal Pitted Olives~DeLallo~1.99~1.39~~~oz~5.75~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810438-6~~~0-7236810438-6~Center Store~Grocery~Olives~DeLallo Sliced Ripe Olives~DeLallo~1.50~1.04~~~oz~3.8~No~~24~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810436-2~~~0-7236810436-2~Center Store~Grocery~Olives~DeLallo Sliced Black Olives~DeLallo~12.99~9.09~~~lb~10~No~~6~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810430-0~~~0-7236810430-0~Center Store~Grocery~Olives~DeLallo Small Pitted Olives~DeLallo~12.99~9.09~~~oz~51~No~~6~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810113-2~~~0-7236810113-2~Center Store~Grocery~Olives~DeLallo Stuffed Manz. Olives~DeLallo~2.99~2.09~~~oz~7~No~~12~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810114-9~~~0-7236810114-9~Center Store~Grocery~Olives~DeLallo Stuffed Manz. Olives~DeLallo~3.99~2.79~~~oz~10~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810122-4~~~0-7236810122-4~Center Store~Grocery~Olives~DeLallo Stuffed Manz. Olives~DeLallo~1.99~1.39~~~oz~5.75~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810542-0~~~0-7236810542-0~Center Store~Grocery~Olives~DeLallo Stuffed Queen Olives~DeLallo~6.99~4.89~~~oz~14~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810543-7~~~0-7236810543-7~Center Store~Grocery~Olives~DeLallo Plain Queen Olives~DeLallo~5.49~3.84~~~oz~14~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236859515-3~~~0-7236859515-3~Center Store~Grocery~Olives~DeLallo Olive Tapenade~DeLallo~3.99~2.79~~~oz~3~No~~12~24~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817400-6~~~0-7236817400-6~Center Store~Grocery~Olives~DeLallo Garlic Stuffed Olives~DeLallo~5.99~4.19~~~oz~7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817401-3~~~0-7236817401-3~Center Store~Grocery~Olives~DeLallo Almond Stuffed Olives~DeLallo~5.99~4.19~~~oz~7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817402-0~~~0-7236817402-0~Center Store~Grocery~Olives~DeLallo Jalapeno Stuffed Olives~DeLallo~5.99~4.19~~~oz~7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817409-9~~~0-7236817409-9~Center Store~Grocery~Olives~DeLallo Garlic & Jalapeno Stuffed Olives~DeLallo~5.99~4.19~~~oz~7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817415-0~~~0-7236817415-0~Center Store~Grocery~Olives~DeLallo X-Jumbo Calamata Olives~DeLallo~5.99~4.19~~~oz~7.1~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817417-4~~~0-7236817417-4~Center Store~Grocery~Olives~DeLallo X-Large Pitted Calamata Olives~DeLallo~5.99~4.19~~~oz~7.1~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817423-5~~~0-7236817423-5~Center Store~Grocery~Olives~DeLallo Green Olives Stuffed w/feta stuffed olives ~DeLallo~6.99~4.89~~~oz~12.7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817424-2~~~0-7236817424-2~Center Store~Grocery~Olives~DeLallo Green Olives Stuffed w/Blue Cheese in Oil~DeLallo~6.99~4.89~~~oz~12.7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872107-1~~~0-7236872107-1~Center Store~Grocery~Olive Oil~DeLallo Pure Olive Oil~DeLallo~25.99~19.18~~~ltr~3~No~~4~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872007-4~~~0-7236872007-4~Center Store~Grocery~Olive Oil~DeLallo Pure Olive Oil~DeLallo~3.99~2.79~~~oz~8.5~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872017-3~~~0-7236872017-3~Center Store~Grocery~Olive Oil~DeLallo Pure Olive Oil~DeLallo~6.99~4.91~~~oz~16.9~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236817203-3~~~0-7236817203-3~Center Store~Grocery~Olive Oil~DeLallo Pure Olive Oil~DeLallo~9.49~6.65~~~oz~25.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872037-1~~~0-7236872037-1~Center Store~Grocery~Olive Oil~DeLallo Pure Olive Oil~DeLallo~11.99~8.39~~~oz~33.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872008-1~~~0-7236872008-1~Center Store~Grocery~Olive Oil~DeLallo Extra Virgin Olive Oil~DeLallo~4.49~3.14~~~oz~8.5~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872018-0~~~0-7236872018-0~Center Store~Grocery~Olive Oil~DeLallo Extra Virgin Olive Oil~DeLallo~7.99~5.59~~~oz~16.9~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236805080-5~~~0-7236805080-5~Center Store~Grocery~Olive Oil~DeLallo Extra Virgin Olive Oil~DeLallo~10.49~7.34~~~oz~25.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872038-8~~~0-7236872038-8~Center Store~Grocery~Olive Oil~DeLallo Extra Virgin Olive Oil~DeLallo~12.99~9.10~~~oz~33.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872108-8~~~0-7236872108-8~Center Store~Grocery~Olive Oil~DeLallo Extra Virgin Olive Oil~DeLallo~27.49~19.25~~~ltr~3~No~~4~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872006-7~~~0-7236872006-7~Center Store~Grocery~Olive Oil~DeLallo Extra Light Olive Oil~DeLallo~3.99~2.79~~~oz~8.5~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872016-6~~~0-7236872016-6~Center Store~Grocery~Olive Oil~DeLallo Extra Light Olive Oil~DeLallo~6.99~4.91~~~oz~16.9~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872033-3~~~0-7236872033-3~Center Store~Grocery~Olive Oil~DeLallo Extra Light Olive Oil~DeLallo~9.49~6.65~~~oz~25.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872036-4~~~0-7236872036-4~Center Store~Grocery~Olive Oil~DeLallo Extra Light Olive Oil~DeLallo~11.99~8.39~~~oz~33.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890101-5~~~0-7236890101-5~Center Store~Grocery~Specialty Oil~DeLallo Grape Seed Oil ~DeLallo~6.49~4.54~~~oz~16.9~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872204-7~~~0-7236872204-7~Center Store~Grocery~Specialty Oil~DeLallo Basil Flavored Dipping Oil~DeLallo~5.99~4.19~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872205-4~~~0-7236872205-4~Center Store~Grocery~Specialty Oil~DeLallo Garlic Flavored Dipping Oil~DeLallo~5.99~4.19~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810918-3~~~0-7236810918-3~Center Store~Grocery~Spices~DeLallo Dipping Ssoning Spices~DeLallo~5.99~4.19~~~oz~4~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236872002-9~~~0-7236872002-9~Center Store~Grocery~Specialty Oil~DeLallo Organic Ex-Virgin Olive Oil~DeLallo~8.99~6.29~~~oz~16.9~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236871128-7~~~0-7236871128-7~Center Store~Grocery~Cooking Oil~DeLallo Vegetable Oil~DeLallo~10.99~7.69~~~gal~1~No~~6~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842122-3~~~0-7236842122-3~Center Store~Grocery~Salad Dressings~DeLallo Classic Italian Dressing~DeLallo~3.99~2.79~~~oz~16~No~~6~36~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842123-0~~~0-7236842123-0~Center Store~Grocery~Salad Dressings~DeLallo Italian House Dressing~DeLallo~3.99~2.79~~~oz~16~No~~6~36~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842127-8~~~0-7236842127-8~Center Store~Grocery~Salad Dressings~DeLallo Sweet Italian House Dressing~DeLallo~3.99~2.79~~~oz~16~No~~6~36~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842125-4~~~0-7236842125-4~Center Store~Grocery~Salad Dressings~DeLallo Balsamic Vinaigrette Dressing ~DeLallo~3.99~2.79~~~oz~16~No~~6~36~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236832035-9~~~0-7236832035-9~Center Store~Grocery~Specialty Vinegar~DeLallo Modenacrem Balsamic Glaze~DeLallo~5.99~3.84~~~oz~8.5~No~~6~66~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236834051-7~~~0-7236834051-7~Center Store~Grocery~Specialty Vinegar~DeLallo Golden Balsamic Vinegar ~DeLallo~3.99~2.79~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236834052-4~~~0-7236834052-4~Center Store~Grocery~Specialty Vinegar~DeLallo Raspberry Dressing w/ Balsamic Vinegar ~DeLallo~3.99~2.79~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810602-1~~~0-7236810602-1~Center Store~Grocery~Vinegar~DeLallo Imported White Wine Vinegar~DeLallo~3.99~2.79~~~oz~16.9~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810603-8~~~0-7236810603-8~Center Store~Grocery~Vinegar~DeLallo Imported Red Wine Vinegar~DeLallo~3.99~2.79~~~oz~16.9~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236834025-8~~~0-7236834025-8~Center Store~Grocery~Specialty Vinegar~DeLallo Private Stock Balsamic Vinegar~DeLallo~4.99~3.49~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236834015-9~~~0-7236834015-9~Center Store~Grocery~Vinegar~DeLallo Balsamic Vinegar~DeLallo~3.99~2.79~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236834017-3~~~0-7236834017-3~Center Store~Grocery~Vinegar~DeLallo Balsamic Vinegar~DeLallo~4.99~3.49~~~oz~16.9~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236833037-2~~~0-7236833037-2~Center Store~Grocery~Vinegar~DeLallo Red Wine Vinegar~DeLallo~2.99~2.09~~~oz~25.4~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236833036-5~~~0-7236833036-5~Center Store~Grocery~Vinegar~DeLallo Garlic Wine Vinegar~DeLallo~2.99~2.09~~~oz~25.4~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236899988-3~~~0-7236899988-3~Center Store~Grocery~Vinegar~DeLallo Red Wine Vinegar~DeLallo~5.99~4.50~~~gal~1~No~~4~12~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236834043-2~~~0-7236834043-2~Center Store~Grocery~Specialty Vinegar~DeLallo Balsamic Vinegar Spray~DeLallo~4.99~3.49~~~oz~8.5~No~~6~39~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236834044-9~~~0-7236834044-9~Center Store~Grocery~Specialty Vinegar~DeLallo Golden Sweet Vinegar Spray~DeLallo~4.99~3.49~~~oz~8.5~No~~6~39~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236814808-3~~~0-7236814808-3~Center Store~Grocery~Grated Cheese~DeLallo Grated Parmesan~DeLallo~3.99~2.79~~~oz~8~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236814908-0~~~0-7236814908-0~Center Store~Grocery~Grated Cheese~DeLallo Grated Romano~DeLallo~3.99~2.79~~~oz~8~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810461-4~~~0-7236810461-4~Center Store~Grocery~Brdcrumbs~DeLallo Italian Ssoned Brdcrumbs~DeLallo~1.99~1.39~~~oz~15~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810462-1~~~0-7236810462-1~Center Store~Grocery~Brdcrumbs~DeLallo Italian Ssoned Brdcrumbs~DeLallo~2.49~1.74~~~oz~24~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810471-3~~~0-7236810471-3~Center Store~Grocery~Brdcrumbs~DeLallo Plain Brdcrumbs~DeLallo~1.99~1.39~~~oz~15~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810472-0~~~0-7236810472-0~Center Store~Grocery~Brdcrumbs~DeLallo Plain Brdcrumbs~DeLallo~2.49~1.74~~~oz~24~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870405-0~~~0-7236870405-0~Center Store~Grocery~Brdcrumbs~DeLallo Hot & Spicy Brd Crumbs~DeLallo~2.49~1.74~~~oz~15~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870408-1~~~0-7236870408-1~Center Store~Grocery~Brdcrumbs~DeLallo Roasted Garlic Brd Crumbs~DeLallo~2.49~1.74~~~oz~15~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870406-7~~~0-7236870406-7~Center Store~Grocery~Brdcrumbs~DeLallo Italian Ssoned Panko Brd Crumbs~DeLallo~2.49~1.74~~~oz~8~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890405-4~~~0-7236890405-4~Center Store~Grocery~Brdcrumbs~DeLallo Panko Brd Crumbs ~DeLallo~2.99~2.09~~~oz~12~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890406-1~~~0-7236890406-1~Center Store~Grocery~Brdcrumbs~DeLallo Panko Brd Crumbs ~DeLallo~1.99~1.39~~~oz~8~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890362-0~~~0-7236890362-0~Center Store~Grocery~Cookies/Crackers~DeLallo Traditional Brdsticks~DeLallo~2.59~1.78~~~oz~4.4~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890360-6~~~0-7236890360-6~Center Store~Grocery~Cookies/Crackers~DeLallo Torinese Brdsticks~DeLallo~2.59~1.78~~~oz~3~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890364-4~~~0-7236890364-4~Center Store~Grocery~Cookies/Crackers~DeLallo Sesame Brdsticks~DeLallo~2.59~1.78~~~oz~4.4~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890365-1~~~0-7236890365-1~Center Store~Grocery~Cookies/Crackers~DeLallo Whole Wht Brdsticks ~DeLallo~2.59~1.78~~~oz~4.4~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810142-2~~~0-7236810142-2~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Cauliflower~DeLallo~2.99~2.09~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810154-5~~~0-7236810154-5~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Cauliflower~DeLallo~2.99~2.09~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820130-6~~~0-7236820130-6~Center Store~Grocery~Pickles/Peppers~DeLallo Sliced Mild Pepperoncini - Squat jar~DeLallo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810131-6~~~0-7236810131-6~Center Store~Grocery~Pickles/Peppers~DeLallo Whole Mild Pepperoncini - Squat jar~DeLallo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810166-8~~~0-7236810166-8~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Banana Pepper Rings~DeLallo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810169-9~~~0-7236810169-9~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Banana Pepper Chunks~DeLallo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810173-6~~~0-7236810173-6~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Sliced Jalapeno Peppers~DeLallo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810174-3~~~0-7236810174-3~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Banana Pepper Chunks~DeLallo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810719-6~~~0-7236810719-6~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Banana Pepper Rings~DeLallo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820274-7~~~0-7236820274-7~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Giardiniera~DeLallo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810175-0~~~0-7236810175-0~Center Store~Grocery~Pickles/Peppers~DeLallo Wild Hot Diced Pepper/Olive Oil~DeLallo~3.99~2.79~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870086-1~~~0-7236870086-1~Center Store~Grocery~Pickles/Peppers~DeLallo Red Sweet Peppers ~DeLallo~5.99~4.19~~~oz~24~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820141-2~~~0-7236820141-2~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Cauliflower~DeLallo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820145-0~~~0-7236820145-0~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Cauliflower~DeLallo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820188-7~~~0-7236820188-7~Center Store~Grocery~Pickles/Peppers~DeLallo Red Hot Cherry Peppers~DeLallo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820185-6~~~0-7236820185-6~Center Store~Grocery~Pickles/Peppers~DeLallo Whole Mild Banana Peppers~DeLallo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820717-9~~~0-7236820717-9~Center Store~Grocery~Pickles/Peppers~DeLallo Whole Hot Banana Peppers~DeLallo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820172-6~~~0-7236820172-6~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Sliced Jalapeno Peppers~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820136-8~~~0-7236820136-8~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Pepperoncini~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820134-4~~~0-7236820134-4~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Pepperoncini~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820720-9~~~0-7236820720-9~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Banana Pepper Rings~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820722-3~~~0-7236820722-3~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Banana Pepper Rings~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820278-5~~~0-7236820278-5~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Giardiniera~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820276-1~~~0-7236820276-1~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Giardiniera~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820181-8~~~0-7236820181-8~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Banana Pepper Chunks~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236820179-5~~~0-7236820179-5~Center Store~Grocery~Pickles/Peppers~DeLallo Mild Banana Pepper Chunks~DeLallo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810784-4~~~0-7236810784-4~Center Store~Grocery~Pickles/Peppers~DeLallo Red Pepperazzi~DeLallo~5.99~4.19~~~oz~10.2~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810785-1~~~0-7236810785-1~Center Store~Grocery~Pickles/Peppers~DeLallo Roasted Pepperazzi ~DeLallo~5.99~4.19~~~oz~10.2~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810786-8~~~0-7236810786-8~Center Store~Grocery~Pickles/Peppers~DeLallo Tri Color Pepperazzi ~DeLallo~5.99~4.19~~~oz~10.2~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810747-9~~~0-7236810747-9~Center Store~Grocery~Pickles/Peppers~DeLallo Roasted Red Peppers~DeLallo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810751-6~~~0-7236810751-6~Center Store~Grocery~Pickles/Peppers~DeLallo Roasted Red Peppers w/Garlic~DeLallo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810778-3~~~0-7236810778-3~Center Store~Grocery~Pickles/Peppers~DeLallo Roasted Yellow & Red Peppers w/Garlic~DeLallo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870080-9~~~0-7236870080-9~Center Store~Grocery~Pickles/Peppers~DeLallo Roasted Piquillo Peppers~DeLallo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870081-6~~~0-7236870081-6~Center Store~Grocery~Pickles/Peppers~DeLallo Grilled Piquillo Peppers~DeLallo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810708-0~~~0-7236810708-0~Center Store~Grocery~Pickles/Peppers~DeLallo Hot Peppers & Sauce~DeLallo~4.99~3.44~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810709-7~~~0-7236810709-7~Center Store~Grocery~Pickles/Peppers~DeLallo Medium Hot Peppers & Sauce~DeLallo~4.99~3.44~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810710-3~~~0-7236810710-3~Center Store~Grocery~Pickles/Peppers~DeLallo Sweet Peppers & Sauce~DeLallo~4.99~3.44~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236813600-4~~~0-7236813600-4~Center Store~Grocery~Appetizers~DeLallo Artichoke Bruschetta~DeLallo~5.99~4.19~~~oz~10~No~~6~27~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236813601-1~~~0-7236813601-1~Center Store~Grocery~Appetizers~DeLallo Sun Dried Tomato Bruschetta~DeLallo~5.99~4.19~~~oz~10~No~~6~27~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236813602-8~~~0-7236813602-8~Center Store~Grocery~Appetizers~DeLallo Olive Bruschetta~DeLallo~5.99~4.19~~~oz~10~No~~6~27~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236813603-5~~~0-7236813603-5~Center Store~Grocery~Appetizers~DeLallo Roasted Pepper Bruschetta~DeLallo~5.99~4.19~~~oz~10~No~~6~27~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870028-1~~~0-7236870028-1~Center Store~Grocery~Pickles/Peppers~DeLallo Imp. Curly Peppers~DeLallo~5.99~4.19~~~oz~5.6~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236806242-6~~~0-7236806242-6~Center Store~Grocery~Mustard~DeLallo Honey Mustard~DeLallo~2.00~1.19~~~oz~5~No~~6~54~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236806241-9~~~0-7236806241-9~Center Store~Grocery~Mustard~DeLallo Dijon Mustard~DeLallo~2.99~1.79~~~oz~10~No~~6~42~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236806240-2~~~0-7236806240-2~Center Store~Grocery~Mustard~DeLallo Dijon Mustard~DeLallo~2.00~1.19~~~oz~4.25~No~~6~54~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236806244-0~~~0-7236806244-0~Center Store~Grocery~Mustard~DeLallo Spicy Brown Mustard~DeLallo~2.99~1.79~~~oz~10~No~~6~42~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236806243-3~~~0-7236806243-3~Center Store~Grocery~Mustard~DeLallo Spicy Brown Mustard~DeLallo~2.00~1.19~~~oz~4.25~No~~6~54~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236823014-6~~~0-7236823014-6~Center Store~Grocery~Pickles/Peppers~DeLallo Diced Pimentos~DeLallo~1.99~1.39~~~oz~4~No~~24~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890950-9~~~0-7236890950-9~Center Store~Grocery~Canned Vegetables~DeLallo Marinated Artichoke Hrts - glass~DeLallo~2.19~1.46~~~oz~6~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890955-4~~~0-7236890955-4~Center Store~Grocery~Canned Vegetables~DeLallo Marinated Artichoke Hrts - glass~DeLallo~3.69~2.58~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890957-8~~~0-7236890957-8~Center Store~Grocery~Canned Vegetables~DeLallo Artichoke Hrts 5/7ct.- can~DeLallo~3.69~2.58~~~oz~13.75~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890968-4~~~0-7236890968-4~Center Store~Grocery~Canned Vegetables~DeLallo Artichoke Hrts 6/8ct.- can~DeLallo~3.69~2.58~~~oz~13.75~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890978-3~~~0-7236890978-3~Center Store~Grocery~Canned Vegetables~DeLallo Artichoke Quarters -can~DeLallo~3.69~2.58~~~oz~13.75~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890965-3~~~0-7236890965-3~Center Store~Grocery~Canned Vegetables~DeLallo Marinated Artichokes - glass~DeLallo~8.19~5.70~~~oz~24~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236845824-3~~~0-7236845824-3~Center Store~Grocery~Canned Vegetables~DeLallo Salad Cut Hrts of Palm~DeLallo~2.99~2.09~~~oz~14.1~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236845825-0~~~0-7236845825-0~Center Store~Grocery~Canned Vegetables~DeLallo Whole Hrts of Palm~DeLallo~3.99~2.79~~~oz~14.1~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236823501-1~~~0-7236823501-1~Center Store~Grocery~Canned Bns~DeLallo Cannellini Bns~DeLallo~1.50~1.05~~~oz~14~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236823502-8~~~0-7236823502-8~Center Store~Grocery~Canned Bns~DeLallo Chick Ps~DeLallo~1.50~1.05~~~oz~14~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236823506-6~~~0-7236823506-6~Center Store~Grocery~Canned Bns~DeLallo Lentils~DeLallo~1.50~1.05~~~oz~14~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236823512-7~~~0-7236823512-7~Center Store~Grocery~Canned Bns~DeLallo Imported Lupini Bns~DeLallo~5.99~4.19~~~oz~25.4~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236823513-4~~~0-7236823513-4~Center Store~Grocery~Canned Bns~DeLallo Imported Lupini Bns~DeLallo~3.99~2.79~~~oz~13~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801523-1~~~0-7236801523-1~Center Store~Grocery~Canned Bns~DeLallo Romano Bns~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801524-8~~~0-7236801524-8~Center Store~Grocery~Canned Bns~DeLallo Grt Northern Bns ~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801525-5~~~0-7236801525-5~Center Store~Grocery~Canned Bns~DeLallo Chili Bns in Sauce ~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801526-2~~~0-7236801526-2~Center Store~Grocery~Canned Bns~DeLallo Light Red Kidney Bns ~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801527-9~~~0-7236801527-9~Center Store~Grocery~Canned Bns~DeLallo Cannellini Bns ~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801528-6~~~0-7236801528-6~Center Store~Grocery~Canned Bns~DeLallo Chick Ps~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801529-3~~~0-7236801529-3~Center Store~Grocery~Canned Bns~DeLallo Pinto Bns~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801530-9~~~0-7236801530-9~Center Store~Grocery~Canned Bns~DeLallo Black Bns~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801531-6~~~0-7236801531-6~Center Store~Grocery~Canned Bns~DeLallo Butter Bns~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236801532-3~~~0-7236801532-3~Center Store~Grocery~Canned Bns~DeLallo Navy Bns~DeLallo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811170-4~~~0-7236811170-4~Center Store~Grocery~Appetizers~DeLallo Roasted Garlic in Oil~DeLallo~4.99~3.35~~~oz~5.5~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236870030-4~~~0-7236870030-4~Center Store~Grocery~Appetizers~DeLallo Imp. Whole Clove Garlic in Oil~DeLallo~7.59~5.25~~~oz~5.6~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811100-1~~~0-7236811100-1~Center Store~Grocery~Appetizers~DeLallo Fine Chopped Garlic in Water~DeLallo~4.39~3.05~~~oz~6~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811150-6~~~0-7236811150-6~Center Store~Grocery~Appetizers~DeLallo Chopped Garlic in Oil~DeLallo~4.39~3.05~~~oz~6~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811110-0~~~0-7236811110-0~Center Store~Grocery~Appetizers~DeLallo Fine Chopped Garlic in Water~DeLallo~6.59~4.66~~~oz~32~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236816056-6~~~0-7236816056-6~Center Store~Grocery~Appetizers~DeLallo Italian Garlic Mushrooms~DeLallo~3.99~2.79~~~oz~8~No~~12~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236816059-7~~~0-7236816059-7~Center Store~Grocery~Appetizers~DeLallo Tuscan Marinated Mushroom Salad~DeLallo~3.99~2.79~~~oz~8~No~~12~22~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236813003-3~~~0-7236813003-3~Center Store~Grocery~Canned Mt~DeLallo Chopped S Clams~DeLallo~2.99~2.09~~~oz~6.5~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236813004-0~~~0-7236813004-0~Center Store~Grocery~Canned Mt~DeLallo Minced S Clams~DeLallo~2.99~2.09~~~oz~6.5~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236813006-4~~~0-7236813006-4~Center Store~Grocery~Canned Mt~DeLallo Clam Juice Broth~DeLallo~2.09~1.43~~~oz~14~No~~12~16~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236830150-1~~~0-7236830150-1~Center Store~Grocery~Canned Mt~DeLallo Flat Fillet Anchovies~DeLallo~1.99~1.39~~~oz~2~No~~25~40~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236830100-6~~~0-7236830100-6~Center Store~Grocery~Canned Mt~DeLallo Rolled Anchovies w/Capers~DeLallo~1.99~1.39~~~oz~2~No~~25~40~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236888200-0~~~0-7236888200-0~Center Store~Grocery~Salad Toppings~DeLallo Pignoli Nuts~DeLallo~8.99~6.25~~~oz~2~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236888212-3~~~0-7236888212-3~Center Store~Grocery~Appetizers~DeLallo Non Pareil Capers~DeLallo~4.99~3.49~~~oz~4~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236888213-0~~~0-7236888213-0~Center Store~Grocery~Appetizers~DeLallo Capote Capers~DeLallo~3.99~2.79~~~oz~4~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236812752-1~~~0-7236812752-1~Center Store~Grocery~Spices~DeLallo Natural  S Salt Coarse~DeLallo~2.99~2.09~~~oz~8~No~~6~48~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236888027-3~~~0-7236888027-3~Center Store~Grocery~Juice~DeLallo Lime Juice~DeLallo~2.49~1.74~~~oz~6.75~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236888016-7~~~0-7236888016-7~Center Store~Grocery~Juice~DeLallo Lemon Juice Plus~DeLallo~2.49~1.74~~~oz~6.75~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802157-7~~~0-7236802157-7~Center Store~Grocery~Juice~DeLallo Lemon Juice Slice ~DeLallo~2.49~1.74~~~oz~6.75~No~~12~32~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236803110-1~~~0-7236803110-1~Center Store~Grocery~Coffee~DeLallo Café Espresso ~DeLallo~7.99~5.49~~~oz~8.8~No~~6~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236803100-2~~~0-7236803100-2~Center Store~Grocery~Coffee~DeLallo Café Espresso Decaf ~DeLallo~7.99~5.49~~~oz~8.8~No~~6~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236827012-8~~~0-7236827012-8~Center Store~Grocery~Cookies/Crackers~DeLallo Assorted Torrone 18pc.~DeLallo~8.88~6.22~~~oz~7~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236827600-7~~~0-7236827600-7~Center Store~Grocery~Cookies/Crackers~DeLallo Savoiardi Lady Fingers~DeLallo~3.39~2.37~~~oz~7.06~No~~15~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821560-0~~~0-7236821560-0~Center Store~Bakery~Biscotti~DeLallo Almond Biscotti~DeLallo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821561-7~~~0-7236821561-7~Center Store~Bakery~Biscotti~DeLallo Chocolate Almond Biscotti~DeLallo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821562-4~~~0-7236821562-4~Center Store~Bakery~Biscotti~DeLallo Orange Pecan Biscotti~DeLallo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821563-1~~~0-7236821563-1~Center Store~Bakery~Biscotti~DeLallo Cranberry Walnut Biscotti~DeLallo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821564-8~~~0-7236821564-8~Center Store~Bakery~Biscotti~DeLallo Vanilla Almond Biscotti ~DeLallo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821565-5~~~0-7236821565-5~Center Store~Bakery~Biscotti~DeLallo Cranberry Pistachio Biscotti~DeLallo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821566-2~~~0-7236821566-2~Center Store~Bakery~Biscotti~DeLallo Chocolate Mint Biscotti ~DeLallo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821567-9~~~0-7236821567-9~Center Store~Bakery~Biscotti~DeLallo Chocolate Hazelnut Biscotti ~DeLallo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811607-5~~~0-7236811607-5~Center Store~Bakery~Biscotti~DeLallo Whole Grain Mini's Cinnamon Almond & Oats~DeLallo~5.49~3.29~~~oz~9~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811608-2~~~0-7236811608-2~Center Store~Bakery~Biscotti~DeLallo Whole Grain Mini's Cranberry Blueberry Almond~DeLallo~5.49~3.29~~~oz~9~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811628-0~~~0-7236811628-0~Center Store~Bakery~Biscotti~DeLallo Whole Grain Cinnamon Almond & Oats ~DeLallo~5.49~3.29~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811629-7~~~0-7236811629-7~Center Store~Bakery~Biscotti~DeLallo Whole Grain Cranberry Blueberry Almond~DeLallo~5.49~3.29~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821545-7~~~0-7236821545-7~Center Store~Bakery~Specialty Cookie~DeLallo Vanilla Pizzelle~DeLallo~4.99~2.99~~~oz~6~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821546-4~~~0-7236821546-4~Center Store~Bakery~Specialty Cookie~DeLallo Anise Pizzelle~DeLallo~4.99~2.99~~~oz~6~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821578-5~~~0-7236821578-5~Center Store~Bakery~Specialty Cookie~DeLallo Almond Pizzelle~DeLallo~4.99~2.99~~~oz~6~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821623-2~~~0-7236821623-2~Center Store~Bakery~Biscotti~DeLallo WW Cinnamon Almond Biscotti Mini~DeLallo~0.50~0.30~~~ct~2~No~~48~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821622-5~~~0-7236821622-5~Center Store~Bakery~Biscotti~DeLallo WW Cranberry Blueberry Almond Biscotti Mini~DeLallo~0.50~0.30~~~ct~2~No~~48~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802399-1~~~0-7236802399-1~Center Store~Grocery~Pasta Sauce~DeLallo Sun Dried Tomato Shipper~DeLallo~5.99~4.19~~~oz~6.5~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802412-7~~~0-7236802412-7~Center Store~Grocery~Pasta Sauce~DeLallo Whole Garlic/Garlic Oil Hot Pepper Shipper~DeLallo~6.59~4.66~~~ea~1~No~~36~3~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802411-0~~~0-7236802411-0~Center Store~Grocery~Pasta Sauce~DeLallo Sun Dried Tomato/Pesto Shipper~DeLallo~5.99~4.19~~~oz~6.5~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802414-1~~~0-7236802414-1~Center Store~Grocery~Pasta~DeLallo Gnocchi/Risotto/Polenta Shipper~DeLallo~3.49~2.46~~~ea~1~No~~72~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236832415-9~~~0-7236832415-9~Center Store~Grocery~Spices~DeLallo Variety Sauce/Dipping Spice Shipper ~DeLallo~5.99~4.19~~~ea~1~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802418-9~~~0-7236802418-9~Center Store~Grocery~Pickles/Peppers~DeLallo 3 Variety Pepperazzi Shipper ~DeLallo~5.99~4.19~~~oz~10.2~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802390-8~~~0-7236802390-8~Center Store~Grocery~Pasta~DeLallo Imported Potato Gnocchi Shipper~DeLallo~3.49~0.05~~~oz~16~No~~72~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236807600-3~~~0-7236807600-3~Center Store~Grocery~Organic Pasta~DeLallo WW Short Cut Variety Pasta Shipper~DeLallo~2.99~2.09~~~oz~16~No~~44~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236807400-9~~~0-7236807400-9~Center Store~Grocery~Pasta~DeLallo Soup Cut  Variety Pasta Shipper~DeLallo~2.49~1.74~~~oz~16~No~~75~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802403-5~~~0-7236802403-5~Center Store~Grocery~Olives~DeLallo 3 Variety Specialty Stuffed Olive Shipper~DeLallo~6.29~4.37~~~oz~7~No~~28~3~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236810948-0~~~0-7236810948-0~Center Store~Grocery~Spices~DeLallo Dipping Ssoning Spices Shipper~DeLallo~5.99~4.19~~~oz~4~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802394-6~~~0-7236802394-6~Center Store~Grocery~Grated Cheese~DeLallo Grated Parmesan Shipper~DeLallo~3.99~2.79~~~oz~8~No~~60~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802395-3~~~0-7236802395-3~Center Store~Grocery~Grated Cheese~DeLallo Mix Parmesan Romano Grated Cheese Shipper~DeLallo~3.99~2.79~~~oz~8~No~~60~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890367-5~~~0-7236890367-5~Center Store~Grocery~Cookies/Crackers~DeLallo Brdstick Shipper~DeLallo~2.59~1.78~~~ea~1~No~~96~2~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236800365-8~~~0-7236800365-8~Center Store~Grocery~Cookies/Crackers~DeLallo 4 Variety Brdstick Shipper~DeLallo~2.59~1.78~~~ea~1~No~~96~2~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890363-7~~~0-7236890363-7~Center Store~Grocery~Cookies/Crackers~DeLallo 3 Variety Brdstick Shipper~DeLallo~2.59~1.78~~~ea~1~No~~96~2~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802409-7~~~0-7236802409-7~Center Store~Grocery~Appetizers~DeLallo 4 Variety Bruschetta Shipper~DeLallo~5.99~4.19~~~oz~10~No~~32~3~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236866009-7~~~0-7236866009-7~Center Store~Grocery~Juice~DeLallo Lime Juice Shipper~DeLallo~2.49~1.74~~~oz~6.75~No~~96~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236866006-6~~~0-7236866006-6~Center Store~Grocery~Juice~DeLallo Lemon Juice Plus Shipper~DeLallo~2.49~1.74~~~oz~6.75~No~~96~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236866013-4~~~0-7236866013-4~Center Store~Grocery~Juice~DeLallo Lemon Slice Shipper~DeLallo~2.49~1.74~~~oz~6.75~No~~96~12~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236802396-0~~~0-7236802396-0~Center Store~Grocery~Juice~DeLallo Assorted Torrone Shipper~DeLallo~8.88~6.22~~~oz~7~No~~60~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821555-6~~~0-7236821555-6~Bakery~Prepacked~Biscotti~DeLallo 4 Variety Biscotti Shipper~DeLallo~4.99~2.99~~~oz~7~No~~80~6~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821553-2~~~0-7236821553-2~Bakery~Prepacked~Biscotti~DeLallo Mixed Biscotti/Pizzelle Shipper~DeLallo~4.99~3.47~~~ea~1~No~~76~6~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821550-1~~~0-7236821550-1~Bakery~Prepacked~Specialty Cookie~DeLallo Pizzelle Shipper~DeLallo~4.99~2.99~~~oz~6~No~~72~6~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236885104-4~~~0-7236885104-4~Center Store~Grocery~Cookies/Crackers~DeLallo Savoiardi Lady Fingers Shipper~DeLallo~3.39~0.04~~~oz~7.06~No~~96~6~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236812784-2~~~0-7236812784-2~Center Store~Grocery~Appetizers~Prince Omar Stuffed Grape Lves  (can)~Prince Omar~4.99~3.24~~~oz~14~No~~6~12~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236811088-2~~~0-7236811088-2~Center Store~Grocery~Canned Mushrooms~San Martino USA Pieces & Stems Mushrooms~San Martino~0.99~0.69~~~oz~4~No~~24~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7004400605-4~~~0-7004400605-4~Produce~Prepacked~Raisins~Champion Raisins~Champion~2.19~1.52~~~oz~9~No~~24~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7004400714-3~~~0-7004400714-3~Produce~Prepacked~Raisins~Champion Raisins~Champion~2.49~1.76~~~oz~12~No~~24~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7004402225-2~~~0-7004402225-2~Produce~Prepacked~Raisins~Champion Pitted Prune ~Champion~3.79~0.50~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821330-9~~~0-7236821330-9~Center Store~Grocery~Canned Fruit~Colonial Inn Cherries~Colonial Inn~1.99~1.42~~~oz~10~No~~12~20~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821398-9~~~0-7236821398-9~Center Store~Grocery~Broth~Colonial Inn Chicken Broth~Colonial Inn~0.99~0.69~~~oz~14.5~No~~24~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821399-6~~~0-7236821399-6~Center Store~Grocery~Broth~Colonial Inn Beef Broth~Colonial Inn~0.99~0.69~~~oz~14.5~No~~24~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821397-2~~~0-7236821397-2~Center Store~Grocery~Broth~Colonial Inn Chicken Broth~Colonial Inn~2.99~2.09~~~oz~46~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821200-5~~~0-7236821200-5~Center Store~Grocery~Egg Noodles~Colonial Inn Fine Egg Noodles~Colonial Inn~1.70~1.19~~~oz~12~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821205-0~~~0-7236821205-0~Center Store~Grocery~Egg Noodles~Colonial Inn Medium Egg Noodles~Colonial Inn~1.70~1.19~~~oz~12~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821210-4~~~0-7236821210-4~Center Store~Grocery~Egg Noodles~Colonial Inn Wide Egg Noodles~Colonial Inn~1.70~1.19~~~oz~12~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821215-9~~~0-7236821215-9~Center Store~Grocery~Egg Noodles~Colonial Inn Extra Wide Egg Noodles~Colonial Inn~1.70~1.19~~~oz~12~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236821220-3~~~0-7236821220-3~Center Store~Grocery~Egg Noodles~Colonial Inn Kluski Egg Noodles~Colonial Inn~2.29~1.58~~~oz~12~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236890100-8~~~0-7236890100-8~Center Store~Grocery~Olive Oil~Antolina Pomace Olive Oil~Antolina~22.99~16.40~~~gal~1~No~~6~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842026-4~~~0-7236842026-4~Center Store~Grocery~Pasta Sauce~Antolina Traditional Spaghetti Sauce~Antolina~1.99~1.39~~~oz~24~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842027-1~~~0-7236842027-1~Center Store~Grocery~Pasta Sauce~Antolina Spaghetti Sauce w/Mt~Antolina~1.99~1.39~~~oz~24~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236842028-8~~~0-7236842028-8~Center Store~Grocery~Pasta Sauce~Antolina Spaghetti Sauce w/Mushrooms~Antolina~1.99~1.39~~~oz~24~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236814708-6~~~0-7236814708-6~Center Store~Grocery~Grated Cheese~Antolina Grated Parmesan~Antolina~3.99~2.79~~~oz~8~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825160-8~~~0-7236825160-8~Center Store~Grocery~Pasta~Antolina Lasagna~Antolina~2.99~2.09~~~oz~16~No~~12~12~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825101-1~~~0-7236825101-1~Center Store~Grocery~Pasta~Antolina #1 Capellini~Antolina~1.50~1.05~~~lb~1~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825105-9~~~0-7236825105-9~Center Store~Grocery~Pasta~Antolina #5 Spaghetti~Antolina~1.50~1.05~~~lb~1~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825109-7~~~0-7236825109-7~Center Store~Grocery~Pasta~Antolina #9 Linguine~Antolina~1.50~1.05~~~lb~1~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825121-9~~~0-7236825121-9~Center Store~Grocery~Pasta~Antolina #21 Rigatoni~Antolina~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825123-3~~~0-7236825123-3~Center Store~Grocery~Pasta~Antolina #23 Mezzi Rigatoni~Antolina~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825127-1~~~0-7236825127-1~Center Store~Grocery~Pasta~Antolina #27 Fusilli~Antolina~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825136-3~~~0-7236825136-3~Center Store~Grocery~Pasta~Antolina #36 Penne Rigate~Antolina~1.50~1.05~~~lb~1~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825140-0~~~0-7236825140-0~Center Store~Grocery~Pasta~Antolina Gemelli~Antolina~1.50~1.05~~~lb~1~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825139-4~~~0-7236825139-4~Center Store~Grocery~Pasta~Antolina Ziti~Antolina~1.50~1.05~~~lb~1~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825138-7~~~0-7236825138-7~Center Store~Grocery~Pasta~Antolina Fettuccine~Antolina~1.50~1.05~~~lb~1~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825191-2~~~0-7236825191-2~Center Store~Grocery~Pasta~Antolina #91 Shells~Antolina~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825502-6~~~0-7236825502-6~Center Store~Grocery~Pasta~Antolina #87 Farfalle~Antolina~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825507-1~~~0-7236825507-1~Center Store~Grocery~Pasta~Antolina # 68 Elbows ~Antolina~1.50~1.05~~~lb~1~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825150-9~~~0-7236825150-9~Center Store~Grocery~Organic Pasta~Antolina WW Org Spaghetti~Antolina~1.79 ~1.20~~~oz~12~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825151-6~~~0-7236825151-6~Center Store~Grocery~Organic Pasta~Antolina WW Org Penne Rigate~Antolina~1.79 ~1.20~~~oz~12~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-0-7236825152-3~~~0-7236825152-3~Center Store~Grocery~Organic Pasta~Antolina WW Org Rotini~Antolina~1.79 ~1.20~~~oz~12~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412223422-4~~~7-5412223422-4~Center Store~Grocery~Specialty Pasta~Cocco Spaghetti Box #22~Cocco~3.99~2.79~~~g~500~No~~12~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231441-4~~~7-5412231441-4~Center Store~Grocery~Specialty Pasta~Cocco Linguine #41~Cocco~3.99~2.79~~~g~500~No~~12~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231442-1~~~7-5412231442-1~Center Store~Grocery~Specialty Pasta~Cocco Fettuccine #42~Cocco~4.99~3.49~~~g~500~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231443-8~~~7-5412231443-8~Center Store~Grocery~Specialty Pasta~Cocco Bucatini #43~Cocco~4.99~3.49~~~g~500~No~~12~13~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231447-6~~~7-5412231447-6~Center Store~Grocery~Specialty Pasta~Cocco Farfalloni #47~Cocco~4.99~3.49~~~g~500~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231448-3~~~7-5412231448-3~Center Store~Grocery~Specialty Pasta~Cocco Sagnarelli #48~Cocco~4.99~3.49~~~g~500~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231450-6~~~7-5412231450-6~Center Store~Grocery~Specialty Pasta~Cocco Orecchiette #50~Cocco~4.99~3.49~~~g~500~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231483-4~~~7-5412231483-4~Center Store~Grocery~Specialty Pasta~Cocco Pennoni #83~Cocco~4.99~3.49~~~g~500~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231486-5~~~7-5412231486-5~Center Store~Grocery~Specialty Pasta~Cocco Rigatoni Giganti #86~Cocco~4.99~3.49~~~g~500~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
-7-5412231485-8~~~7-5412231485-8~Center Store~Grocery~Specialty Pasta~Cocco Fusillo Gigante #85~Cocco~4.99~3.49~~~g~500~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~ 
+0-4127512324-0~~~0-4127512324-0~Center Store~Grocery~Canned Tomatoes~Reynaldo Imported Italian Crushed Tomatoes~Reynaldo~2.50~1.64~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127522324-7~~~0-4127522324-7~Center Store~Grocery~Canned Tomatoes~Reynaldo Imported Italian Diced Tomatoes~Reynaldo~2.50~1.64~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127550324-0~~~0-4127550324-0~Center Store~Grocery~Canned Tomatoes~Reynaldo Imported Italian Whole Peeled Tomatoes~Reynaldo~2.50~1.64~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127581524-4~~~0-4127581524-4~Center Store~Grocery~Canned Tomatoes~Reynaldo Imported San Marzano Tomatoes~Reynaldo~4.99~3.57~~~oz~28~No~~6~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127560424-4~~~0-4127560424-4~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Paste~Reynaldo~0.74~0.52~~~oz~6~No~~24~16~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127552524-2~~~0-4127552524-2~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Paste Tube~Reynaldo~2.29~1.61~~~oz~4.6~No~~12~40~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127562524-9~~~0-4127562524-9~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Paste w/Basil Tube~Reynaldo~2.29~1.61~~~oz~4.6~No~~12~40~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127572524-6~~~0-4127572524-6~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Paste w/Chiles Tube~Reynaldo~2.29~1.61~~~oz~4.6~No~~12~40~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127523424-3~~~0-4127523424-3~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Sauce~Reynaldo~0.69~0.48~~~oz~8~No~~48~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127570424-1~~~0-4127570424-1~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Paste~Reynaldo~1.29~0.99~~~oz~12~No~~24~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127531424-2~~~0-4127531424-2~Center Store~Grocery~Canned Tomatoes~Reynaldo Italian Stewed Tomatoes~Reynaldo~1.19~0.83~~~oz~14.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127513424-6~~~0-4127513424-6~Center Store~Grocery~Canned Tomatoes~Reynaldo Diced Tomatoes in Juice~Reynaldo~1.19~0.83~~~oz~14.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127583720-8~~~0-4127583720-8~Center Store~Grocery~Canned Tomatoes~Reynaldo Fire Roasted Diced Tomatoes~Reynaldo~1.50~1.05~~~oz~14.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127525424-1~~~0-4127525424-1~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Sauce~Reynaldo~0.89~0.62~~~oz~15~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127573424-8~~~0-4127573424-8~Center Store~Grocery~Canned Tomatoes~Reynaldo Whole Tomatoes in Juice~Reynaldo~1.99~1.39~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127559424-8~~~0-4127559424-8~Center Store~Grocery~Canned Tomatoes~Reynaldo Chunky Style Crushed Tomatoes~Reynaldo~1.99~1.39~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127582424-6~~~0-4127582424-6~Center Store~Grocery~Canned Tomatoes~Reynaldo Crushed Tomatoes in LP~Reynaldo~1.99~1.39~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127571424-0~~~0-4127571424-0~Center Store~Grocery~Canned Tomatoes~Reynaldo Diced Tomatoes in Juice~Reynaldo~1.99~1.39~~~oz~28~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127543424-7~~~0-4127543424-7~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Sauce~Reynaldo~1.99~1.39~~~oz~29~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127583424-5~~~0-4127583424-5~Center Store~Grocery~Canned Tomatoes~Reynaldo Tomato Puree~Reynaldo~1.99~1.39~~~oz~29~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127501207-0~~~0-4127501207-0~Center Store~Grocery~Pasta Sauce~Reynaldo Pesto Hot & Spicy Tomato~Reynaldo~5.99~4.19~~~oz~6.35~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127502044-0~~~0-4127502044-0~Center Store~Grocery~Pasta Sauce~Reynaldo Pesto Sun Dried Tomato & Olive~Reynaldo~5.99~4.19~~~oz~6.35~No~~6~42~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127539624-8~~~0-4127539624-8~Center Store~Grocery~Pasta Sauce~Reynaldo Pesto Sun - Dried Tomato Basil & Cheese~Reynaldo~5.99~4.19~~~oz~6.35~No~~6~35~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127549624-5~~~0-4127549624-5~Center Store~Grocery~Pasta Sauce~Reynaldo Sweet & Tangy Sun-Dried Peppers~Reynaldo~5.99~4.19~~~oz~6.7~No~~6~35~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127569624-9~~~0-4127569624-9~Center Store~Grocery~Pasta Sauce~Reynaldo Cherry Tomatoes Ssoned and Semi Dried~Reynaldo~5.99~4.19~~~oz~6.7~No~~6~35~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127579624-6~~~0-4127579624-6~Center Store~Grocery~Pasta Sauce~Reynaldo Sun Dried Tomatoes in Olive Oil~Reynaldo~5.99~4.19~~~oz~6.7~No~~6~35~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127576424-5~~~0-4127576424-5~Center Store~Grocery~Pasta Sauce~Reynaldo Pesto Sauce in Olive Oil~Reynaldo~5.99~4.19~~~oz~6.35~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127555424-2~~~0-4127555424-2~Center Store~Grocery~Pizza Sauce~Reynaldo Fancy Pizza Sauce~Reynaldo~1.99~1.39~~~oz~14~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127506424-6~~~0-4127506424-6~Center Store~Grocery~Pizza Sauce~Reynaldo Italian Style Pizza Sauce~Reynaldo~5.99~4.14~~~oz~45~No~~6~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127594024-3~~~0-4127594024-3~Center Store~Grocery~Pasta Sauce~Reynaldo Premium Vodka Sauce~Reynaldo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127503024-1~~~0-4127503024-1~Center Store~Grocery~Pasta Sauce~Reynaldo Premium Traditional Spaghetti Sauce~Reynaldo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127583024-7~~~0-4127583024-7~Center Store~Grocery~Pasta Sauce~Reynaldo Premium Fat Free Marinara Sauce~Reynaldo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127514024-7~~~0-4127514024-7~Center Store~Grocery~Pasta Sauce~Reynaldo Premium Roasted Garlic Marinara Sauce~Reynaldo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127524024-4~~~0-4127524024-4~Center Store~Grocery~Pasta Sauce~Reynaldo Premium Tomato Basil Sauce~Reynaldo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127554024-5~~~0-4127554024-5~Center Store~Grocery~Pasta Sauce~Reynaldo Premium Spaghetti Sauce w/Mt~Reynaldo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127564024-2~~~0-4127564024-2~Center Store~Grocery~Pasta Sauce~Reynaldo Premium Spaghetti Sauce w/Mushrooms~Reynaldo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127504024-0~~~0-4127504024-0~Center Store~Grocery~Pasta Sauce~Reynaldo Premium Arrabiatta Sauce~Reynaldo~2.99~2.09~~~oz~24~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127589424-9~~~0-4127589424-9~Center Store~Grocery~Pasta Sauce~Reynaldo Red Clam Sauce~Reynaldo~3.49~2.34~~~oz~10.5~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127599424-6~~~0-4127599424-6~Center Store~Grocery~Pasta Sauce~Reynaldo White Clam Sauce~Reynaldo~3.49~2.34~~~oz~10.5~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127573421-7~~~0-4127573421-7~Center Store~Grocery~Pasta Sauce~Reynaldo Pomodoro Fresco Crmy Vodka Sauce~Reynaldo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127563424-1~~~0-4127563424-1~Center Store~Grocery~Pasta Sauce~Reynaldo Pomodoro Fresco Tomato Basil Sauce~Reynaldo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127553424-4~~~0-4127553424-4~Center Store~Grocery~Pasta Sauce~Reynaldo Pomodoro Fresco Roasted Garlic Sauce~Reynaldo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127543420-9~~~0-4127543420-9~Center Store~Grocery~Pasta Sauce~Reynaldo Pomodoro Fresco Marinara Sauce~Reynaldo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127583422-1~~~0-4127583422-1~Center Store~Grocery~Pasta Sauce~Reynaldo Pomodoro Fresco Spicy Arrabbiata Sauce~Reynaldo~6.99~4.51~~~oz~25.25~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127510124-8~~~0-4127510124-8~Center Store~Grocery~Pasta Sauce~Reynaldo Imported Garlic, Oil, & Hot Pepper Sauce~Reynaldo~5.99~4.19~~~oz~12.3~No~~6~30~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127547024-5~~~0-4127547024-5~Center Store~Grocery~Pasta Sauce~Reynaldo Imported Carbonara Sauce~Reynaldo~5.99~4.19~~~oz~15~No~~6~25~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127537024-8~~~0-4127537024-8~Center Store~Grocery~Pasta Sauce~Reynaldo Imported Bolognese Sauce~Reynaldo~5.99~4.19~~~oz~19.4~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127545424-5~~~0-4127545424-5~Center Store~Grocery~Pizza Sauce~Reynaldo Imported Italian Pizza Sauce~Reynaldo~3.99~2.79~~~oz~12.3~No~~6~30~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127518015-1~~~0-4127518015-1~Center Store~Grocery~Pasta~Reynaldo Egg Fettuccine Pasta~Reynaldo~3.99~2.80~~~oz~8.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127528015-8~~~0-4127528015-8~Center Store~Grocery~Pasta~Reynaldo Egg Pappardelle Pasta~Reynaldo~3.99~2.80~~~oz~8.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127570015-1~~~0-4127570015-1~Center Store~Grocery~Pasta~Reynaldo Perciatelli -bag #12~Reynaldo~2.49~1.74~~~lb~1~No~~16~24~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127541015-9~~~0-4127541015-9~Center Store~Grocery~Pasta~Reynaldo Tortiglioni-bag #20~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127551015-6~~~0-4127551015-6~Center Store~Grocery~Pasta~Reynaldo Elbows-bag #52~Reynaldo~2.49~1.74~~~lb~1~No~~16~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127561015-3~~~0-4127561015-3~Center Store~Grocery~Pasta~Reynaldo Ditali-bag #55~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127571015-0~~~0-4127571015-0~Center Store~Grocery~Pasta~Reynaldo Ditalini Rigati-bag #57~Reynaldo~2.49~1.74~~~lb~1~No~~16~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127581015-7~~~0-4127581015-7~Center Store~Grocery~Pasta~Reynaldo Orzo-bag #65~Reynaldo~2.49~1.74~~~lb~1~No~~16~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127502015-0~~~0-4127502015-0~Center Store~Grocery~Pasta~Reynaldo Stelline-bag #67~Reynaldo~2.49~1.74~~~lb~1~No~~16~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127522015-4~~~0-4127522015-4~Center Store~Grocery~Pasta~Reynaldo Acini di Pepe-bag #70~Reynaldo~2.49~1.74~~~lb~1~No~~16~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127582015-6~~~0-4127582015-6~Center Store~Grocery~Pasta~Reynaldo Orecchiette-bag #92~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127513015-6~~~0-4127513015-6~Center Store~Grocery~Pasta~Reynaldo Capellini-bag #1~Reynaldo~2.49~1.74~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127533015-0~~~0-4127533015-0~Center Store~Grocery~Pasta~Reynaldo Thin Spaghetti -bag #3~Reynaldo~2.49~1.74~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127543015-7~~~0-4127543015-7~Center Store~Grocery~Pasta~Reynaldo Spaghetti-bag #4~Reynaldo~2.49~1.74~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127583015-5~~~0-4127583015-5~Center Store~Grocery~Pasta~Reynaldo Linguine-bag #6~Reynaldo~2.49~1.74~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127593015-2~~~0-4127593015-2~Center Store~Grocery~Pasta~Reynaldo Fettuccine-bag #9~Reynaldo~2.49~1.74~~~lb~1~No~~16~28~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127584015-4~~~0-4127584015-4~Center Store~Grocery~Pasta~Reynaldo Rigatoni-bag #21~Reynaldo~2.49~1.74~~~lb~1~No~~16~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505015-7~~~0-4127505015-7~Center Store~Grocery~Pasta~Reynaldo Mezzi Rigatoni-bag #23~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127555015-2~~~0-4127555015-2~Center Store~Grocery~Pasta~Reynaldo Fusilli-bag #27~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127515015-4~~~0-4127515015-4~Center Store~Grocery~Pasta~Reynaldo Penne Ziti-bag #32 (mostaccio)~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127525015-1~~~0-4127525015-1~Center Store~Grocery~Pasta~Reynaldo Penne Rigate Regine-bag #35~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127535015-8~~~0-4127535015-8~Center Store~Grocery~Pasta~Reynaldo Penne Rigate-bag #36~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127565015-9~~~0-4127565015-9~Center Store~Grocery~Pasta~Reynaldo Farfalle-bag #87~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127545015-5~~~0-4127545015-5~Center Store~Grocery~Pasta~Reynaldo Shells-bag #91~Reynaldo~2.49~1.74~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127562015-2~~~0-4127562015-2~Center Store~Grocery~Pasta~Reynaldo Mafalda-bag #80~Reynaldo~3.99~2.39~~~lb~1~No~~16~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127503015-9~~~0-4127503015-9~Center Store~Grocery~Pasta~Reynaldo Fusilli Col Buco-bag #101~Reynaldo~3.99~2.39~~~lb~1~No~~16~6~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127507805-2~~~0-4127507805-2~Center Store~Grocery~Organic Pasta~Reynaldo Organic Capellini #1~Reynaldo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127517805-9~~~0-4127517805-9~Center Store~Grocery~Organic Pasta~Reynaldo Organic Spaghetti #4~Reynaldo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127537805-3~~~0-4127537805-3~Center Store~Grocery~Organic Pasta~Reynaldo Organic Rigatoni #21~Reynaldo~2.99~2.09~~~lb~1~No~~16~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127547805-0~~~0-4127547805-0~Center Store~Grocery~Organic Pasta~Reynaldo Organic Gemelli #28~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127577805-1~~~0-4127577805-1~Center Store~Grocery~Organic Pasta~Reynaldo Organic Penne Rigate #36~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127587805-8~~~0-4127587805-8~Center Store~Grocery~Organic Pasta~Reynaldo Organic Ditalini Rigati #57~Reynaldo~2.99~2.09~~~lb~1~No~~16~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127508805-1~~~0-4127508805-1~Center Store~Grocery~Organic Pasta~Reynaldo Organic Farfalloni #88~Reynaldo~2.99~2.09~~~lb~1~No~~16~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127515805-1~~~0-4127515805-1~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Capellini #1~Reynaldo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127525805-8~~~0-4127525805-8~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Spaghetti #4~Reynaldo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127535805-5~~~0-4127535805-5~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Linguine # 6~Reynaldo~2.99~2.09~~~lb~1~No~~16~29~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127545805-2~~~0-4127545805-2~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Rigatoni #21~Reynaldo~2.99~2.09~~~lb~1~No~~16~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127555805-9~~~0-4127555805-9~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Penne Rigate #36~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127565805-6~~~0-4127565805-6~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Elbows #52~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127575805-3~~~0-4127575805-3~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Acini di Pepe #70~Reynaldo~2.99~2.09~~~lb~1~No~~16~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127595805-7~~~0-4127595805-7~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Farfalle #87~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127506805-3~~~0-4127506805-3~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Shells #91~Reynaldo~2.99~2.09~~~lb~1~No~~16~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127516805-0~~~0-4127516805-0~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Fusilli #27~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127526805-7~~~0-4127526805-7~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Fusilli Bucati #76~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127536805-4~~~0-4127536805-4~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Gemelli #28~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127556805-8~~~0-4127556805-8~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Orecchiette # 92~Reynaldo~2.99~2.09~~~lb~1~No~~16~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127519805-7~~~0-4127519805-7~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Fettuccine # 9~Reynaldo~2.99~2.09~~~lb~1~No~~16~28~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127529805-4~~~0-4127529805-4~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Orzo~Reynaldo~2.99~2.09~~~lb~1~No~~16~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127579015-2~~~0-4127579015-2~Center Store~Grocery~Pasta~Reynaldo Potato Gnocchi~Reynaldo~3.49~2.45~~~oz~16~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127536015-7~~~0-4127536015-7~Center Store~Grocery~Pasta~Reynaldo Tri-Color Gnocchi~Reynaldo~3.99~2.84~~~oz~16~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127526015-0~~~0-4127526015-0~Center Store~Grocery~Pasta~Reynaldo Whole Wht Potato Gnocchi~Reynaldo~3.99~2.84~~~oz~16~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127599015-6~~~0-4127599015-6~Center Store~Grocery~Rice~Reynaldo Risotto Aborio Rice~Reynaldo~3.59~2.50~~~oz~17.6~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505288-5~~~0-4127505288-5~Center Store~Grocery~Baking Goods~Reynaldo Instant Polenta~Reynaldo~3.29~2.29~~~oz~9.2~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127529015-7~~~0-4127529015-7~Center Store~Grocery~Pasta~Reynaldo Jumbo Shells~Reynaldo~3.19~2.19~~~oz~12~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127571057-0~~~0-4127571057-0~Center Store~Grocery~Pasta~Reynaldo Manicotti~Reynaldo~3.19~2.19~~~oz~8~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127539015-4~~~0-4127539015-4~Center Store~Grocery~Pasta~Reynaldo Lasagna~Reynaldo~2.99~2.09~~~oz~16~No~~12~12~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127559015-8~~~0-4127559015-8~Center Store~Grocery~Pasta~Reynaldo No Boil Lasagna~Reynaldo~2.99~2.09~~~oz~13.2~No~~12~12~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127506015-6~~~0-4127506015-6~Center Store~Grocery~Pasta~Reynaldo Semolina Lasagna No Boil~Reynaldo~3.49~2.32~~~oz~9~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127585015-3~~~0-4127585015-3~Center Store~Grocery~Organic Pasta~Reynaldo Organic Whole Wht Lasagna NB~Reynaldo~3.49~2.44~~~oz~9~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127508309-4~~~0-4127508309-4~Center Store~Grocery~Baking Goods~Reynaldo Semolina~Reynaldo~3.29~2.29~~~oz~17.6~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500215-6~~~0-4127500215-6~Center Store~Grocery~Pasta~Reynaldo Capellini~Reynaldo~2.99~2.09~~~lb~2~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127520215-0~~~0-4127520215-0~Center Store~Grocery~Pasta~Reynaldo Spaghetti~Reynaldo~2.99~2.09~~~lb~2~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127530215-7~~~0-4127530215-7~Center Store~Grocery~Pasta~Reynaldo Linguine~Reynaldo~2.99~2.09~~~lb~2~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127540215-4~~~0-4127540215-4~Center Store~Grocery~Pasta~Reynaldo Rigatoni~Reynaldo~2.99~2.09~~~lb~2~No~~12~5~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127550215-1~~~0-4127550215-1~Center Store~Grocery~Pasta~Reynaldo Mezzi Rigatoni~Reynaldo~2.99~2.09~~~lb~2~No~~12~5~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127570215-5~~~0-4127570215-5~Center Store~Grocery~Pasta~Reynaldo Fusilli~Reynaldo~2.99~2.09~~~lb~2~No~~12~5~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127590215-9~~~0-4127590215-9~Center Store~Grocery~Pasta~Reynaldo Penne Rigate~Reynaldo~2.99~2.09~~~lb~2~No~~12~6~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127551215-0~~~0-4127551215-0~Center Store~Grocery~Pasta~Reynaldo Shells~Reynaldo~2.99~2.09~~~lb~2~No~~12~6~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127581215-1~~~0-4127581215-1~Center Store~Grocery~Pasta~Reynaldo Elbows~Reynaldo~2.99~2.09~~~lb~2~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127599115-3~~~0-4127599115-3~Center Store~Grocery~Pasta~Reynaldo Fettuccine~Reynaldo~2.99~2.09~~~lb~2~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127571215-4~~~0-4127571215-4~Center Store~Grocery~Pasta~Reynaldo Farfalle ( Bow Ties )~Reynaldo~2.99~2.09~~~lb~2~No~~12~5~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127517155-5~~~0-4127517155-5~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Gnocchi~Reynaldo~5.99~4.19~~~oz~12~No~~6~25~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127519155-3~~~0-4127519155-3~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Corn & Rice Elbows~Reynaldo~3.99~2.79~~~oz~12~No~~12~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127529155-0~~~0-4127529155-0~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Corn & Rice Penne Rigate~Reynaldo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127539155-7~~~0-4127539155-7~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Corn & Rice Fusilli~Reynaldo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127549155-4~~~0-4127549155-4~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Corn & Rice Spaghetti~Reynaldo~3.99~2.79~~~oz~12~No~~12~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127599155-9~~~0-4127599155-9~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Corn & Rice Orzo~Reynaldo~3.99~2.79~~~oz~12~No~~12~32~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127559155-1~~~0-4127559155-1~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Whole Grain Rice Fusilli~Reynaldo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127569155-8~~~0-4127569155-8~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Whole Grain Rice Penne Rigate~Reynaldo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127579155-5~~~0-4127579155-5~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Whole Grain Rice Spaghetti~Reynaldo~3.99~2.79~~~oz~12~No~~12~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127589155-2~~~0-4127589155-2~Center Store~Grocery~Gluten-Free Pasta~Reynaldo Gluten Free Pasta Whole Grain Rice Shells~Reynaldo~3.99~2.79~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505854-2~~~0-4127505854-2~Center Store~Grocery~Organic Pasta~Reynaldo Organic Couscous~Reynaldo~3.99~2.90~~~oz~17.6~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127599341-6~~~0-4127599341-6~Center Store~Grocery~Olives~Reynaldo Medium Ripe Green Pitted Olives~Reynaldo~2.99~2.09~~~oz~6~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127504401-9~~~0-4127504401-9~Center Store~Grocery~Olives~Reynaldo Small Pitted Olives~Reynaldo~1.99~1.39~~~oz~6~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127524401-3~~~0-4127524401-3~Center Store~Grocery~Olives~Reynaldo Medium Pitted Olives~Reynaldo~1.99~1.39~~~oz~6~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127593401-3~~~0-4127593401-3~Center Store~Grocery~Olives~Reynaldo Large Pitted Olives~Reynaldo~1.99~1.39~~~oz~6~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505401-8~~~0-4127505401-8~Center Store~Grocery~Olives~Reynaldo Extra Large Pitted Olives~Reynaldo~1.99~1.39~~~oz~6~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127544401-7~~~0-4127544401-7~Center Store~Grocery~Olives~Reynaldo Jumbo Pitted Olives~Reynaldo~1.99~1.39~~~oz~5.75~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127564401-1~~~0-4127564401-1~Center Store~Grocery~Olives~Reynaldo Colossal Pitted Olives~Reynaldo~1.99~1.39~~~oz~5.75~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127584401-5~~~0-4127584401-5~Center Store~Grocery~Olives~Reynaldo Super Colossal Pitted Olives~Reynaldo~1.99~1.39~~~oz~5.75~No~~24~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127583401-6~~~0-4127583401-6~Center Store~Grocery~Olives~Reynaldo Sliced Ripe Olives~Reynaldo~1.50~1.04~~~oz~3.8~No~~24~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127563401-2~~~0-4127563401-2~Center Store~Grocery~Olives~Reynaldo Sliced Black Olives~Reynaldo~12.99~9.09~~~lb~10~No~~6~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127503401-0~~~0-4127503401-0~Center Store~Grocery~Olives~Reynaldo Small Pitted Olives~Reynaldo~12.99~9.09~~~oz~51~No~~6~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127531101-2~~~0-4127531101-2~Center Store~Grocery~Olives~Reynaldo Stuffed Manz. Olives~Reynaldo~2.99~2.09~~~oz~7~No~~12~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127541101-9~~~0-4127541101-9~Center Store~Grocery~Olives~Reynaldo Stuffed Manz. Olives~Reynaldo~3.99~2.79~~~oz~10~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127522101-4~~~0-4127522101-4~Center Store~Grocery~Olives~Reynaldo Stuffed Manz. Olives~Reynaldo~1.99~1.39~~~oz~5.75~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127524501-0~~~0-4127524501-0~Center Store~Grocery~Olives~Reynaldo Stuffed Queen Olives~Reynaldo~6.99~4.89~~~oz~14~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127534501-7~~~0-4127534501-7~Center Store~Grocery~Olives~Reynaldo Plain Queen Olives~Reynaldo~5.49~3.84~~~oz~14~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127551595-3~~~0-4127551595-3~Center Store~Grocery~Olives~Reynaldo Olive Tapenade~Reynaldo~3.99~2.79~~~oz~3~No~~12~24~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500471-6~~~0-4127500471-6~Center Store~Grocery~Olives~Reynaldo Garlic Stuffed Olives~Reynaldo~5.99~4.19~~~oz~7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127510471-3~~~0-4127510471-3~Center Store~Grocery~Olives~Reynaldo Almond Stuffed Olives~Reynaldo~5.99~4.19~~~oz~7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127520471-0~~~0-4127520471-0~Center Store~Grocery~Olives~Reynaldo Jalapeno Stuffed Olives~Reynaldo~5.99~4.19~~~oz~7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127590471-9~~~0-4127590471-9~Center Store~Grocery~Olives~Reynaldo Garlic & Jalapeno Stuffed Olives~Reynaldo~5.99~4.19~~~oz~7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127551471-0~~~0-4127551471-0~Center Store~Grocery~Olives~Reynaldo X-Jumbo Calamata Olives~Reynaldo~5.99~4.19~~~oz~7.1~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127571471-4~~~0-4127571471-4~Center Store~Grocery~Olives~Reynaldo X-Large Pitted Calamata Olives~Reynaldo~5.99~4.19~~~oz~7.1~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127532471-5~~~0-4127532471-5~Center Store~Grocery~Olives~Reynaldo Green Olives Stuffed w/feta stuffed olives~Reynaldo~6.99~4.89~~~oz~12.7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127542471-2~~~0-4127542471-2~Center Store~Grocery~Olives~Reynaldo Green Olives Stuffed w/Blue Cheese in Oil~Reynaldo~6.99~4.89~~~oz~12.7~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127570127-1~~~0-4127570127-1~Center Store~Grocery~Olive Oil~Reynaldo Pure Olive Oil~Reynaldo~25.99~19.18~~~ltr~3~No~~4~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127570027-4~~~0-4127570027-4~Center Store~Grocery~Olive Oil~Reynaldo Pure Olive Oil~Reynaldo~3.99~2.79~~~oz~8.5~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127571027-3~~~0-4127571027-3~Center Store~Grocery~Olive Oil~Reynaldo Pure Olive Oil~Reynaldo~6.99~4.91~~~oz~16.9~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127530271-3~~~0-4127530271-3~Center Store~Grocery~Olive Oil~Reynaldo Pure Olive Oil~Reynaldo~9.49~6.65~~~oz~25.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127573027-1~~~0-4127573027-1~Center Store~Grocery~Olive Oil~Reynaldo Pure Olive Oil~Reynaldo~11.99~8.39~~~oz~33.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127580027-1~~~0-4127580027-1~Center Store~Grocery~Olive Oil~Reynaldo Extra Virgin Olive Oil~Reynaldo~4.49~3.14~~~oz~8.5~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127581027-0~~~0-4127581027-0~Center Store~Grocery~Olive Oil~Reynaldo Extra Virgin Olive Oil~Reynaldo~7.99~5.59~~~oz~16.9~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127508050-5~~~0-4127508050-5~Center Store~Grocery~Olive Oil~Reynaldo Extra Virgin Olive Oil~Reynaldo~10.49~7.34~~~oz~25.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127583027-8~~~0-4127583027-8~Center Store~Grocery~Olive Oil~Reynaldo Extra Virgin Olive Oil~Reynaldo~12.99~9.10~~~oz~33.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127580127-8~~~0-4127580127-8~Center Store~Grocery~Olive Oil~Reynaldo Extra Virgin Olive Oil~Reynaldo~27.49~19.25~~~ltr~3~No~~4~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127560027-7~~~0-4127560027-7~Center Store~Grocery~Olive Oil~Reynaldo Extra Light Olive Oil~Reynaldo~3.99~2.79~~~oz~8.5~No~~12~30~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127561027-6~~~0-4127561027-6~Center Store~Grocery~Olive Oil~Reynaldo Extra Light Olive Oil~Reynaldo~6.99~4.91~~~oz~16.9~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127533027-3~~~0-4127533027-3~Center Store~Grocery~Olive Oil~Reynaldo Extra Light Olive Oil~Reynaldo~9.49~6.65~~~oz~25.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127563027-4~~~0-4127563027-4~Center Store~Grocery~Olive Oil~Reynaldo Extra Light Olive Oil~Reynaldo~11.99~8.39~~~oz~33.8~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127510109-5~~~0-4127510109-5~Center Store~Grocery~Specialty Oil~Reynaldo Grape Seed Oil~Reynaldo~6.49~4.54~~~oz~16.9~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127540227-7~~~0-4127540227-7~Center Store~Grocery~Specialty Oil~Reynaldo Basil Flavored Dipping Oil~Reynaldo~5.99~4.19~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127550227-4~~~0-4127550227-4~Center Store~Grocery~Specialty Oil~Reynaldo Garlic Flavored Dipping Oil~Reynaldo~5.99~4.19~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127581901-3~~~0-4127581901-3~Center Store~Grocery~Spices~Reynaldo Dipping Ssoning Spices~Reynaldo~5.99~4.19~~~oz~4~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127520027-9~~~0-4127520027-9~Center Store~Grocery~Specialty Oil~Reynaldo Organic Ex-Virgin Olive Oil~Reynaldo~8.99~6.29~~~oz~16.9~No~~6~34~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127582117-7~~~0-4127582117-7~Center Store~Grocery~Cooking Oil~Reynaldo Vegetable Oil~Reynaldo~10.99~7.69~~~gal~1~No~~6~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127522124-3~~~0-4127522124-3~Center Store~Grocery~Salad Dressings~Reynaldo Classic Italian Dressing~Reynaldo~3.99~2.79~~~oz~16~No~~6~36~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127532124-0~~~0-4127532124-0~Center Store~Grocery~Salad Dressings~Reynaldo Italian House Dressing~Reynaldo~3.99~2.79~~~oz~16~No~~6~36~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127572124-8~~~0-4127572124-8~Center Store~Grocery~Salad Dressings~Reynaldo Sweet Italian House Dressing~Reynaldo~3.99~2.79~~~oz~16~No~~6~36~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127552124-4~~~0-4127552124-4~Center Store~Grocery~Salad Dressings~Reynaldo Balsamic Vinaigrette Dressing~Reynaldo~3.99~2.79~~~oz~16~No~~6~36~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127553023-9~~~0-4127553023-9~Center Store~Grocery~Specialty Vinegar~Reynaldo Modenacrem Balsamic Glaze~Reynaldo~5.99~3.84~~~oz~8.5~No~~6~66~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127515043-7~~~0-4127515043-7~Center Store~Grocery~Specialty Vinegar~Reynaldo Golden Balsamic Vinegar~Reynaldo~3.99~2.79~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127525043-4~~~0-4127525043-4~Center Store~Grocery~Specialty Vinegar~Reynaldo Raspberry Dressing w/ Balsamic Vinegar~Reynaldo~3.99~2.79~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127520601-1~~~0-4127520601-1~Center Store~Grocery~Vinegar~Reynaldo Imported White Wine Vinegar~Reynaldo~3.99~2.79~~~oz~16.9~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127530601-8~~~0-4127530601-8~Center Store~Grocery~Vinegar~Reynaldo Imported Red Wine Vinegar~Reynaldo~3.99~2.79~~~oz~16.9~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127552043-8~~~0-4127552043-8~Center Store~Grocery~Specialty Vinegar~Reynaldo Private Stock Balsamic Vinegar~Reynaldo~4.99~3.49~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127551043-9~~~0-4127551043-9~Center Store~Grocery~Vinegar~Reynaldo Balsamic Vinegar~Reynaldo~3.99~2.79~~~oz~8.5~No~~12~31~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127571043-3~~~0-4127571043-3~Center Store~Grocery~Vinegar~Reynaldo Balsamic Vinegar~Reynaldo~4.99~3.49~~~oz~16.9~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127573033-2~~~0-4127573033-2~Center Store~Grocery~Vinegar~Reynaldo Red Wine Vinegar~Reynaldo~2.99~2.09~~~oz~25.4~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127563033-5~~~0-4127563033-5~Center Store~Grocery~Vinegar~Reynaldo Garlic Wine Vinegar~Reynaldo~2.99~2.09~~~oz~25.4~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127588999-3~~~0-4127588999-3~Center Store~Grocery~Vinegar~Reynaldo Red Wine Vinegar~Reynaldo~5.99~4.50~~~gal~1~No~~4~12~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127534043-2~~~0-4127534043-2~Center Store~Grocery~Specialty Vinegar~Reynaldo Balsamic Vinegar Spray~Reynaldo~4.99~3.49~~~oz~8.5~No~~6~39~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127544043-9~~~0-4127544043-9~Center Store~Grocery~Specialty Vinegar~Reynaldo Golden Sweet Vinegar Spray~Reynaldo~4.99~3.49~~~oz~8.5~No~~6~39~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127580841-3~~~0-4127580841-3~Center Store~Grocery~Grated Cheese~Reynaldo Grated Parmesan~Reynaldo~3.99~2.79~~~oz~8~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127580941-0~~~0-4127580941-0~Center Store~Grocery~Grated Cheese~Reynaldo Grated Romano~Reynaldo~3.99~2.79~~~oz~8~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127516401-4~~~0-4127516401-4~Center Store~Grocery~Brdcrumbs~Reynaldo Italian Ssoned Brdcrumbs~Reynaldo~1.99~1.39~~~oz~15~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127526401-1~~~0-4127526401-1~Center Store~Grocery~Brdcrumbs~Reynaldo Italian Ssoned Brdcrumbs~Reynaldo~2.49~1.74~~~oz~24~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127517401-3~~~0-4127517401-3~Center Store~Grocery~Brdcrumbs~Reynaldo Plain Brdcrumbs~Reynaldo~1.99~1.39~~~oz~15~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127527401-0~~~0-4127527401-0~Center Store~Grocery~Brdcrumbs~Reynaldo Plain Brdcrumbs~Reynaldo~2.49~1.74~~~oz~24~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127550407-0~~~0-4127550407-0~Center Store~Grocery~Brdcrumbs~Reynaldo Hot & Spicy Brd Crumbs~Reynaldo~2.49~1.74~~~oz~15~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127580407-1~~~0-4127580407-1~Center Store~Grocery~Brdcrumbs~Reynaldo Roasted Garlic Brd Crumbs~Reynaldo~2.49~1.74~~~oz~15~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127560407-7~~~0-4127560407-7~Center Store~Grocery~Brdcrumbs~Reynaldo Italian Ssoned Panko Brd Crumbs~Reynaldo~2.49~1.74~~~oz~8~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127550409-4~~~0-4127550409-4~Center Store~Grocery~Brdcrumbs~Reynaldo Panko Brd Crumbs~Reynaldo~2.99~2.09~~~oz~12~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127560409-1~~~0-4127560409-1~Center Store~Grocery~Brdcrumbs~Reynaldo Panko Brd Crumbs~Reynaldo~1.99~1.39~~~oz~8~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127526309-0~~~0-4127526309-0~Center Store~Grocery~Cookies/Crackers~Reynaldo Traditional Brdsticks~Reynaldo~2.59~1.78~~~oz~4.4~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127506309-6~~~0-4127506309-6~Center Store~Grocery~Cookies/Crackers~Reynaldo Torinese Brdsticks~Reynaldo~2.59~1.78~~~oz~3~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127546309-4~~~0-4127546309-4~Center Store~Grocery~Cookies/Crackers~Reynaldo Sesame Brdsticks~Reynaldo~2.59~1.78~~~oz~4.4~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127556309-1~~~0-4127556309-1~Center Store~Grocery~Cookies/Crackers~Reynaldo Whole Wht Brdsticks~Reynaldo~2.59~1.78~~~oz~4.4~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127524101-2~~~0-4127524101-2~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Cauliflower~Reynaldo~2.99~2.09~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127545101-5~~~0-4127545101-5~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Cauliflower~Reynaldo~2.99~2.09~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127503102-6~~~0-4127503102-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Sliced Mild Pepperoncini - Squat jar~Reynaldo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127513101-6~~~0-4127513101-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Whole Mild Pepperoncini - Squat jar~Reynaldo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127566101-8~~~0-4127566101-8~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Banana Pepper Rings~Reynaldo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127596101-9~~~0-4127596101-9~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Banana Pepper Chunks~Reynaldo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127537101-6~~~0-4127537101-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Sliced Jalapeno Peppers~Reynaldo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127547101-3~~~0-4127547101-3~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Banana Pepper Chunks~Reynaldo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127591701-6~~~0-4127591701-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Banana Pepper Rings~Reynaldo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127547202-7~~~0-4127547202-7~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Giardiniera~Reynaldo~2.50~1.75~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127557101-0~~~0-4127557101-0~Center Store~Grocery~Pickles/Peppers~Reynaldo Wild Hot Diced Pepper/Olive Oil~Reynaldo~3.99~2.79~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127568007-1~~~0-4127568007-1~Center Store~Grocery~Pickles/Peppers~Reynaldo Red Sweet Peppers~Reynaldo~5.99~4.19~~~oz~24~No~~6~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127514102-2~~~0-4127514102-2~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Cauliflower~Reynaldo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127554102-0~~~0-4127554102-0~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Cauliflower~Reynaldo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127588102-7~~~0-4127588102-7~Center Store~Grocery~Pickles/Peppers~Reynaldo Red Hot Cherry Peppers~Reynaldo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127558102-6~~~0-4127558102-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Whole Mild Banana Peppers~Reynaldo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127571702-9~~~0-4127571702-9~Center Store~Grocery~Pickles/Peppers~Reynaldo Whole Hot Banana Peppers~Reynaldo~6.49~4.50~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127527102-6~~~0-4127527102-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Sliced Jalapeno Peppers~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127563102-8~~~0-4127563102-8~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Pepperoncini~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127543102-4~~~0-4127543102-4~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Pepperoncini~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127502702-9~~~0-4127502702-9~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Banana Pepper Rings~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127522702-3~~~0-4127522702-3~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Banana Pepper Rings~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127587202-5~~~0-4127587202-5~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Giardiniera~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127567202-1~~~0-4127567202-1~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Giardiniera~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127518102-8~~~0-4127518102-8~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Banana Pepper Chunks~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127597102-5~~~0-4127597102-5~Center Store~Grocery~Pickles/Peppers~Reynaldo Mild Banana Pepper Chunks~Reynaldo~4.99~3.41~~~oz~25.5~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127548701-4~~~0-4127548701-4~Center Store~Grocery~Pickles/Peppers~Reynaldo Red Pepperazzi~Reynaldo~5.99~4.19~~~oz~10.2~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127558701-1~~~0-4127558701-1~Center Store~Grocery~Pickles/Peppers~Reynaldo Roasted Pepperazzi~Reynaldo~5.99~4.19~~~oz~10.2~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127568701-8~~~0-4127568701-8~Center Store~Grocery~Pickles/Peppers~Reynaldo Tri Color Pepperazzi~Reynaldo~5.99~4.19~~~oz~10.2~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127574701-9~~~0-4127574701-9~Center Store~Grocery~Pickles/Peppers~Reynaldo Roasted Red Peppers~Reynaldo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127515701-6~~~0-4127515701-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Roasted Red Peppers w/Garlic~Reynaldo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127587701-3~~~0-4127587701-3~Center Store~Grocery~Pickles/Peppers~Reynaldo Roasted Yellow & Red Peppers w/Garlic~Reynaldo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127508007-9~~~0-4127508007-9~Center Store~Grocery~Pickles/Peppers~Reynaldo Roasted Piquillo Peppers~Reynaldo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127518007-6~~~0-4127518007-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Grilled Piquillo Peppers~Reynaldo~2.50~1.75~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127580701-0~~~0-4127580701-0~Center Store~Grocery~Pickles/Peppers~Reynaldo Hot Peppers & Sauce~Reynaldo~4.99~3.44~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127590701-7~~~0-4127590701-7~Center Store~Grocery~Pickles/Peppers~Reynaldo Medium Hot Peppers & Sauce~Reynaldo~4.99~3.44~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127501701-3~~~0-4127501701-3~Center Store~Grocery~Pickles/Peppers~Reynaldo Sweet Peppers & Sauce~Reynaldo~4.99~3.44~~~oz~16~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500631-4~~~0-4127500631-4~Center Store~Grocery~Appetizers~Reynaldo Artichoke Bruschetta~Reynaldo~5.99~4.19~~~oz~10~No~~6~27~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127510631-1~~~0-4127510631-1~Center Store~Grocery~Appetizers~Reynaldo Sun Dried Tomato Bruschetta~Reynaldo~5.99~4.19~~~oz~10~No~~6~27~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127520631-8~~~0-4127520631-8~Center Store~Grocery~Appetizers~Reynaldo Olive Bruschetta~Reynaldo~5.99~4.19~~~oz~10~No~~6~27~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127530631-5~~~0-4127530631-5~Center Store~Grocery~Appetizers~Reynaldo Roasted Pepper Bruschetta~Reynaldo~5.99~4.19~~~oz~10~No~~6~27~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127582007-1~~~0-4127582007-1~Center Store~Grocery~Pickles/Peppers~Reynaldo Imp. Curly Peppers~Reynaldo~5.99~4.19~~~oz~5.6~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127524260-6~~~0-4127524260-6~Center Store~Grocery~Mustard~Reynaldo Honey Mustard~Reynaldo~2.00~1.19~~~oz~5~No~~6~54~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127514260-9~~~0-4127514260-9~Center Store~Grocery~Mustard~Reynaldo Dijon Mustard~Reynaldo~2.99~1.79~~~oz~10~No~~6~42~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127504260-2~~~0-4127504260-2~Center Store~Grocery~Mustard~Reynaldo Dijon Mustard~Reynaldo~2.00~1.19~~~oz~4.25~No~~6~54~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127544260-0~~~0-4127544260-0~Center Store~Grocery~Mustard~Reynaldo Spicy Brown Mustard~Reynaldo~2.99~1.79~~~oz~10~No~~6~42~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127534260-3~~~0-4127534260-3~Center Store~Grocery~Mustard~Reynaldo Spicy Brown Mustard~Reynaldo~2.00~1.19~~~oz~4.25~No~~6~54~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127541032-6~~~0-4127541032-6~Center Store~Grocery~Pickles/Peppers~Reynaldo Diced Pimentos~Reynaldo~1.99~1.39~~~oz~4~No~~24~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505909-9~~~0-4127505909-9~Center Store~Grocery~Canned Vegetables~Reynaldo Marinated Artichoke Hrts - glass~Reynaldo~2.19~1.46~~~oz~6~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127555909-4~~~0-4127555909-4~Center Store~Grocery~Canned Vegetables~Reynaldo Marinated Artichoke Hrts - glass~Reynaldo~3.69~2.58~~~oz~12~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127575909-8~~~0-4127575909-8~Center Store~Grocery~Canned Vegetables~Reynaldo Artichoke Hrts 5/7ct.- can~Reynaldo~3.69~2.58~~~oz~13.75~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127586909-4~~~0-4127586909-4~Center Store~Grocery~Canned Vegetables~Reynaldo Artichoke Hrts 6/8ct.- can~Reynaldo~3.69~2.58~~~oz~13.75~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127587909-3~~~0-4127587909-3~Center Store~Grocery~Canned Vegetables~Reynaldo Artichoke Quarters -can~Reynaldo~3.69~2.58~~~oz~13.75~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127556909-3~~~0-4127556909-3~Center Store~Grocery~Canned Vegetables~Reynaldo Marinated Artichokes - glass~Reynaldo~8.19~5.70~~~oz~24~No~~6~21~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127542854-3~~~0-4127542854-3~Center Store~Grocery~Canned Vegetables~Reynaldo Salad Cut Hrts of Palm~Reynaldo~2.99~2.09~~~oz~14.1~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127552854-0~~~0-4127552854-0~Center Store~Grocery~Canned Vegetables~Reynaldo Whole Hrts of Palm~Reynaldo~3.99~2.79~~~oz~14.1~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127510532-1~~~0-4127510532-1~Center Store~Grocery~Canned Bns~Reynaldo Cannellini Bns~Reynaldo~1.50~1.05~~~oz~14~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127520532-8~~~0-4127520532-8~Center Store~Grocery~Canned Bns~Reynaldo Chick Ps~Reynaldo~1.50~1.05~~~oz~14~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127560532-6~~~0-4127560532-6~Center Store~Grocery~Canned Bns~Reynaldo Lentils~Reynaldo~1.50~1.05~~~oz~14~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127521532-7~~~0-4127521532-7~Center Store~Grocery~Canned Bns~Reynaldo Imported Lupini Bns~Reynaldo~5.99~4.19~~~oz~25.4~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127531532-4~~~0-4127531532-4~Center Store~Grocery~Canned Bns~Reynaldo Imported Lupini Bns~Reynaldo~3.99~2.79~~~oz~13~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127532510-1~~~0-4127532510-1~Center Store~Grocery~Canned Bns~Reynaldo Romano Bns~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127542510-8~~~0-4127542510-8~Center Store~Grocery~Canned Bns~Reynaldo Grt Northern Bns~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127552510-5~~~0-4127552510-5~Center Store~Grocery~Canned Bns~Reynaldo Chili Bns in Sauce~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127562510-2~~~0-4127562510-2~Center Store~Grocery~Canned Bns~Reynaldo Light Red Kidney Bns~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127572510-9~~~0-4127572510-9~Center Store~Grocery~Canned Bns~Reynaldo Cannellini Bns~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127582510-6~~~0-4127582510-6~Center Store~Grocery~Canned Bns~Reynaldo Chick Ps~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127592510-3~~~0-4127592510-3~Center Store~Grocery~Canned Bns~Reynaldo Pinto Bns~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127503510-9~~~0-4127503510-9~Center Store~Grocery~Canned Bns~Reynaldo Black Bns~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127513510-6~~~0-4127513510-6~Center Store~Grocery~Canned Bns~Reynaldo Butter Bns~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127523510-3~~~0-4127523510-3~Center Store~Grocery~Canned Bns~Reynaldo Navy Bns~Reynaldo~1.19~0.83~~~oz~15.5~No~~12~17~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127507111-4~~~0-4127507111-4~Center Store~Grocery~Appetizers~Reynaldo Roasted Garlic in Oil~Reynaldo~4.99~3.35~~~oz~5.5~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127503007-4~~~0-4127503007-4~Center Store~Grocery~Appetizers~Reynaldo Imp. Whole Clove Garlic in Oil~Reynaldo~7.59~5.25~~~oz~5.6~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500111-1~~~0-4127500111-1~Center Store~Grocery~Appetizers~Reynaldo Fine Chopped Garlic in Water~Reynaldo~4.39~3.05~~~oz~6~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505111-6~~~0-4127505111-6~Center Store~Grocery~Appetizers~Reynaldo Chopped Garlic in Oil~Reynaldo~4.39~3.05~~~oz~6~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127501111-0~~~0-4127501111-0~Center Store~Grocery~Appetizers~Reynaldo Fine Chopped Garlic in Water~Reynaldo~6.59~4.66~~~oz~32~No~~6~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127565061-6~~~0-4127565061-6~Center Store~Grocery~Appetizers~Reynaldo Italian Garlic Mushrooms~Reynaldo~3.99~2.79~~~oz~8~No~~12~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127595061-7~~~0-4127595061-7~Center Store~Grocery~Appetizers~Reynaldo Tuscan Marinated Mushroom Salad~Reynaldo~3.99~2.79~~~oz~8~No~~12~22~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127530031-3~~~0-4127530031-3~Center Store~Grocery~Canned Mt~Reynaldo Chopped S Clams~Reynaldo~2.99~2.09~~~oz~6.5~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127540031-0~~~0-4127540031-0~Center Store~Grocery~Canned Mt~Reynaldo Minced S Clams~Reynaldo~2.99~2.09~~~oz~6.5~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127560031-4~~~0-4127560031-4~Center Store~Grocery~Canned Mt~Reynaldo Clam Juice Broth~Reynaldo~2.09~1.43~~~oz~14~No~~12~16~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505103-1~~~0-4127505103-1~Center Store~Grocery~Canned Mt~Reynaldo Flat Fillet Anchovies~Reynaldo~1.99~1.39~~~oz~2~No~~25~40~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500103-6~~~0-4127500103-6~Center Store~Grocery~Canned Mt~Reynaldo Rolled Anchovies w/Capers~Reynaldo~1.99~1.39~~~oz~2~No~~25~40~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500288-0~~~0-4127500288-0~Center Store~Grocery~Salad Toppings~Reynaldo Pignoli Nuts~Reynaldo~8.99~6.25~~~oz~2~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127521288-3~~~0-4127521288-3~Center Store~Grocery~Appetizers~Reynaldo Non Pareil Capers~Reynaldo~4.99~3.49~~~oz~4~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127531288-0~~~0-4127531288-0~Center Store~Grocery~Appetizers~Reynaldo Capote Capers~Reynaldo~3.99~2.79~~~oz~4~No~~12~28~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127525721-1~~~0-4127525721-1~Center Store~Grocery~Spices~Reynaldo Natural  S Salt Coarse~Reynaldo~2.99~2.09~~~oz~8~No~~6~48~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127572088-3~~~0-4127572088-3~Center Store~Grocery~Juice~Reynaldo Lime Juice~Reynaldo~2.49~1.74~~~oz~6.75~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127561088-7~~~0-4127561088-7~Center Store~Grocery~Juice~Reynaldo Lemon Juice Plus~Reynaldo~2.49~1.74~~~oz~6.75~No~~12~19~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127575120-7~~~0-4127575120-7~Center Store~Grocery~Juice~Reynaldo Lemon Juice Slice~Reynaldo~2.49~1.74~~~oz~6.75~No~~12~32~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127501130-1~~~0-4127501130-1~Center Store~Grocery~Coffee~Reynaldo Café Espresso~Reynaldo~7.99~5.49~~~oz~8.8~No~~6~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500130-2~~~0-4127500130-2~Center Store~Grocery~Coffee~Reynaldo Café Espresso Decaf~Reynaldo~7.99~5.49~~~oz~8.8~No~~6~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127521072-8~~~0-4127521072-8~Center Store~Grocery~Cookies/Crackers~Reynaldo Assorted Torrone 18pc.~Reynaldo~8.88~6.22~~~oz~7~No~~12~23~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500672-7~~~0-4127500672-7~Center Store~Grocery~Cookies/Crackers~Reynaldo Savoiardi Lady Fingers~Reynaldo~3.39~2.37~~~oz~7.06~No~~15~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127506512-0~~~0-4127506512-0~Center Store~Bakery~Biscotti~Reynaldo Almond Biscotti~Reynaldo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127516512-7~~~0-4127516512-7~Center Store~Bakery~Biscotti~Reynaldo Chocolate Almond Biscotti~Reynaldo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127526512-4~~~0-4127526512-4~Center Store~Bakery~Biscotti~Reynaldo Orange Pecan Biscotti~Reynaldo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127536512-1~~~0-4127536512-1~Center Store~Bakery~Biscotti~Reynaldo Cranberry Walnut Biscotti~Reynaldo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127546512-8~~~0-4127546512-8~Center Store~Bakery~Biscotti~Reynaldo Vanilla Almond Biscotti~Reynaldo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127556512-5~~~0-4127556512-5~Center Store~Bakery~Biscotti~Reynaldo Cranberry Pistachio Biscotti~Reynaldo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127566512-2~~~0-4127566512-2~Center Store~Bakery~Biscotti~Reynaldo Chocolate Mint Biscotti~Reynaldo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127576512-9~~~0-4127576512-9~Center Store~Bakery~Biscotti~Reynaldo Chocolate Hazelnut Biscotti~Reynaldo~4.99~2.99~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127570611-5~~~0-4127570611-5~Center Store~Bakery~Biscotti~Reynaldo Whole Grain Mini's Cinnamon Almond & Oats~Reynaldo~5.49~3.29~~~oz~9~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127580611-2~~~0-4127580611-2~Center Store~Bakery~Biscotti~Reynaldo Whole Grain Mini's Cranberry Blueberry Almond~Reynaldo~5.49~3.29~~~oz~9~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127582611-0~~~0-4127582611-0~Center Store~Bakery~Biscotti~Reynaldo Whole Grain Cinnamon Almond & Oats~Reynaldo~5.49~3.29~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127592611-7~~~0-4127592611-7~Center Store~Bakery~Biscotti~Reynaldo Whole Grain Cranberry Blueberry Almond~Reynaldo~5.49~3.29~~~oz~7~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127554512-7~~~0-4127554512-7~Center Store~Bakery~Specialty Cookie~Reynaldo Vanilla Pizzelle~Reynaldo~4.99~2.99~~~oz~6~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127564512-4~~~0-4127564512-4~Center Store~Bakery~Specialty Cookie~Reynaldo Anise Pizzelle~Reynaldo~4.99~2.99~~~oz~6~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127587512-5~~~0-4127587512-5~Center Store~Bakery~Specialty Cookie~Reynaldo Almond Pizzelle~Reynaldo~4.99~2.99~~~oz~6~No~~12~7~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127532612-2~~~0-4127532612-2~Center Store~Bakery~Biscotti~Reynaldo WW Cinnamon Almond Biscotti Mini~Reynaldo~0.50~0.30~~~ct~2~No~~48~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127522612-5~~~0-4127522612-5~Center Store~Bakery~Biscotti~Reynaldo WW Cranberry Blueberry Almond Biscotti Mini~Reynaldo~0.50~0.30~~~ct~2~No~~48~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127599320-1~~~0-4127599320-1~Center Store~Grocery~Pasta Sauce~Reynaldo Sun Dried Tomato Shipper~Reynaldo~5.99~4.19~~~oz~6.5~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127521420-7~~~0-4127521420-7~Center Store~Grocery~Pasta Sauce~Reynaldo Whole Garlic/Garlic Oil Hot Pepper Shipper~Reynaldo~6.59~4.66~~~ea~1~No~~36~3~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127511420-0~~~0-4127511420-0~Center Store~Grocery~Pasta Sauce~Reynaldo Sun Dried Tomato/Pesto Shipper~Reynaldo~5.99~4.19~~~oz~6.5~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127541420-1~~~0-4127541420-1~Center Store~Grocery~Pasta~Reynaldo Gnocchi/Risotto/Polenta Shipper~Reynaldo~3.49~2.46~~~ea~1~No~~72~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127551423-9~~~0-4127551423-9~Center Store~Grocery~Spices~Reynaldo Variety Sauce/Dipping Spice Shipper~Reynaldo~5.99~4.19~~~ea~1~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127581420-9~~~0-4127581420-9~Center Store~Grocery~Pickles/Peppers~Reynaldo 3 Variety Pepperazzi Shipper~Reynaldo~5.99~4.19~~~oz~10.2~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127509320-8~~~0-4127509320-8~Center Store~Grocery~Pasta~Reynaldo Imported Potato Gnocchi Shipper~Reynaldo~3.49~0.05~~~oz~16~No~~72~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500670-3~~~0-4127500670-3~Center Store~Grocery~Organic Pasta~Reynaldo WW Short Cut Variety Pasta Shipper~Reynaldo~2.99~2.09~~~oz~16~No~~44~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500470-9~~~0-4127500470-9~Center Store~Grocery~Pasta~Reynaldo Soup Cut  Variety Pasta Shipper~Reynaldo~2.49~1.74~~~oz~16~No~~75~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127530420-5~~~0-4127530420-5~Center Store~Grocery~Olives~Reynaldo 3 Variety Specialty Stuffed Olive Shipper~Reynaldo~6.29~4.37~~~oz~7~No~~28~3~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127584901-0~~~0-4127584901-0~Center Store~Grocery~Spices~Reynaldo Dipping Ssoning Spices Shipper~Reynaldo~5.99~4.19~~~oz~4~No~~48~3~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127549320-6~~~0-4127549320-6~Center Store~Grocery~Grated Cheese~Reynaldo Grated Parmesan Shipper~Reynaldo~3.99~2.79~~~oz~8~No~~60~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127559320-3~~~0-4127559320-3~Center Store~Grocery~Grated Cheese~Reynaldo Mix Parmesan Romano Grated Cheese Shipper~Reynaldo~3.99~2.79~~~oz~8~No~~60~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127576309-5~~~0-4127576309-5~Center Store~Grocery~Cookies/Crackers~Reynaldo Brdstick Shipper~Reynaldo~2.59~1.78~~~ea~1~No~~96~2~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127556300-8~~~0-4127556300-8~Center Store~Grocery~Cookies/Crackers~Reynaldo 4 Variety Brdstick Shipper~Reynaldo~2.59~1.78~~~ea~1~No~~96~2~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127536309-7~~~0-4127536309-7~Center Store~Grocery~Cookies/Crackers~Reynaldo 3 Variety Brdstick Shipper~Reynaldo~2.59~1.78~~~ea~1~No~~96~2~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127590420-7~~~0-4127590420-7~Center Store~Grocery~Appetizers~Reynaldo 4 Variety Bruschetta Shipper~Reynaldo~5.99~4.19~~~oz~10~No~~32~3~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127590066-7~~~0-4127590066-7~Center Store~Grocery~Juice~Reynaldo Lime Juice Shipper~Reynaldo~2.49~1.74~~~oz~6.75~No~~96~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127560066-6~~~0-4127560066-6~Center Store~Grocery~Juice~Reynaldo Lemon Juice Plus Shipper~Reynaldo~2.49~1.74~~~oz~6.75~No~~96~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127531066-4~~~0-4127531066-4~Center Store~Grocery~Juice~Reynaldo Lemon Slice Shipper~Reynaldo~2.49~1.74~~~oz~6.75~No~~96~12~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127569320-0~~~0-4127569320-0~Center Store~Grocery~Juice~Reynaldo Assorted Torrone Shipper~Reynaldo~8.88~6.22~~~oz~7~No~~60~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127555512-6~~~0-4127555512-6~Bakery~Prepacked~Biscotti~Reynaldo 4 Variety Biscotti Shipper~Reynaldo~4.99~2.99~~~oz~7~No~~80~6~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127535512-2~~~0-4127535512-2~Bakery~Prepacked~Biscotti~Reynaldo Mixed Biscotti/Pizzelle Shipper~Reynaldo~4.99~3.47~~~ea~1~No~~76~6~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505512-1~~~0-4127505512-1~Bakery~Prepacked~Specialty Cookie~Reynaldo Pizzelle Shipper~Reynaldo~4.99~2.99~~~oz~6~No~~72~6~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127540158-4~~~0-4127540158-4~Center Store~Grocery~Cookies/Crackers~Reynaldo Savoiardi Lady Fingers Shipper~Reynaldo~3.39~0.04~~~oz~7.06~No~~96~6~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127548721-2~~~0-4127548721-2~Center Store~Grocery~Appetizers~Shiek Sam Stuffed Grape Lves  (can)~Shiek Sam~4.99~3.24~~~oz~14~No~~6~12~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127588011-2~~~0-4127588011-2~Center Store~Grocery~Canned Mushrooms~Monaco USA Pieces & Stems Mushrooms~Monaco~0.99~0.69~~~oz~4~No~~24~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-7937150600-4~~~0-7937150600-4~Produce~Prepacked~Raisins~Failina Raisins~Failina~2.19~1.52~~~oz~9~No~~24~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-7937141700-3~~~0-7937141700-3~Produce~Prepacked~Raisins~Failina Raisins~Failina~2.49~1.76~~~oz~12~No~~24~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-7937152220-2~~~0-7937152220-2~Produce~Prepacked~Raisins~Failina Pitted Prune~Failina~3.79~0.50~~~oz~12~No~~12~18~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127503312-9~~~0-4127503312-9~Center Store~Grocery~Canned Fruit~Old Hotel Cherries~Old Hotel~1.99~1.42~~~oz~10~No~~12~20~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127589312-9~~~0-4127589312-9~Center Store~Grocery~Broth~Old Hotel Chicken Broth~Old Hotel~0.99~0.69~~~oz~14.5~No~~24~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127599312-6~~~0-4127599312-6~Center Store~Grocery~Broth~Old Hotel Beef Broth~Old Hotel~0.99~0.69~~~oz~14.5~No~~24~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127579312-2~~~0-4127579312-2~Center Store~Grocery~Broth~Old Hotel Chicken Broth~Old Hotel~2.99~2.09~~~oz~46~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500212-5~~~0-4127500212-5~Center Store~Grocery~Egg Noodles~Old Hotel Fine Egg Noodles~Old Hotel~1.70~1.19~~~oz~12~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127550212-0~~~0-4127550212-0~Center Store~Grocery~Egg Noodles~Old Hotel Medium Egg Noodles~Old Hotel~1.70~1.19~~~oz~12~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127501212-4~~~0-4127501212-4~Center Store~Grocery~Egg Noodles~Old Hotel Wide Egg Noodles~Old Hotel~1.70~1.19~~~oz~12~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127551212-9~~~0-4127551212-9~Center Store~Grocery~Egg Noodles~Old Hotel Extra Wide Egg Noodles~Old Hotel~1.70~1.19~~~oz~12~No~~12~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127502212-3~~~0-4127502212-3~Center Store~Grocery~Egg Noodles~Old Hotel Kluski Egg Noodles~Old Hotel~2.29~1.58~~~oz~12~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127500109-8~~~0-4127500109-8~Center Store~Grocery~Olive Oil~Terneth Pomace Olive Oil~Terneth~22.99~16.40~~~gal~1~No~~6~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127562024-4~~~0-4127562024-4~Center Store~Grocery~Pasta Sauce~Terneth Traditional Spaghetti Sauce~Terneth~1.99~1.39~~~oz~24~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127572024-1~~~0-4127572024-1~Center Store~Grocery~Pasta Sauce~Terneth Spaghetti Sauce w/Mt~Terneth~1.99~1.39~~~oz~24~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127582024-8~~~0-4127582024-8~Center Store~Grocery~Pasta Sauce~Terneth Spaghetti Sauce w/Mushrooms~Terneth~1.99~1.39~~~oz~24~No~~12~11~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127580741-6~~~0-4127580741-6~Center Store~Grocery~Grated Cheese~Terneth Grated Parmesan~Terneth~3.99~2.79~~~oz~8~No~~12~15~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127506152-8~~~0-4127506152-8~Center Store~Grocery~Pasta~Terneth Lasagna~Terneth~2.99~2.09~~~oz~16~No~~12~12~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127510152-1~~~0-4127510152-1~Center Store~Grocery~Pasta~Terneth #1 Capellini~Terneth~1.50~1.05~~~lb~1~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127550152-9~~~0-4127550152-9~Center Store~Grocery~Pasta~Terneth #5 Spaghetti~Terneth~1.50~1.05~~~lb~1~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127590152-7~~~0-4127590152-7~Center Store~Grocery~Pasta~Terneth #9 Linguine~Terneth~1.50~1.05~~~lb~1~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127512152-9~~~0-4127512152-9~Center Store~Grocery~Pasta~Terneth #21 Rigatoni~Terneth~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127532152-3~~~0-4127532152-3~Center Store~Grocery~Pasta~Terneth #23 Mezzi Rigatoni~Terneth~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127572152-1~~~0-4127572152-1~Center Store~Grocery~Pasta~Terneth #27 Fusilli~Terneth~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127563152-3~~~0-4127563152-3~Center Store~Grocery~Pasta~Terneth #36 Penne Rigate~Terneth~1.50~1.05~~~lb~1~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127504152-0~~~0-4127504152-0~Center Store~Grocery~Pasta~Terneth Gemelli~Terneth~1.50~1.05~~~lb~1~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127593152-4~~~0-4127593152-4~Center Store~Grocery~Pasta~Terneth Ziti~Terneth~1.50~1.05~~~lb~1~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127583152-7~~~0-4127583152-7~Center Store~Grocery~Pasta~Terneth Fettuccine~Terneth~1.50~1.05~~~lb~1~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127519152-2~~~0-4127519152-2~Center Store~Grocery~Pasta~Terneth #91 Shells~Terneth~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127520552-6~~~0-4127520552-6~Center Store~Grocery~Pasta~Terneth #87 Farfalle~Terneth~1.50~1.05~~~lb~1~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127570552-1~~~0-4127570552-1~Center Store~Grocery~Pasta~Terneth # 68 Elbows~Terneth~1.50~1.05~~~lb~1~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127505152-9~~~0-4127505152-9~Center Store~Grocery~Organic Pasta~Terneth WW Org Spaghetti~Terneth~1.79~1.20~~~oz~12~No~~20~24~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127515152-6~~~0-4127515152-6~Center Store~Grocery~Organic Pasta~Terneth WW Org Penne Rigate~Terneth~1.79~1.20~~~oz~12~No~~20~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-4127525152-3~~~0-4127525152-3~Center Store~Grocery~Organic Pasta~Terneth WW Org Rotini~Terneth~1.79~1.20~~~oz~12~No~~20~9~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218722432-4~~~0-1218722432-4~Center Store~Grocery~Specialty Pasta~Chocowill Spaghetti Box #22~Chocowill~3.99~2.79~~~g~500~No~~12~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218714413-4~~~0-1218714413-4~Center Store~Grocery~Specialty Pasta~Chocowill Linguine #41~Chocowill~3.99~2.79~~~g~500~No~~12~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218724413-1~~~0-1218724413-1~Center Store~Grocery~Specialty Pasta~Chocowill Fettuccine #42~Chocowill~4.99~3.49~~~g~500~No~~12~14~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218734413-8~~~0-1218734413-8~Center Store~Grocery~Specialty Pasta~Chocowill Bucatini #43~Chocowill~4.99~3.49~~~g~500~No~~12~13~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218774413-6~~~0-1218774413-6~Center Store~Grocery~Specialty Pasta~Chocowill Farfalloni #47~Chocowill~4.99~3.49~~~g~500~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218784413-3~~~0-1218784413-3~Center Store~Grocery~Specialty Pasta~Chocowill Sagnarelli #48~Chocowill~4.99~3.49~~~g~500~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218705413-6~~~0-1218705413-6~Center Store~Grocery~Specialty Pasta~Chocowill Orecchiette #50~Chocowill~4.99~3.49~~~g~500~No~~12~10~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218738413-4~~~0-1218738413-4~Center Store~Grocery~Specialty Pasta~Chocowill Pennoni #83~Chocowill~4.99~3.49~~~g~500~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218768413-5~~~0-1218768413-5~Center Store~Grocery~Specialty Pasta~Chocowill Rigatoni Giganti #86~Chocowill~4.99~3.49~~~g~500~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~
+0-1218758413-8~~~0-1218758413-8~Center Store~Grocery~Specialty Pasta~Chocowill Fusillo Gigante #85~Chocowill~4.99~3.49~~~g~500~No~~12~8~~30~48~40~1~~No~~No~~~No~No~No~~

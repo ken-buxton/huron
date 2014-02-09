@@ -10,7 +10,7 @@ class LoadDataController < ApplicationController
       :user => "huron", :password => "huron"}
     @load_file_dir = File.expand_path("", "db/load_files")
     @dim_file_dir = File.expand_path("", "db/dim_load_files")
-    @start_date = '2013-11-19'
+    @start_date = '2010-01-01'
     @end_date = '2014-04-30'
 
     @result = "Loaded:<br>"
