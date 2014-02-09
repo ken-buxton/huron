@@ -6,8 +6,15 @@ class LoadDataController < ApplicationController
   
   def doit
     # This should be replaced with a call to: ApplicationHelper.get_pg_conn_hash
-    @conn_hash = {:host => "localhost", :port => 5434, :dbname => "huron", 
-      :user => "huron", :password => "huron"}
+    local = false
+    if local then
+      @conn_hash = {:host => "localhost", :port => 5434, :dbname => "huron", 
+        :user => "huron", :password => "huron"}
+    else
+      @conn_hash = {:host => "ec2-107-21-226-77.compute-1.amazonaws.com", :port => 5432, :dbname => "dcft9m221v2bl3", 
+        :user => "pxbabeplazivmj", :password => "IwJkBN74dJm5mlm7Th-6CH6ErD"}
+    end
+      
     @load_file_dir = File.expand_path("", "db/load_files")
     @dim_file_dir = File.expand_path("", "db/dim_load_files")
     @start_date = '2010-01-01'
