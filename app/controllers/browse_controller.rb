@@ -2048,6 +2048,7 @@ class BrowseController < ApplicationController
 
         # my_select = "select distinct #{field} from #{who} where #{combined_where} #{order_by};"
         my_select = "select #{field} from (select distinct #{field}, #{ordering_field} ordering_field from #{who} where #{combined_where}) T order by ordering_field;"
+        logger.debug my_select
         chk_box_on_click = %Q~onclick="chk_box_click('#{who}', '#{field}')"~
         selections = conn.select_values(my_select)
         if not is_cur_prev then
