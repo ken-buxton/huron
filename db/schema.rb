@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140208170611) do
+ActiveRecord::Schema.define(:version => 20140209214017) do
 
   create_table "agg_sales_dt_pr_ds", :primary_key => "agg_sales_dt_pr_ds_key", :force => true do |t|
     t.integer "date_key",              :limit => 2, :null => false
@@ -426,6 +426,13 @@ ActiveRecord::Schema.define(:version => 20140208170611) do
     t.text     "creation_sql"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+  end
+
+  create_table "logs", :force => true do |t|
+    t.datetime "log_when"
+    t.text     "log_what"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "reports", :force => true do |t|

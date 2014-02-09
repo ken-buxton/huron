@@ -91,7 +91,6 @@ class BrowseController < ApplicationController
     rescue
       @no_timeout = "false"
     end
-    logger.debug "@dont_execute_sql=#{@dont_execute_sql}, @no_timeout=#{@no_timeout}"
     
     seq_scan = "SET ENABLE_SEQSCAN TO OFF;"
     # seq_scan = ""
@@ -192,7 +191,6 @@ class BrowseController < ApplicationController
     elsif who == "save_as" then
       open_save_save_as(req)
     elsif who == "delete_report" then
-      logger.debug who
       open_save_delete_report(req)
     elsif who == "report_group" then
       open_save_report_group(req)
@@ -1080,7 +1078,7 @@ class BrowseController < ApplicationController
     
     # Formatting is different depending on the presence of a fact table
     # If there is a fact table
-    logger.debug "In format_where_clause"
+    # logger.debug "In format_where_clause"
     relative_date_set = false
     dim_tbl_sep = ""
     if fact_table.length > 0 then
@@ -1107,7 +1105,7 @@ class BrowseController < ApplicationController
             else
               if not relative_date_set then
                 where_list += format_current_previous_clauses(dim_tbl, v1[0], v1[1])
-                logger.debug where_list
+                # logger.debug where_list
                 relative_date_set = true
               end
             end
@@ -1917,7 +1915,7 @@ class BrowseController < ApplicationController
     
     @get += "</table>"
     
-    logger.debug @get
+    # logger.debug @get
   end
   
   # ********************************************************************************
@@ -2047,8 +2045,9 @@ class BrowseController < ApplicationController
         end
 
         # my_select = "select distinct #{field} from #{who} where #{combined_where} #{order_by};"
+        log_event(["Select field values", field, ordering_field, who, combined_where].to_s)
         my_select = "select #{field} from (select distinct #{field}, #{ordering_field} ordering_field from #{who} where #{combined_where}) T order by ordering_field;"
-        logger.debug my_select
+        log_event(my_select)
         chk_box_on_click = %Q~onclick="chk_box_click('#{who}', '#{field}')"~
         selections = conn.select_values(my_select)
         if not is_cur_prev then

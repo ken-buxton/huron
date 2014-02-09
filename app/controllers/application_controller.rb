@@ -3,6 +3,10 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user
   
+  def log_event(log_text)
+    Logs.create(log_when: Time.now, log_what: log_text)
+  end
+  
   protected
   def authenticate
     unless current_user
