@@ -6,13 +6,14 @@ class LoadDataController < ApplicationController
   
   def doit
     # This should be replaced with a call to: ApplicationHelper.get_pg_conn_hash
-    local = false
+    current_host = `hostname`
+    local = (current_host[0..3] == 'lrw4')
     if local then
-      @conn_hash = {:host => "localhost", :port => 5434, :dbname => "huron", 
-        :user => "huron", :password => "huron"}
+      @conn_hash = {:host => "localhost", :port => 5434, 
+        :dbname => "huron", :user => "huron", :password => "huron"}
     else
-      @conn_hash = {:host => "ec2-107-21-226-77.compute-1.amazonaws.com", :port => 5432, :dbname => "dcft9m221v2bl3", 
-        :user => "pxbabeplazivmj", :password => "IwJkBN74dJm5mlm7Th-6CH6ErD"}
+      @conn_hash = {:host => "ec2-107-21-226-77.compute-1.amazonaws.com", :port => 5432, 
+        :dbname => "dcft9m221v2bl3", :user => "pxbabeplazivmj", :password => "IwJkBN74dJm5mlm7Th-6CH6ErD"}
     end
       
     @load_file_dir = File.expand_path("", "db/load_files")
@@ -296,7 +297,9 @@ class LoadDataController < ApplicationController
         create_sql += ");"
         
         # Drop and re-create the dimension table
+        logger.debug drop_sql
         rs = ActiveRecord::Base.connection.execute(drop_sql) 
+        logger.debug create_sql
         rs = ActiveRecord::Base.connection.execute(create_sql)
         
         ret = ""

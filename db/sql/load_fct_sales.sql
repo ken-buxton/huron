@@ -1,4 +1,4 @@
--- Function: load_fct_sales(integer, integer)
+﻿-- Function: load_fct_sales(integer, integer)
 
 -- DROP FUNCTION load_fct_sales(integer, integer);
 
@@ -47,30 +47,30 @@ BEGIN
             final_multiplier := year_multiplier[dates.year_no::integer - 2009] * month_multiplier[dates.month_no::integer] * 
                 day_of_week_multiplier[dates.day_of_week_no::integer+1] * (store_multiplier/15000.0);
             -- For a bunch of transactions
-            transaction_no = ( (dates.yyyymmdd_date::bigint * 1000) + stores.store_key) * 10000;
+            transaction_no := ( (dates.yyyymmdd_date::bigint * 1000) + stores.store_key) * 10000;
             FOR tran IN 1..(  trunc(tran_cnt_base * final_multiplier) + trunc(random() * tran_cnt_rand * final_multiplier)  ) LOOP
                 transaction_no := transaction_no + 1;
                 transaction_key := transaction_key + 1;
-                item_count = 0;
-                cashier_key = trunc(random() * 3 + 1);
+                item_count := 0;
+                cashier_key := trunc(random() * 3 + 1);
                 product_percentage := prod_perc_base + (random() * prod_perc_rand)::integer;
-                FOR products IN SELECT product_key, price, cost FROM dim_product where product_key > 1 ORDER BY product_key LOOP
+                FOR products IN SELECT product_key, price, cost FROM dim_product where brand <> '' ORDER BY product_key LOOP
                     IF random() * 1000 < product_percentage THEN
                         item_count := item_count + 1;
-                        sales_qty = (power(random()+0.5, 3.5)+0.5)::integer;
-                        int_price = (products.price::real*100.0)::integer;
-                        int_cost  = (products.cost::real*100.0)::integer;
+                        sales_qty := (power(random()+0.5, 3.5)+0.5)::integer;
+                        int_price := (products.price::real*100.0)::integer;
+                        int_cost  := (products.cost::real*100.0)::integer;
 
                         -- Calculate the singular price values
-                        reg_unit_price = int_price;
-                        disc_unit_price = ((int_price-int_cost)/2);
-                        net_unit_price = reg_unit_price - disc_unit_price;
+                        reg_unit_price := int_price;
+                        disc_unit_price := ((int_price-int_cost)/2);
+                        net_unit_price := reg_unit_price - disc_unit_price;
 
                         -- Calculate the extended price/cost values
-                        ext_disc_amnt = sales_qty * disc_unit_price;
-                        ext_sales_amnt = sales_qty * net_unit_price;
-                        ext_cost_amnt = sales_qty * int_cost;
-                        ext_gross_profit_amnt = ext_sales_amnt - ext_cost_amnt;
+                        ext_disc_amnt := sales_qty * disc_unit_price;
+                        ext_sales_amnt := sales_qty * net_unit_price;
+                        ext_cost_amnt := sales_qty * int_cost;
+                        ext_gross_profit_amnt := ext_sales_amnt - ext_cost_amnt;
 
                         insert into fct_sales (
                             date_key, product_key, store_key, promotion_key, cashier_key, payment_method_key, transaction_key, 

@@ -1,0 +1,176 @@
+<style type="text/css">
+/* *****************************************************
+ * kdb - no longer used as of 12/22/2013 
+ * ****************************************************/
+/*table.kdb td, th, tr { 
+  border:1px solid black;
+  border-collapse:collapse; 
+  overflow-x:scroll;
+}
+td.kdb { 
+  border:1px solid black; 
+  border-collapse:collapse; 
+  overflow-x:scroll;
+} */
+
+/* *****************************************************
+ * results - main report results css
+ * ****************************************************/
+.results table { 
+  border:1px;
+  border-style:solid;
+  border-collapse:collapse; 
+  background-color: #E0E090;
+  /*background-color: #FFFF66;*/
+  /*overflow-x:scroll;
+  overflow-y:scroll;*/
+}
+
+.results td { 
+  border:1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-collapse:collapse; 
+}
+
+tr.cb { 
+  background-color: #FFCC11;
+  border:1px solid black;
+  border-collapse:collapse; 
+}
+
+.results tr { 
+  border:1px solid black;
+  border-collapse:collapse; 
+}
+
+.results th {
+  background-color: #FFAA11; /* orange */
+  border:1px solid black;
+  border-collapse:collapse; 
+}
+
+/* *****************************************************
+ * all - css for definition - all constraints and all report fields
+ * ****************************************************/
+.all table { 
+  border:4px solid black;
+  border-style:groove;
+  border-collapse:collapse; 
+  border:1px solid #A0A050;
+  background-color: #E0E090;
+  /*background-color: #FFFF66;*/
+  /*overflow-x:scroll;
+  overflow-y:scroll;*/
+}
+
+.all td { 
+  border:1px solid #A0A050;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-collapse:collapse;
+}
+
+.all tr { 
+  background-color: #E0E090;
+  border:1px solid #A0A050;
+  border-collapse:collapse;
+}
+
+.all th {
+  /* background-color: #C8C870; */
+  background-color: #D0D080;
+  border:1px solid #A0A050;
+  border-collapse:collapse;
+}
+
+/* *****************************************************
+ * buttons
+ * ****************************************************/
+.btn1 {
+  font-size: 10pt;
+  font-weight: lighter; 
+  background-color: #E0E090;
+}
+.btn1_1 {
+  background-color: #E0E090;
+  color: black;
+}
+.btn2 {
+  font-size: 10pt;
+  font-weight: lighter; 
+  /*color: red;*/
+  background-color: #BDB76B;
+}
+.btn3 {
+  background-color: #E0E090;
+}
+.btn4 {
+  background-color: #E0E090;
+}
+
+.hdr_dfr {
+  font-size: 12pt;
+  font-weight: bold; 
+  color: orange; /* yellow, #CC0000 */
+  background-color: #808040; /* #A0A058 */
+  border: 1px solid #505028; 
+}
+
+body {
+  background: #D0D080;
+}
+.page_hdr {
+  font-size: 18pt; 
+  font-weight: normal;
+  background-color: #E0E090;
+  border: 1px solid #A0A050; 
+  padding: 5px;
+  /*width: 95%;*/
+}
+
+.ugr table {
+  border: 1px solid #505028; /* #505028 */
+  background-color: #E0E090; 
+  margin: 3px;
+  padding-left: 3px;
+  width: 26%;
+  border-collapse:collapse;
+}
+
+.ugr td { 
+  border:1px solid #A0A050; /* #505028 */
+  background-color: #E0E090; 
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-collapse:collapse;
+}
+
+.ugr tr { 
+  background-color: #E0E090;
+  border:1px solid #505028; /* #505028 */
+  border-collapse:collapse;
+}
+
+.ugr th {
+  /* background-color: #C8C870; */
+  background-color: #D0D080;
+  border:1px solid #A0A050; /* #505028 */
+  border-collapse:collapse;
+}
+
+/*  html.wait, html.wait * { cursor: wait !important; }*/
+/*  
+  BODY {background: #bdbdbd}
+  table { border-collapse:collapse; }
+  table, td, th { border:1px solid black; }
+  table#tresult thead { display:block; }
+  table#tresult tbody { height:290px; overflow-y:scroll; display:block; }
+*/
+</style>
