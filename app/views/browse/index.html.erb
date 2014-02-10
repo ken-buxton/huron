@@ -181,24 +181,24 @@ body {
 </style>
 
 
-<table style="width: 75%" >
+<!-- <table style="width: 75%" >
 	<tr>
 		<td class="page_hdr" style="width: 35%; text-align: left;"><%=@page_title.page_title %></td>
 		<td style="width: 30%;"></td>
 		<td class="page_hdr" style="width: 35%; text-align: right;"><b>%</b> Point<b>$</b></td>
 	</tr>
-</table>
+</table> -->
 
 <div id="user_group_report" class="ugr"></div>
 
 <table id="rep_def" class="rep_def">
 	<tr>
-		<td><button class="btn2" onclick="RRA_get_report('RRA_get_report')"><b>Display Report</b></td>
-		<td><button class="btn2" onclick="RDA_report('RDA_set_report_group')"><b>Set Report Group</b></td>
-		<td><button class="btn2" onclick="RDA_report('RDA_open_report')"><b>Open Report</b></td>
-		<td><button class="btn2" onclick="RDA_report('RDA_save_report')"><b>Save Report</b></td>
-		<td><button class="btn2" onclick="RDA_report('RDA_save_report_as')"><b>Save Report as...</b></td>
-		<td><button class="btn2" onclick="RDA_report('RDA_delete_report')"><b>Delete Report</b></td>
+		<td><button class="btn2" onclick="RRA_get_report('RRA_get_report')"><b>Display Report</b></button></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_set_report_group')"><b>Set Report Group</b></button></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_open_report')"><b>Open Report</b></button></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_save_report')"><b>Save Report</b></button></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_save_report_as')"><b>Save Report as...</b></button></td>
+		<td><button class="btn2" onclick="RDA_report('RDA_delete_report')"><b>Delete Report</b></button></td>
 	</tr>
 	<tr>
 		<table class="rep_def">
@@ -282,6 +282,7 @@ body {
 					 *********=*********=*********=*********=*********=
 					-->
 				<td id="RD_edit2" class="kdb2" valign="top" style="border:1px solid #7D775B; background: #BDB76B;">  <!-- BDB76B width="670" -->
+					<span style="font-size: 12pt; font-weight: bold;">Report Definition</span>
 					<table id="rep_def_right_top" class='rep_def,kdb2'>
 						<tr>
 							<td><button class="btn1" style="font-size: 9pt" onclick="RDA2_refresh()"><b>Refresh</b></td>
@@ -294,7 +295,7 @@ body {
 							</td> -->
 							<td class='kdb2';>
 								<div id="RD_edit">
-									<h3>Report Definition</h3>
+									<h3></h3>
 								</div>
 								<div id="RD_edit_tmp" style="display: none;">
 									<h3>Report Definition</h3>
@@ -309,15 +310,16 @@ body {
 					 *********=*********=*********=*********=*********=
 					-->
 				<td id="RR_result" valign="top" style="border:1px solid #7D775B; background: #BDB76B;">  <!-- width="670" -->
+					<span style="font-size: 12pt; font-weight: bold;">Report Results</span>
 					<table class="rep_result">
-						<div>
+						<!-- <div>
 							 <input id="ShowRequest" type="CheckBox"><b>Show Request</b>
 						     <input id="ShowSQL" type="CheckBox"><b>Show SQL</b>
 						     <input id="DontExecuteSQL" type="CheckBox"><b>Don't Execute SQL</b>
 						     <input id="NoTimeout" type="CheckBox"><b>No Timeout</b>
-						</div>
+						</div> -->
 						<div id="RR_results" class="results" style="margin: 5px;">
-							<h3>Report Results</h3>
+							<h3></h3>
 						</div>
 					</table>
 				</td>
@@ -411,7 +413,7 @@ body {
 	
 	// ************************************************************
 	// Current user, group, and report
-	cur_user = "ken";
+	cur_user = <%=raw(@user) %>
 	cur_group = "";
 	cur_report = "";
 	cur_report_group = "";

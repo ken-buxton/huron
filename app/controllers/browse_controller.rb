@@ -12,6 +12,7 @@ class BrowseController < ApplicationController
   def index
     # Make the page title availalbe
     @page_title = SystemConfiguration.select('page_title').first
+    @user = '"' + current_user.login + '"'
     
     # Make the list of dimensions available
     @dimensions = Dimension.select('*').order('display_order')    
@@ -1955,7 +1956,7 @@ class BrowseController < ApplicationController
   
   # ********************************************************************************
   def get_dim_selections(who, req)
-    logger.debug req.to_s
+    #logger.debug req.to_s
     if req then
       small_button_style = %Q~ style="font-size: 8pt; padding-left: 1mm; padding-right: 1mm; width: 20px; height 15px;"~
       small_button_style2 = %Q~ style="font-weight:bold;font-size: 8pt; padding-left: 1mm; padding-right: 1mm; width: 20px; height 15px;"~
@@ -2045,9 +2046,9 @@ class BrowseController < ApplicationController
         end
 
         # my_select = "select distinct #{field} from #{who} where #{combined_where} #{order_by};"
-        log_event(["Select field values", field, ordering_field, who, combined_where].to_s)
+        #log_event(["Select field values", field, ordering_field, who, combined_where].to_s)
         my_select = "select #{field} from (select distinct #{field}, #{ordering_field} ordering_field from #{who} where #{combined_where}) T order by ordering_field;"
-        log_event(my_select)
+        #log_event(my_select)
         chk_box_on_click = %Q~onclick="chk_box_click('#{who}', '#{field}')"~
         selections = conn.select_values(my_select)
         if not is_cur_prev then
