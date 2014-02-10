@@ -233,9 +233,10 @@ class BrowseController < ApplicationController
       s = "{"
       idx = 1
       report = ""; if req["report"] then report = req["report"]; end    
+      # Report.select('dims, rows, columns, facts').
+          # where("user_id = '#{user}' and report_group = '#{group}' and report_name = '#{report}'").each do |f|        if idx < 2 then
       Report.select('dims, rows, columns, facts').
-          where("user_id = '#{user}' and report_group = '#{group}' and report_name = '#{report}'").each do |f|
-        if idx < 2 then
+          where("report_group = '#{group}' and report_name = '#{report}'").each do |f|        if idx < 2 then
           s += %Q~"dims": #{f.dims.to_json},~    
           s += %Q~"rows": #{f.rows.to_json},~    
           s += %Q~"columns": #{f.columns.to_json},~    
