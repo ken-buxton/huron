@@ -1,4 +1,10 @@
 ---
+favicon.ico: favicon-ccb5e0a2975de2e3aa548f301adb73c8.ico
+favicon/index.ico: favicon-ccb5e0a2975de2e3aa548f301adb73c8.ico
+favicon.png: favicon-1b13569e9620782f423d4cd3ce931750.png
+favicon/index.png: favicon-1b13569e9620782f423d4cd3ce931750.png
+favicon_old.ico: favicon_old-b89f5e9d4eeb4a26dd45c767bf0734b7.ico
+favicon_old/index.ico: favicon_old-b89f5e9d4eeb4a26dd45c767bf0734b7.ico
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-1b13569e9620782f423d4cd3ce931750.js
