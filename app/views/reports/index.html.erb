@@ -1,8 +1,13 @@
-<h1>Listing reports</h1>
+<h1>Listing Reports</h1>
 
 <div class="scf">
 <table>
   <tr>
+    <th></th>
+    <% if is_admin_role then%>
+      <th></th>
+      <th></th>
+    <% end %>
     <th>Report name</th>
     <th>User</th>
     <th>Private</th>
@@ -11,13 +16,15 @@
     <th>Rows</th>
     <th>Columns</th>
     <th>Facts</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @reports.each do |report| %>
   <tr>
+    <td><%= link_to 'Show', report %></td>
+    <% if is_admin_role then%>
+      <td><%= link_to 'Edit', edit_report_path(report) %></td>
+      <td><%= link_to 'Destroy', report, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
     <td><%= report.report_name %></td>
     <td><%= report.user_id %></td>
     <td><%= report.private %></td>
@@ -26,9 +33,6 @@
     <td><%= report.rows %></td>
     <td><%= report.columns %></td>
     <td><%= report.facts %></td>
-    <td><%= link_to 'Show', report %></td>
-    <td><%= link_to 'Edit', edit_report_path(report) %></td>
-    <td><%= link_to 'Destroy', report, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

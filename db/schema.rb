@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140209214017) do
+ActiveRecord::Schema.define(:version => 20140211141828) do
 
   create_table "agg_sales_dt_pr_ds", :primary_key => "agg_sales_dt_pr_ds_key", :force => true do |t|
     t.integer "date_key",              :limit => 2, :null => false
@@ -464,6 +464,7 @@ ActiveRecord::Schema.define(:version => 20140209214017) do
     t.string   "persistence_token"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.string   "role"
   end
 
 end

@@ -9,28 +9,58 @@ body {
 .scf table {
   border:1px solid black;
   border-collapse:collapse; 
-  background-color: #FFFF66; 
+  /*background-color: #FFFF66;*/ 
+  background-color: #E0E090; 
 }
 
 .scf tr {
-  border:1px solid black;
-  border-collapse:collapse; 
+  background-color: #E0E090;
+  border:1px solid #505028; /* #505028 */
+  border-collapse:collapse;
+
+  /* border:1px solid black;
+  border-collapse:collapse; */
 }
 
 .scf td {
-  border:1px solid black;
+  border:1px solid #A0A050; /* #505028 */
+  background-color: #E0E090; 
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-collapse:collapse;
+
+  /* border:1px solid black;
   border-collapse:collapse; 
   background-color: #FFFF66;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 0px; */
 }
 
 .scf th {
-  background-color: orange;
+  background-color: #D0D080;
+  border:1px solid #A0A050; /* #505028 */
+  border-collapse:collapse;
+
+  /* background-color: orange;
   border:1px solid black;
-  border-collapse:collapse; 
+  border-collapse:collapse; */
+}
+
+.scf input {
+  background-color: orange;
+}
+
+.field input {
+  background-color: #E0E090;
+}
+
+.actions button {
+  background-color: #E0E090;
+  color: #E0E090;
 }
 
 p, ol, ul, td {
@@ -64,6 +94,12 @@ div {
 
 #notice {
   color: green;
+  font-size: 20px;
+}
+
+#error {
+  color: red;
+  font-size: 20px;
 }
 
 .field_with_errors {

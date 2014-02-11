@@ -1,26 +1,26 @@
-<h1>Listing system_configurations</h1>
+<h1>Listing System Configurations</h1>
 
 <div class="scf">
 <table>
   <tr>
+    <th></th>
+    <th></th>
+    <th></th>
     <th>Page title</th>
     <th>Previous load status msg</th>
     <th>Welcome msg</th>
     <th>Daily messages</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @system_configurations.each do |system_configuration| %>
   <tr>
+    <td><%= link_to 'Show', system_configuration %></td>
+    <td><%= link_to 'Edit', edit_system_configuration_path(system_configuration) %></td>
+    <td><%= link_to 'Destroy', system_configuration, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     <td><%= system_configuration.page_title %></td>
     <td><%= system_configuration.previous_load_status_msg %></td>
     <td><%= system_configuration.welcome_msg %></td>
     <td><%= system_configuration.daily_messages %></td>
-    <td><%= link_to 'Show', system_configuration %></td>
-    <td><%= link_to 'Edit', edit_system_configuration_path(system_configuration) %></td>
-    <td><%= link_to 'Destroy', system_configuration, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

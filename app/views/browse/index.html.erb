@@ -3,184 +3,6 @@
 <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
 
-<style type="text/css">
-/* *****************************************************
- * kdb - no longer used as of 12/22/2013 
- * ****************************************************/
-/*table.kdb td, th, tr { 
-  border:1px solid black;
-  border-collapse:collapse; 
-  overflow-x:scroll;
-}
-td.kdb { 
-  border:1px solid black; 
-  border-collapse:collapse; 
-  overflow-x:scroll;
-} */
-
-/* *****************************************************
- * results - main report results css
- * ****************************************************/
-.results table { 
-  border:1px;
-  border-style:solid;
-  border-collapse:collapse; 
-  background-color: #E0E090;
-  /*background-color: #FFFF66;*/
-  /*overflow-x:scroll;
-  overflow-y:scroll;*/
-}
-
-.results td { 
-  border:1px solid black;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border-collapse:collapse; 
-}
-
-tr.cb { 
-  background-color: #FFCC11;
-  border:1px solid black;
-  border-collapse:collapse; 
-}
-
-.results tr { 
-  border:1px solid black;
-  border-collapse:collapse; 
-}
-
-.results th {
-  background-color: #FFAA11; /* orange */
-  border:1px solid black;
-  border-collapse:collapse; 
-}
-
-/* *****************************************************
- * all - css for definition - all constraints and all report fields
- * ****************************************************/
-.all table { 
-  border:4px solid black;
-  border-style:groove;
-  border-collapse:collapse; 
-  border:1px solid #A0A050;
-  background-color: #E0E090;
-  /*background-color: #FFFF66;*/
-  /*overflow-x:scroll;
-  overflow-y:scroll;*/
-}
-
-.all td { 
-  border:1px solid #A0A050;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border-collapse:collapse;
-}
-
-.all tr { 
-  background-color: #E0E090;
-  border:1px solid #A0A050;
-  border-collapse:collapse;
-}
-
-.all th {
-  /* background-color: #C8C870; */
-  background-color: #D0D080;
-  border:1px solid #A0A050;
-  border-collapse:collapse;
-}
-
-/* *****************************************************
- * buttons
- * ****************************************************/
-.btn1 {
-  font-size: 10pt;
-  font-weight: lighter; 
-  background-color: #E0E090;
-}
-.btn1_1 {
-  background-color: #E0E090;
-  color: black;
-}
-.btn2 {
-  font-size: 10pt;
-  font-weight: lighter; 
-  /*color: red;*/
-  background-color: #BDB76B;
-}
-.btn3 {
-  background-color: #E0E090;
-}
-.btn4 {
-  background-color: #E0E090;
-}
-
-.hdr_dfr {
-  font-size: 12pt;
-  font-weight: bold; 
-  color: orange; /* yellow, #CC0000 */
-  background-color: #808040; /* #A0A058 */
-  border: 1px solid #505028; 
-}
-
-body {
-  background: #D0D080;
-}
-.page_hdr {
-  font-size: 18pt; 
-  font-weight: normal;
-  background-color: #E0E090;
-  border: 1px solid #A0A050; 
-  padding: 5px;
-  /*width: 95%;*/
-}
-
-.ugr table {
-  border: 1px solid #505028; /* #505028 */
-  background-color: #E0E090; 
-  margin: 3px;
-  padding-left: 3px;
-  width: 26%;
-  border-collapse:collapse;
-}
-
-.ugr td { 
-  border:1px solid #A0A050; /* #505028 */
-  background-color: #E0E090; 
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border-collapse:collapse;
-}
-
-.ugr tr { 
-  background-color: #E0E090;
-  border:1px solid #505028; /* #505028 */
-  border-collapse:collapse;
-}
-
-.ugr th {
-  /* background-color: #C8C870; */
-  background-color: #D0D080;
-  border:1px solid #A0A050; /* #505028 */
-  border-collapse:collapse;
-}
-
-/*  html.wait, html.wait * { cursor: wait !important; }*/
-/*  
-  BODY {background: #bdbdbd}
-  table { border-collapse:collapse; }
-  table, td, th { border:1px solid black; }
-  table#tresult thead { display:block; }
-  table#tresult tbody { height:290px; overflow-y:scroll; display:block; }
-*/
-</style>
-
-
 <!-- <table style="width: 75%" >
 	<tr>
 		<td class="page_hdr" style="width: 35%; text-align: left;"><%=@page_title.page_title %></td>
@@ -563,6 +385,9 @@ body {
 	// HTML is NOT set to "checked='true'". So we must do that before saving the HTML so when it
 	// is brought back the checked boxes will show checked.
 	function set_selections(table, cur_fields) {
+		if (cur_fields == undefined) {
+			return;
+		}
 		for (var i = 0; i < cur_fields.length; i++) {
 			var id = "#SEL_" + table + "\\." + cur_fields[i][0] + " input";
 			$(id).each(function(index) {
@@ -1853,23 +1678,38 @@ body {
 		// 1) Client: a) format information about the current report 
         //				 (user, group, report name, [dimensions, row, columns, facts])
      	// 			  b) Send the formatted request to the server.
-		save_def = format_save_as_report_request(cur_report_group, cur_report);
-		
-		$.post(ajax_json_url, { req_type: "open_save", who: "save", req: save_def }, function(data, status, jqXHR) {
-			json_data = data;
-			json_status = status;
-			json_jqXHR = jqXHR;
-
-			// 2) Format list of returned groups into an array of string items
-			var items = [];
-			$.each(data, function(key, val) { items.push(val); });
+	    if (cur_report_group.length > 0 && cur_report.length > 0) {
+			save_def = format_save_as_report_request(cur_report_group, cur_report);
 			
-			if (items[0] == "Success") {
-				alert("Report saved successfully.");
-			} else {
-				alert("Report save failed.");
+			$.post(ajax_json_url, { req_type: "open_save", who: "save", req: save_def }, function(data, status, jqXHR) {
+				json_data = data;
+				json_status = status;
+				json_jqXHR = jqXHR;
+	
+				// 2) Format list of returned groups into an array of string items
+				var items = [];
+				$.each(data, function(key, val) { items.push(val); });
+				
+				if (items[0] == "Success") {
+					alert("Report saved successfully.");
+				} else {
+					alert("Report save failed - " + items[0] + ".");
+				}
+			});	
+		} else {
+			var msg = "";
+			if (cur_report_group.length < 1) {
+				msg += "report group is blank";
 			}
-		});					
+			if (cur_report.length < 1) {
+				if (msg.length > 0) {
+					msg += " and ";
+				}
+				msg += "report name is blank";
+			}
+			msg += ". Use \"Save as\" to save a non-existing report.";
+			alert("Report save failed - " + msg);
+		}								
 	}
 	
 	// ************************************************************
@@ -1896,29 +1736,46 @@ body {
 			width: 400,
 			buttons: {
 				Save: function() {
-					cur_report_group = $("#report_group_sra").val();
-					cur_report = $("#report_name_sra").val();
+					var loc_cur_report_group = $("#report_group_sra").val();
+					var loc_cur_report = $("#report_name_sra").val();
 
 					// 2) Client: a) format information about the current report 
 	                //				 (user, group, report name, [dimensions, row, columns, facts])
 	             	// 			  b) Send the formatted request to the server.
-					save_def = format_save_as_report_request(cur_report_group, cur_report);
+	             	if (loc_cur_report_group.length > 0 && loc_cur_report.length > 0) {
+						save_def = format_save_as_report_request(loc_cur_report_group, loc_cur_report);
 					
-					$.post(ajax_json_url, { req_type: "open_save", who: "save_as", req: save_def }, function(data, status, jqXHR) {
-						json_data = data;
-						json_status = status;
-						json_jqXHR = jqXHR;
-
-						// 2) Format list of returned groups into an array of string items
-						var items = [];
-						$.each(data, function(key, val) { items.push(val); });
-						
-						if (items[0] == "Success") {
-							alert("Report saved successfully.");
-						} else {
-							alert("Report save failed.");
+						$.post(ajax_json_url, { req_type: "open_save", who: "save_as", req: save_def }, function(data, status, jqXHR) {
+							json_data = data;
+							json_status = status;
+							json_jqXHR = jqXHR;
+	
+							// 2) Format list of returned groups into an array of string items
+							var items = [];
+							$.each(data, function(key, val) { items.push(val); });
+							
+							if (items[0] == "Success") {
+								cur_report_group = loc_cur_report_group;
+								cur_report = loc_cur_report;
+								alert("Report saved successfully.");
+							} else {
+								alert("Report save failed - " + items[0] + ".");
+							}
+						});		
+					} else {
+						var msg = "";
+						if (cur_report_group.length < 1) {
+							msg += "report group is blank";
 						}
-					});					
+						if (cur_report.length < 1) {
+							if (msg.length > 0) {
+								msg += " and ";
+							}
+							msg += "report name is blank";
+						}
+						msg += ".";
+						alert("Report save failed - " + msg);
+					}			
 					$(this).dialog( "close" );
 				},
 				Cancel: function() {
@@ -2016,7 +1873,7 @@ body {
 			if (items[0] == "Success") {
 				alert("Report deleted successfully.");
 			} else {
-				alert("Report delete failed.");
+				alert("Report not deleted - " + items[0]);
 			}
 		});					
 	}

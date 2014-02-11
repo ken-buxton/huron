@@ -1,8 +1,13 @@
-<h1>Listing fact_fields</h1>
+<h1>Listing Fact Fields</h1>
 
 <div class="scf">
 <table>
   <tr>
+    <th></th>
+    <% if is_admin_role then%>
+      <th></th>
+      <th></th>
+    <% end %>
     <th>Table name</th>
     <th>Field name</th>
     <th>Field display name</th>
@@ -13,13 +18,15 @@
     <th>Data Type</th>
     <th>Max Length</th>
     <th>Default Format</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @fact_fields.each do |fact_field| %>
   <tr>
+    <td><%= link_to 'Show', fact_field %></td>
+    <% if is_admin_role then%>
+      <td><%= link_to 'Edit', edit_fact_field_path(fact_field) %></td>
+      <td><%= link_to 'Destroy', fact_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
     <td><%= fact_field.table_name %></td>
     <td><%= fact_field.field_name %></td>
     <td><%= fact_field.field_display_name %></td>
@@ -30,9 +37,6 @@
     <td><%= fact_field.data_type %></td>
     <td><%= fact_field.max_length %></td>
     <td><%= fact_field.default_format %></td>
-    <td><%= link_to 'Show', fact_field %></td>
-    <td><%= link_to 'Edit', edit_fact_field_path(fact_field) %></td>
-    <td><%= link_to 'Destroy', fact_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

@@ -1,5 +1,6 @@
 class LoadFactsController < ApplicationController
   before_filter :authenticate
+  before_filter :is_admin
   
   def doit
     Fact.delete_all

@@ -1,8 +1,13 @@
-<h1>Listing dimension_fields</h1>
+<h1>Listing Dimension Fields</h1>
 
 <div class="scf">
 <table>
   <tr>
+    <th></th>
+    <% if is_admin_role then%>
+      <th></th>
+      <th></th>
+    <% end %>
     <th>Table name</th>
     <th>Field name</th>
     <th>Field display name</th>
@@ -12,13 +17,15 @@
     <th>Data Type</th>
     <th>Max Length</th>
     <th>Special Sort</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @dimension_fields.each do |dimension_field| %>
   <tr>
+    <td><%= link_to 'Show', dimension_field %></td>
+    <% if is_admin_role then%>
+      <td><%= link_to 'Edit', edit_dimension_field_path(dimension_field) %></td>
+      <td><%= link_to 'Destroy', dimension_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
     <td><%= dimension_field.table_name %></td>
     <td><%= dimension_field.field_name %></td>
     <td><%= dimension_field.field_display_name %></td>
@@ -28,9 +35,6 @@
     <td><%= dimension_field.data_type %></td>
     <td><%= dimension_field.max_length %></td>
     <td><%= dimension_field.special_sort %></td>
-    <td><%= link_to 'Show', dimension_field %></td>
-    <td><%= link_to 'Edit', edit_dimension_field_path(dimension_field) %></td>
-    <td><%= link_to 'Destroy', dimension_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

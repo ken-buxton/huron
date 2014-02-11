@@ -1,28 +1,38 @@
-<h1>Main Screen</h1>
+<h1>Main Menu</h1>
 
-<%= Time.now %> <br> <br>
+<!-- <%= Time.now %> <br> <br> -->
 
 <%= link_to 'Browse', '/browse/index' %> <br> <br>
-
-<%= link_to 'System Configuration', system_configurations_path %> |
-<%= link_to 'Users', users_path %> |
-<%= link_to 'Reports', reports_path %> <br> <br>
+<% if is_admin_role then %>
+  <%= link_to 'System Configuration', system_configurations_path %> |
+  <%= link_to 'Users', users_path %> |
+<% end %>
+<%= link_to 'Reports', reports_path %> <br>
 
 <%= link_to 'Dimensions', dimensions_path %> | 
-<%= link_to 'Dimension Fields', dimension_fields_path %> |
-<%= link_to 'Load Dims', '/load_dims/doit' %> <br> <br> 
+<%= link_to 'Dimension Fields', dimension_fields_path %>
+<% if is_admin_role then %>
+  | <%= link_to 'Load Dims', '/load_dims/doit' %>
+<% end %> <br>
 
 <%= link_to 'Facts', facts_path %> |
-<%= link_to 'Fact Fields', fact_fields_path %> |
-<%= link_to 'Load Facts', '/load_facts/doit' %> <br> <br> 
+<%= link_to 'Fact Fields', fact_fields_path %>
+<% if is_admin_role then %>
+  | <%= link_to 'Load Facts', '/load_facts/doit' %>
+<% end %> <br>
 
 <%= link_to 'Aggregates', aggregates_path %> |
-<%= link_to 'Aggregate Details', aggregate_details_path %> |
-<%= link_to 'Load Aggregates', '/load_aggs/doit' %> <br> <br> 
+<%= link_to 'Aggregate Details', aggregate_details_path %>
+<% if is_admin_role then %>
+  | <%= link_to 'Load Aggregates', '/load_aggs/doit' %>
+<% end %> <br>
 
-<%= link_to 'Indices', indices_path %> |
-<%= link_to 'Load Indices', '/load_indices/doit' %> <br> <br> 
+<%= link_to 'Indices', indices_path %>
+<% if is_admin_role then %>
+  | <%= link_to 'Load Indices', '/load_indices/doit' %>
+<% end %> <br>
 
-<%= link_to 'Developer Help', '/developer/help' %> |
-<%= link_to 'Load Data', '/load_data/tasks' %> <br> <br> 
-
+<%= link_to 'Developer Help', '/developer/help' %>
+<% if is_admin_role then %>
+  | <%= link_to 'Load Data', '/load_data/tasks' %>
+<% end %> <br>

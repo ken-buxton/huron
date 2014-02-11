@@ -1,5 +1,6 @@
 class AggregatesController < ApplicationController
   before_filter :authenticate
+  before_filter :is_admin, :only => [:edit, :destroy, :new, :create]
   
   # GET /aggregates
   # GET /aggregates.json

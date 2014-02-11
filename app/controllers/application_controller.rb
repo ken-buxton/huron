@@ -10,8 +10,19 @@ class ApplicationController < ActionController::Base
   protected
   def authenticate
     unless current_user
-      flash[:notice] = "You're not logged in caption."
+      flash[:error] = "You must be logged in to perform any actions."
       redirect_to new_user_session_path
+      return false
+    end
+  end
+  
+  def is_admin
+    id = current_user.id
+    @user = User.find(id)
+    @role = @user.role
+    unless @user.role == 'admin'
+      flash[:error] = "Can't perform action. You are not an admin."
+      redirect_to main_index_path
       return false
     end
   end

@@ -2,20 +2,20 @@
 
 <table>
   <tr>
+    <th></th>
+    <th></th>
+    <th></th>
     <th>Login</th>
     <th>Password</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
   <% if @user_sessions then %>
 	<% @user_sessions.each do |user_session| %>
 	  <tr>
-	    <td><%= user_session.login %></td>
-	    <td><%= user_session.password %></td>
 	    <td><%= link_to 'Show', user_session %></td>
 	    <td><%= link_to 'Edit', edit_user_session_path(user_session) %></td>
 	    <td><%= link_to 'Destroy', user_session, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	    <td><%= user_session.login %></td>
+	    <td><%= user_session.password %></td>
 	  </tr>
 	<% end %>
   <% end %>

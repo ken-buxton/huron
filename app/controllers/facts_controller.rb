@@ -1,5 +1,6 @@
 class FactsController < ApplicationController
   before_filter :authenticate
+  before_filter :is_admin, :only => [:edit, :destroy, :new, :create]
   
   # GET /facts
   # GET /facts.json

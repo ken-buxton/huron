@@ -188,7 +188,7 @@ class BrowseController < ApplicationController
     if who == "open1" or who == "open2" then
       open_save_open(who, req)
     elsif who == "save" then
-      open_save_save_as(req)
+      open_save_save(req)
     elsif who == "save_as" then
       open_save_save_as(req)
     elsif who == "delete_report" then
@@ -275,6 +275,44 @@ class BrowseController < ApplicationController
   #  3) Server: a) save the formatted information about the current report in the Reports table
   #             b) send confirmation to the client
   #  4) Client: display confirmation message on screen.
+  def open_save_save(req)
+    user = ""; if req["user"] then user = req["user"]; end    
+    group = ""; if req["group"] then group = req["group"]; end    
+    report = ""; if req["report"] then report = req["report"]; end    
+        
+    dims = {}; if req["dims"] then dims = req["dims"]; end        
+    rows = {}; if req["rows"] then rows = req["rows"]; end        
+    columns = {}; if req["columns"] then columns = req["columns"]; end        
+    facts = {}; if req["facts"] then facts = req["facts"]; end
+
+    error = ""
+    Report.select("Count(*) cnt").where("report_group = '#{group}' and report_name = '#{report}'").each do |rep_cnt|
+      if rep_cnt.cnt.to_i == 1  then
+        Report.select("id, user_id").where("report_group = '#{group}' and report_name = '#{report}'").each do |rep|
+          if rep.user_id == user then
+            rep.dims = dims.to_s
+            rep.rows = rows.to_s
+            rep.columns = columns.to_s
+            rep.facts = facts.to_s
+            rep.save
+            updated = true
+          else 
+            error = "No such report for user " + user
+          end
+        end
+      else
+        error = "No such report found"
+      end
+    end
+
+    if error == "" then    
+      @get = '{"1": "Success"}'
+    else
+      @get = %Q~{"1": "#{error}"}~
+    end
+    
+  end
+
   def open_save_save_as(req)
     user = ""; if req["user"] then user = req["user"]; end    
     group = ""; if req["group"] then group = req["group"]; end    
@@ -285,11 +323,29 @@ class BrowseController < ApplicationController
     columns = {}; if req["columns"] then columns = req["columns"]; end        
     facts = {}; if req["facts"] then facts = req["facts"]; end
     
-    save_new_report user, group, report, dims, rows, columns, facts
-    
-    @get = '{"1": "Success"}'
+    error = ""
+    Report.select("Count(*) cnt").where("report_group = '#{group}' and report_name = '#{report}'").each do |rep_cnt|
+      if rep_cnt.cnt.to_i == 0  then
+        if not Report.create(:report_name => report, :user_id => user, :private => "no", :report_group => group, 
+                        :dims => dims.to_s, :rows => rows.to_s, :columns => columns.to_s, :facts => facts.to_s)
+          error = "Unable to save report"
+        end
+      else
+        error = "Report already exists"
+      end
+    end
+
+    if error == "" then    
+      @get = '{"1": "Success"}'
+    else
+      @get = %Q~{"1": "#{error}"}~
+    end
     
   end
+
+
+
+
 
   def save_new_report(user, group, report, dims, rows, columns, facts)
     updated = false
@@ -307,6 +363,7 @@ class BrowseController < ApplicationController
     end
   end
 
+
   # ********************************************************************************
   # Delete Report
   def open_save_delete_report(req)
@@ -315,9 +372,13 @@ class BrowseController < ApplicationController
     report = ""; if req["report"] then report = req["report"]; end    
 
     r = Report.select("id").where("user_id = '#{user}' and report_group = '#{group}' and report_name = '#{report}'")
-    r.destroy r[0][:id].to_i
+    if r.size > 0 then
+      r.destroy r[0][:id].to_i
+      @get = '{"1": "Success"}'
+    else
+      @get = '{"1": "you don\'t own this report."}'
+    end
     
-    @get = '{"1": "Success"}'
   end
   
 

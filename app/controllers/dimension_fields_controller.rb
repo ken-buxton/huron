@@ -1,5 +1,6 @@
 class DimensionFieldsController < ApplicationController
   before_filter :authenticate
+  before_filter :is_admin, :only => [:edit, :destroy, :new, :create]
   
   # GET /dimension_fields
   # GET /dimension_fields.json

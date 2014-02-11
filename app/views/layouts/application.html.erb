@@ -11,35 +11,40 @@
   </head>
   <body>
 
-      <% show_nav = "yes"
-      if @no_show_nav then
-        show_nav = "no"
-      end
-      %>
+    <% show_nav = "yes"
+    if @no_show_nav then
+      show_nav = "no"
+    end
+    %>
       
-      <% if show_nav == "yes" then %>
-        <!-- background-color:#808040;  -->
-	    <header id="nav" style="width:100%; height:33px; background-color:#A0A060; border: 1px solid #505028; display: block; ">
-          <div>
-          	<!-- color:#FF4000;  -->
-          	<div style="padding-left: 5px; padding-top: 5px; ">
-              <span style="font-size: 20pt; color: orange; font-weight: bold; text-decoration:underline; ">Points%</span>
-              <span style="font-size: 20pt; color: orange; font-weight: bold; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <span style="font-size: 16pt; color: #FFA500; ">(Nut Box, LLC.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            
-              <% if current_user then %>
-                <%= link_to "Main", '/main/index' %>
-                <%= link_to "Logout", :logout%>
-                <%= link_to "Edit Profile", edit_user_path(current_user.id)%>
-              <% else %>
-                <%= link_to "Register", new_user_path %>
-                <%= link_to "Login", :login %>
-              <% end %>
-            </div>
+    <% if show_nav == "yes" then %>
+      <!-- background-color:#808040;  -->
+	  <header id="nav" style="width:100%; height:33px; background-color:#A0A060; border: 1px solid #505028; display: block; ">
+        <div>
+          <!-- color:#FF4000;  -->
+          <div style="padding-left: 5px; padding-top: 5px; ">
+            <span style="font-size: 20pt; color: orange; font-weight: bold; text-decoration:underline; ">Points%</span>
+            <span style="font-size: 20pt; color: orange; font-weight: bold; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span style="font-size: 16pt; color: #FFA500; ">(Nut Box, LLC.)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          
+            <% if current_user then %>
+              <%= link_to "Main", '/main/index' %>
+              <%= link_to "Logout", :logout%>
+              <%= link_to "Edit Profile", edit_user_path(current_user.id)%>
+            <% else %>
+              <%= link_to "Register", new_user_path %>
+              <%= link_to "Login", :login %>
+            <% end %>
           </div>
-        </header>
-      <% end %>
-	
+        </div>
+      </header>
+    <% end %>
+
+    <% flash.each do |key, value| %>
+      <!-- <div id="notice" class="alert alert-<%= key %>"><%= key.to_s + ", " + value.to_s %></div> -->
+      <div id="<%= key %>" class="alert alert-<%= key %>"><%= value.to_s %></div>
+    <% end %>
+      	
     <%= yield %>
 
   </body>

@@ -1,24 +1,28 @@
-<h1>Listing facts</h1>
+<h1>Listing Facts</h1>
 
 <div class="scf">
 <table>
   <tr>
+    <th></th>
+    <% if is_admin_role then%>
+      <th></th>
+      <th></th>
+    <% end %>
     <th>Table name</th>
     <th>Table display name</th>
     <th>Display order</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @facts.each do |fact| %>
   <tr>
+    <td><%= link_to 'Show', fact %></td>
+    <% if is_admin_role then%>
+      <td><%= link_to 'Edit', edit_fact_path(fact) %></td>
+      <td><%= link_to 'Destroy', fact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <% end %>
     <td><%= fact.table_name %></td>
     <td><%= fact.table_display_name %></td>
     <td><%= fact.display_order %></td>
-    <td><%= link_to 'Show', fact %></td>
-    <td><%= link_to 'Edit', edit_fact_path(fact) %></td>
-    <td><%= link_to 'Destroy', fact, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
