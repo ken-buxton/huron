@@ -1,6 +1,6 @@
 class LoadAggsController < ApplicationController
   before_filter :authenticate
-  before_filter :is_admin
+  before_filter :is_admin?
   
   def doit
     

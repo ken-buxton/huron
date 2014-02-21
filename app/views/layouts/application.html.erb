@@ -29,7 +29,8 @@
           
             <% if current_user then %>
               <%= link_to "Main", '/main/index' %>
-              <%= link_to "Logout", :logout%>
+              <%= link_to "Logout", :logout %>
+              <%= link_to "Help", '/main/help' %>
               <%= link_to "Edit Profile", edit_user_path(current_user.id)%>
             <% else %>
               <%= link_to "Register", new_user_path %>

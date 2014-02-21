@@ -16,7 +16,10 @@ class ApplicationController < ActionController::Base
     end
   end
   
-  def is_admin
+  def is_admin?
+    if current_user.nil? then
+      return false;
+    end
     id = current_user.id
     @user = User.find(id)
     @role = @user.role
@@ -25,6 +28,15 @@ class ApplicationController < ActionController::Base
       redirect_to main_index_path
       return false
     end
+  end
+  
+  def user_role
+    if current_user.nil? then
+      return "user";
+    end
+    id = current_user.id
+    @user = User.find(id)
+    @role = @user.role
   end
   
   private

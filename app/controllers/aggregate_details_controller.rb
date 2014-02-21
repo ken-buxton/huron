@@ -1,6 +1,6 @@
 class AggregateDetailsController < ApplicationController
   before_filter :authenticate
-  before_filter :is_admin, :only => [:edit, :destroy, :new, :create]
+  before_filter :is_admin?, :only => [:edit, :destroy, :new, :create]
   
   # GET /aggregate_details
   # GET /aggregate_details.json

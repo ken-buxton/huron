@@ -1,6 +1,6 @@
 class SystemConfigurationsController < ApplicationController
   before_filter :authenticate
-  before_filter :is_admin
+  before_filter :is_admin?
   
   # GET /system_configurations
   # GET /system_configurations.json

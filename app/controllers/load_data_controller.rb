@@ -1,6 +1,6 @@
 class LoadDataController < ApplicationController
   before_filter :authenticate
-  before_filter :is_admin
+  before_filter :is_admin?
   
   def tasks
   end

@@ -1,6 +1,6 @@
 class FactFieldsController < ApplicationController
   before_filter :authenticate
-  before_filter :is_admin, :only => [:edit, :destroy, :new, :create]
+  before_filter :is_admin?, :only => [:edit, :destroy, :new, :create]
   
   # GET /fact_fields
   # GET /fact_fields.json

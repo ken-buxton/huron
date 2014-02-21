@@ -1,6 +1,6 @@
 class IndicesController < ApplicationController
   before_filter :authenticate
-  before_filter :is_admin, :only => [:edit, :destroy, :new, :create]
+  before_filter :is_admin?, :only => [:edit, :destroy, :new, :create]
   
   # GET /indices
   # GET /indices.json

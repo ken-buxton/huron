@@ -1,10 +1,12 @@
 class UsersController < ApplicationController
   before_filter :authenticate, :only => [:edit, :index, :destroy, :show]
-  before_filter :is_admin
+  before_filter :is_admin?, :only => [:index, :destroy] # [:edit, :index, :destroy, :show]
+  before_filter :no_edit_demo
   
   # GET /users
   # GET /users.json
   def index
+    @user_role = user_role
     @users = User.all
 
     respond_to do |format|
@@ -16,6 +18,7 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    @user_role = user_role
     @user = User.find(params[:id])
 
     respond_to do |format|
@@ -27,6 +30,7 @@ class UsersController < ApplicationController
   # GET /users/new
   # GET /users/new.json
   def new
+    @user_role = user_role
     @user = User.new
 
     respond_to do |format|
@@ -37,12 +41,14 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
+    @user_role = user_role
     @user = User.find(params[:id])
   end
 
   # POST /users
   # POST /users.json
   def create
+    @user_role = user_role
     @user = User.new(params[:user])
 
     respond_to do |format|
@@ -59,6 +65,7 @@ class UsersController < ApplicationController
   # PUT /users/1
   # PUT /users/1.json
   def update
+    @user_role = user_role
     @user = User.find(params[:id])
 
     respond_to do |format|
@@ -75,6 +82,7 @@ class UsersController < ApplicationController
   # DELETE /users/1
   # DELETE /users/1.json
   def destroy
+    @user_role = user_role
     @user = User.find(params[:id])
     @user.destroy
 
@@ -83,4 +91,17 @@ class UsersController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  protected
+  def no_edit_demo
+    if not current_user.nil? then
+      if current_user.login == "demo"
+        flash[:error] = "Can't edit demo user profile."
+        redirect_to main_index_path
+        return false
+      end
+    end
+    return true
+  end
+  
 end

@@ -10,6 +10,7 @@ Huron::Application.routes.draw do
   get "developer/help"
 
   get "main/index"
+  get "main/help"
   
   get "browse/index"
   post "browse/get_json"
